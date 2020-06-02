@@ -8,8 +8,7 @@
                 新闻和公告
             </h1>
             <p>
-                Catch up with the latest interviews and strategies from the leaders, plus the 2020 Grand Final qualifier
-                updates.
+                获取最新的参赛者访谈和交易策略分享，以及2020交易杯总决赛预选赛最新更新。
             </p>
             <a href="https://dev.tradingcup.com/blog/">Go to Trading Cup Blog</a>
         </div>
