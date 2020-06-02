@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getCountryDropDownList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/footer_bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/footer_bottom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/assets/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/highlight2019.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/highlight2019.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/highlight2019_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/highlight2019_zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/fun.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/fun.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bruce.wang &lt;bruce.wang@zerologix.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -169,14 +166,30 @@
       <updated>1591078316153</updated>
       <workItem from="1591078319323" duration="23000" />
       <workItem from="1591087324829" duration="97000" />
-      <workItem from="1591087832158" duration="1396000" />
+      <workItem from="1591087832158" duration="1502000" />
     </task>
+    <task id="LOCAL-00001" summary="update js files">
+      <created>1591089328268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591089328268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update js files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update js files" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="40" y="75" key="CommitChangelistDialog2" timestamp="1591089328028">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="40" y="75" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591089328028" />
     <state x="430" y="108" key="SettingsEditor" timestamp="1591087306603">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
