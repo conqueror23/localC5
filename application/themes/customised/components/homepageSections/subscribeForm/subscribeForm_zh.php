@@ -34,3 +34,4 @@
     </div>
 </div>
 <div id="error-msg">*表单提交出错 请稍后再试*</div>
+<script src="<?= $this->getThemePath()?>/components/homepageSections/subscribeForm/getZhCountryList.js"></script>
