@@ -11,9 +11,9 @@
             type="text/javascript"></script>
 
      <!-- external links   -->
-    <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript" defer async></script>
+    <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript" ></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous" defer async></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous" defer></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map" crossorigin="anonymous" defer async></script>
 

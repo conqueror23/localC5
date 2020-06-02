@@ -4,11 +4,6 @@ const subscribeForm = document.getElementById('subscribe-form')
 const subscribeFormSection =document.getElementById('form-section');
 const subscribeFormAfter =document.getElementById('form-after');
 
-const leadData=()=>{
-  const leadData = new createAgent('form')
-  leadData.createAgentCookie();
-  return leadData.getAgent();
-}
 
 const getFormData=()=>{
   const dataObject ={};
@@ -55,7 +50,7 @@ const concealErrorMessage =()=>{
 
 const submitForm = (e) => {
   e.preventDefault();
-  if(getSubmitData().country!=='Country' || getSubmitData().country !=='请选择国家'){
+  if(getSubmitData().country !=="Country" && getSubmitData().country!=="请选择国家"){
     fetch(submitUrl, {
       method: "POST",
       body: getRequestBody(),

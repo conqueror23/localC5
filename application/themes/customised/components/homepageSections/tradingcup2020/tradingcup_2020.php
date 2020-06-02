@@ -14,7 +14,7 @@
                         The Grand Champion gets $US63,000
                     </li>
                 </ul>
-                <a  class='enter-button'>How To Enter <span>&#8595;</span> </a>
+                <a href="#how-to" class='enter-button'>How To Enter <span>&#8595;</span> </a>
                 <p id="sub-msg">*Trading involves risk. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf">T&C’s apply.</a></p>
             </div>
         </div>

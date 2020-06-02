@@ -33,8 +33,8 @@ function createAgent(par_accountType) {
             leadSourceClassification = par.split(',')[1];
             leadSource = par.split(',')[0];
         }
-        console.log('leadSource',leadSource,
-        leadSourceClassification)
+        // console.log('leadSource',leadSource,
+        // leadSourceClassification)
         return {
             leadSource,
             leadSourceClassification
@@ -43,7 +43,7 @@ function createAgent(par_accountType) {
 
     this.createAgentCookie=function() {
         var queryResult = removeQueryStringByKey(window.location.search);
-        console.log('test',queryResult)
+        // console.log('test',queryResult)
         var query_empty = isEmpty(queryResult);
         if (!query_empty) {
             var link = window.location.protocol + '//' + window.location.hostname + queryResult;
@@ -121,4 +121,11 @@ function createAgent(par_accountType) {
         }
     }
 
+
+
+ const leadData=()=>{
+     const leadData = new createAgent('form')
+     leadData.createAgentCookie();
+     return leadData.getAgent();
+ }
 
