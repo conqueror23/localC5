@@ -1,4 +1,4 @@
-<div class="sponsorWrapper section-content-sponsorWrapperper">
+<div class="sponsorWrapper section-content-wrapper">
     <div class="logo">
         <p>Major Sponsor</p>
         <div class="acy">

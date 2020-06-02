@@ -93,7 +93,7 @@
 
 .highlights> .highlights-pic > img {
   width: 100%;
-  /* height: 615px; */
+  max-width: 700px;
   max-height: 600px;
   
 }
