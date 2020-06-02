@@ -2,7 +2,7 @@
     <div class="wrap">
         <div class="highlights">
             <div class="highlights-words">
-                <h2>2019集锦</h2>
+                <h1>2019集锦</h1>
                 <p>总决赛在澳门电竞馆向全球观众进行了现场直播。来自世界各地的30名选手在当晚争夺2019交易杯冠军。总决赛之夜现场气氛紧张热烈，您可以点击此处观看精彩片段。</p>
                 <div>
                     <button class="highlights-words-btn">

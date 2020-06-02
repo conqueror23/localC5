@@ -2,7 +2,7 @@
     <div class="wrap">
         <div class="highlights">
             <div class="highlights-words">
-                <h2>2019 Highlights</h2>
+                <h1>2019 Highlights</h1>
                 <p>The grand final was live telecast around the world and hosted at the e-stadium in Macau to a live
                     audience.
                     30 contestants were flown in from around the world for the chance to be crowned the 2019 Trading

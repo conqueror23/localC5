@@ -18,4 +18,4 @@
     </div>
 </div>
 
-<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/topTraders.js"></script>
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/topTraders002.js"></script>

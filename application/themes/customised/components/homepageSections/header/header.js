@@ -1,5 +1,4 @@
 const toggleDropDown = () => {
-  console.log("you have clicked anchor");
   document.getElementById("campaign-dropdown-list").classList.toggle("show");
 };
 
@@ -21,16 +20,16 @@ mobileBtn.on("click", function () {
   mobileNav.fadeIn(300);
 });
 
-$(function () {
-  // bind change event to select
-  $("#language-switch").on("change", function () {
-    var url = $(this).val(); // get selected value
-    if (url) {
-      // require a URL
-      window.location =window.location.href+url; // redirect
-    }
-    return false;
-  });
-});
+// $(function () {
+//   // bind change event to select
+//   $("#language-switch").on("change", function () {
+//     var url = $(this).val(); // get selected value
+//     if (url) {
+//       // require a URL
+//       window.location =window.location.href+url; // redirect
+//     }
+//     return false;
+//   });
+// });
 
 listenAnchor();

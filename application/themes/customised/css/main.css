@@ -34,6 +34,10 @@ body p {
 body .section-content-wrapper {
   padding: 0 15%;
 }
+body .enter-button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .section--sideNav {
   background: #525252;
 }

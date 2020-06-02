@@ -58,7 +58,7 @@
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/assets/common.css">
 
     <link rel="stylesheet"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/highlight2019/assets/common.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/highlight2019/assets/common001.css">
 
 
     <!--end of modules css    -->
