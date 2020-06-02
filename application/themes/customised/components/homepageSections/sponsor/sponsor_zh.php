@@ -1,4 +1,4 @@
-<div class="wrap section-content-wrapper">
+<div class="sponsorWrapper section-content-sponsorWrapperper">
     <div class="logo">
         <p>赞助商</p>
         <div class="acy">
