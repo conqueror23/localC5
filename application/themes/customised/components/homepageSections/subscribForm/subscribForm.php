@@ -24,9 +24,9 @@
             </div>
         </div>
         <div id="form-after">
-            <h1>
+            <h2>
                 Thank you for signing up
-            </h1>
+            </h2>
             <p>
                 Check your email to stay up to date with how our winners are trading.
             </p>

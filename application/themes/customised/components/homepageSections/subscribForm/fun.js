@@ -253,11 +253,12 @@ const getCountryList = () => {
     MZ: "Mozambique",
   };
   const countryLsit = Object.values(countryObject).sort();
-  return countryLsit;
+  const finalList=['Select',...countryLsit];
+  return finalList;
 };
 
 // create options list
-const createDropDowpOptions = (list) => {
+const createDropDownOptions = (list) => {
   for (let index = 0; index <= list.length; index++) {
     let z = document.createElement("option");
     z.setAttribute("value", list[index]);
@@ -266,7 +267,7 @@ const createDropDowpOptions = (list) => {
     document.getElementById('country-dropdown').appendChild(z)
   }
 };
-createDropDowpOptions(getCountryList())
+createDropDownOptions(getCountryList())
 
 // global variables
 const form = document.getElementById('subscrib-form')
@@ -313,21 +314,28 @@ const getRequestBody = () => {
   const requestBody = body.join('&')
   return requestBody
 }
+const displayError=(err)=>{
+  document.getElementById('error-msg').setAttribute('style','display:block');
+  console.log('errors',err)
+}
 const submitForm = (e) => {
   e.preventDefault();
-  fetch(submitUrl, {
-    method: "POST",
-    body: getRequestBody(),
-  }).then(res => {
-    if (res.status === 202 || res.status === 200) {
-      toggleFormSection()
-    } else {
-      console.log(res);
-    }
-  }).catch(err=>{
-    document.getElementById('error-msg').setAttribute('style','display:block');
-    console.log('errors',err)
-  })
+  if(getSubmitData().country!=='Select'){
+    fetch(submitUrl, {
+      method: "POST",
+      body: getRequestBody(),
+    }).then(res => {
+      if (res.status === 202 || res.status === 200) {
+        toggleFormSection()
+      } else {
+        console.log(res);
+      }
+    }).catch(err=>{
+      displayError(err)
+    })
+  }else{
+    displayError()
+  }
 
 }
 

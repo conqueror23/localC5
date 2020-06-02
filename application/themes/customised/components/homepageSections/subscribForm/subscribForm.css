@@ -60,6 +60,8 @@
   background: #ffffff;
   border-radius: 2px;
   width: 44%;
+  border-width: 1px;
+
 }
 .subscrib-form-wrapper .form-inputs select{
   -webkit-appearance: none;
