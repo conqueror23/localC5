@@ -1,0 +1,103 @@
+.wrap {
+  width: 100%;
+  background-color:#000;
+}
+
+.logo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo > .acy {
+  margin-bottom:100px;
+}
+
+.logo > .acy  img{
+  width: 176px;
+  height: 80px;
+}
+
+.logo > p {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.logo > .logo-pics {
+    width: 100%;
+}
+
+.logo > .logo-small-pics {
+    display: none;
+}
+
+.logo > .logo-pics > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > .logo-pics > div > picture {
+    width: 150px;
+    height: 100px;
+}
+
+.logo > .logo-pics > div:nth-child(2) > picture:last-child > img {
+    width: 112px;
+    height: 48px;
+}
+
+.logo > .logo-pics > div:nth-child(3) {
+    justify-content: space-around;
+}
+
+.logo > .logo-pics > div:nth-child(3) > picture:first-child > img {
+    width: 130PX;
+}
+
+.logo > .logo-pics > div:nth-child(3) > picture:nth-child(2) > img {
+    width: 130PX;
+}
+
+.logo > .logo-pics > div:nth-child(3) img {
+    width: 148px;
+    height: 48px;;
+}
+
+
+@media (max-width: 414px) {
+    .logo > .logo-pics {
+        display: none;
+    }
+
+    .logo > .logo-small-pics {
+        display: block;
+    }
+
+    .logo > .logo-small-pics {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 25px;
+    }
+
+    .logo > .logo-small-pics > picture:nth-child(11) > img {
+        width: 110px;
+        height: 55px;
+    }
+
+    .logo > .logo-small-pics > picture {
+        width: 120px;
+        height: 60px;
+    }
+
+    .logo > .logo-small-pics > picture:last-child {
+        margin-left: 90px;
+    }
+
+}
+

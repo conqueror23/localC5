@@ -1,0 +1,48 @@
+#footer-theme {
+  background: inherit;
+
+  a, a:visited {
+    color: #ffffff;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: space-around;
+    color: white;
+
+    .footer-nav {
+      ul {
+        margin-left: -32px;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-evenly;
+
+        li {
+          list-style: none;
+          margin-left: 16px;
+        }
+      }
+    }
+
+    .tab-panel {
+      background: #242424;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      flex: 1;
+      justify-content: space-evenly;
+      color: white;
+    }
+  }
+}

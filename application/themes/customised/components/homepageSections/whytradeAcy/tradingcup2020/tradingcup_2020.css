@@ -1,0 +1,113 @@
+
+
+.tradingcup-warpper {
+  background: url("./tradingCupBg.png") no-repeat center center/cover;
+  color: #ffffff;
+}
+
+.tradingcup-veil {
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 5e-5) 36.46%,
+      rgba(0, 0, 0, 5e-5) 80.18%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) -8.27%,
+      rgba(0, 0, 0, 0.64) 46.35%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.tradingcup-warpper .tradingcup-content-wrapper {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+}
+.tradingcup-warpper .tradingcup-content-wrapper .sub {
+  margin-top: 16px;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.tradingcup-warpper .tradingcup-content-wrapper h1 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.tradingcup-warpper .tradingcup-content-wrapper h1 span {
+  color: #f67102;
+}
+.tradingcup-warpper ul {
+  font-size: 28px;
+  line-height: 36px;
+  padding-left: 16px;
+}
+
+.tradingcup-warpper #sub-msg{
+  margin-top: 16px;
+}
+.tradingcup-warpper .enter-button{
+  width: fit-content;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 40px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #FFFFFF;
+
+}
+
+.tradingcup-warpper .enter-button :hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+.tradingcup-warpper a span{
+  margin-left: 5px;
+}
+
+.tradingcup-warpper .tradingcup-content-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+}
+@media screen and (max-width:768px){
+  .tradingcup-warpper a {
+    padding: 12px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+  }
+  .tradingcup-warpper .tradingcup-content-wrapper{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:375px){
+  .tradingcup-warpper .tradingcup-content-wrapper .sub {
+    margin: 8px 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .tradingcup-warpper .tradingcup-content-wrapper h1 {
+    font-size: 28px;
+    line-height: 36px;
+  } 
+
+  .tradingcup-warpper ul {
+    font-size: 12px;
+    line-height: 16px;
+  } 
+  
+
+}
+

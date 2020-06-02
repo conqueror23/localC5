@@ -1,0 +1,74 @@
+.why-section {
+    padding: 100px 0;
+}
+
+.why-acy-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+    margin-bottom: 16px;
+
+}
+
+.why-acy-wrapper .why-title {
+  color: #ffffff;
+}
+
+.why-acy-wrapper .why-desc {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.why-acy-wrapper .why-icons-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.why-acy-wrapper .why-icons-section .icons-block {
+  background: #232323;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 42px 0 32px 0;
+}
+
+.why-acy-wrapper .why-icons-section .icons-block .icon-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.why-acy-wrapper .why-icons-section .icons-block .icon-desc {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.why-acy-wrapper .enter-button{
+    display: flex;
+    width: fit-content;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #F67102;
+    padding: 10px 16px;
+    justify-content: center;
+    color: #ffffff !important;
+}
+
+@media screen and (max-width:768px){
+    .why-acy-wrapper .why-icons-section .icons-block {
+        width: 48%;
+    }
+    .why-acy-wrapper .enter-button{
+        width:-webkit-fill-available;
+    }
+}
+@media screen and (max-width:375px){
+    .why-acy-wrapper .why-icons-section .icons-block {
+        width: 100%;
+    }
+}

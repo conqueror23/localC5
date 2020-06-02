@@ -1,0 +1,32 @@
+
+.blank-page-wrapper {
+    background: #000000;
+}
+
+.blank-title {
+    color: #FFFFFF;
+    background: #242424;
+}
+
+.blank-title h1 {
+    font-size: 60px;
+}
+
+.blank-title h2 {
+    font-size: 40px;
+}
+
+
+.blank-body {
+    width: 100%;
+    color: #FFFFFF;
+}
+
+
+.blank-body h3 {
+    font-size: 28px;
+}
+
+.blank-body h4 {
+    font-size: 20px;
+}

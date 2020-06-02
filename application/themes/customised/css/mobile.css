@@ -1,0 +1,19 @@
+.title {
+    background-color: yellowgreen;
+    height: 200px;
+    font-size: 24px;
+    color: black;
+  }
+  .body {
+    background-color: gray;
+    height: 100px;
+    font-size: large;
+    color: white;
+  }
+  .footer {
+    height: 10em;
+    background-color: slategrey;
+    font-size: medium;
+    color:floralwhite;
+  }
+  
