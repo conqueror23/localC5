@@ -252,6 +252,6 @@ const getCountryList = () => {
         MZ: "Mozambique",
     };
     const countryList = Object.values(countryObject).sort();
-    const finalList=['Select',...countryList];
+    const finalList=['Country',...countryList];
     return finalList;
 };

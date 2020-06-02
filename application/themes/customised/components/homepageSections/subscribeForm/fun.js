@@ -55,7 +55,7 @@ const concealErrorMessage =()=>{
 
 const submitForm = (e) => {
   e.preventDefault();
-  if(getSubmitData().country!=='Select'){
+  if(getSubmitData().country!=='Country' || getSubmitData().country !=='请选择国家'){
     fetch(submitUrl, {
       method: "POST",
       body: getRequestBody(),
