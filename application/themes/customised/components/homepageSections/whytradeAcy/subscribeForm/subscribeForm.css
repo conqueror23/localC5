@@ -11,7 +11,7 @@
   justify-content: space-between;
 
 }
-.subscrib-form-wrapper{
+.subscribe-form-wrapper{
   width: 100%;
   padding: 16px 0;
   display: flex;
@@ -21,7 +21,7 @@
 }
 
 
-.subscrib-form-wrapper #form-section{
+.subscribe-form-wrapper #form-section{
   width:100%;
   display: flex;
   flex-direction: row;
@@ -37,31 +37,31 @@
   color: red;
 }
 
-.subscrib-form-wrapper h2 {
+.subscribe-form-wrapper h2 {
   margin: 0;
   color: #f67102;
 }
 
-.subscrib-form-wrapper p {
+.subscribe-form-wrapper p {
   color: rgba(0, 0, 0, 0.85);
   font-size: 20px;
 
 }
 
-.subscrib-form-wrapper .form-inputs {
+.subscribe-form-wrapper .form-inputs {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.subscrib-form-wrapper .form-inputs input, select{
+.subscribe-form-wrapper .form-inputs input, select{
   margin: 10px 0 10px 0px;
   padding: 8px;
   background: #ffffff;
   border-radius: 2px;
   width: 44%;
 }
-.subscrib-form-wrapper .form-inputs select{
+.subscribe-form-wrapper .form-inputs select{
   -webkit-appearance: none;
   -moz-appearance:    none;
   appearance:         none;
@@ -73,14 +73,14 @@
   /*width: 48%;*/
 
 }
-.subscrib-form-wrapper .form-left {
+.subscribe-form-wrapper .form-left {
   margin-right: 8px;
 }
-.subscrib-form-wrapper .form-right {
+.subscribe-form-wrapper .form-right {
   width: 50%;
 }
 
-.subscrib-form-wrapper .form-right .enter-button {
+.subscribe-form-wrapper .form-right .enter-button {
   margin-top: 16px;
   display: flex;
   width: -webkit-fill-available;
@@ -100,21 +100,21 @@
 
 @media screen and (max-width: 768px) {
 
-  .subscrib-form-wrapper #form-section{
+  .subscribe-form-wrapper #form-section{
     flex-direction: column;
     justify-content: center;
     align-self: start;
   }
-  .subscrib-form-wrapper .form-right {
+  .subscribe-form-wrapper .form-right {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .subscrib-form-wrapper .form-inputs select{
+  .subscribe-form-wrapper .form-inputs select{
    width: 100%; 
   }
-  .subscrib-form-wrapper .form-inputs input{
+  .subscribe-form-wrapper .form-inputs input{
     width: 100%;
   }
 }

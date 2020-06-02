@@ -10,7 +10,7 @@ $this->inc('components/homepageSections/tradingcup2020/tradingcup_2020_zh.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/subscribForm/subscribForm_zh.php');
+$this->inc('components/homepageSections/subscribeForm/subscribeForm_zh.php');
 ?>
 
 

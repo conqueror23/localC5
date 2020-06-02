@@ -1,5 +1,5 @@
 <div class="section-content-wrapper sub-form-bk">
-    <div class="subscrib-form-wrapper">
+    <div class="subscribe-form-wrapper">
         <div id="form-section">
             <div class="form-left">
                 <h2>
@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="form-right">
-                <form action="#" id="subscrib-form" name='subscrib-form'>
+                <form action="#" id="subscribe-form" name='subscribe-form'>
                     <div class="form-inputs">
                         <input type="text" name='first_name' placeholder="名">
                         <input type="text" name='last_name' placeholder="姓">

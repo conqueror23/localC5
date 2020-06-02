@@ -7,7 +7,7 @@
           href="<?php echo $view->getThemePath() ?>/css/main.css">
 
     <!--    pre request packages -->
-    <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribForm/getCookies.js"
+    <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies.js"
             type="text/javascript"></script>
 
     <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript"></script>
@@ -38,7 +38,7 @@
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/news/news.css">
     <link rel="stylesheet" type="text/css"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribForm/subscribForm.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/subscribeForm.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.css">
     <link rel="stylesheet" type="text/css"

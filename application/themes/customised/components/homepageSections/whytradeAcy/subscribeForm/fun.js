@@ -269,7 +269,7 @@ const createDropDowpOptions = (list) => {
 createDropDowpOptions(getCountryList())
 
 // global variables
-const form = document.getElementById('subscrib-form')
+const form = document.getElementById('subscribe-form')
 const formSection =document.getElementById('form-section');
 const formAfter =document.getElementById('form-after');
 

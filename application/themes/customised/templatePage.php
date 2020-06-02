@@ -8,7 +8,7 @@ $this->inc('components/homepageSections/tradingcup2020/tradingcup_2020.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/subscribForm/subscribForm.php');
+$this->inc('components/homepageSections/subscribeForm/subscribeForm.php');
 ?>
 
 
