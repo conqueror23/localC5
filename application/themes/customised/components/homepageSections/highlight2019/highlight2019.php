@@ -73,7 +73,6 @@
     const closeVideo = document.querySelector(".close");
     const iframeVideo = document.querySelector(".video-wrap");
 
-    console.log(iframeVideo);
     watchVideo.onclick = function () {
         iframeVideo.className = "video show";
         closeVideo.className = "close show"

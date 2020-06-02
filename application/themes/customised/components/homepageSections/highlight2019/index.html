@@ -36,11 +36,11 @@
       <div id="player" class="video"></div>
     </div>
     <script>
-      var tag = document.createElement("script");
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName("script")[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      var player;
+      let hlTag = document.createElement("script");
+      hlTag.src = "https://www.youtube.com/iframe_api";
+      let firstScriptTag = document.getElementsByTagName("script")[0];
+      firstScriptTag.parentNode.insertBefore(hlTag, firstScriptTag);
+      let player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player("player", {
           height: '800',
@@ -51,7 +51,7 @@
           },
         });
       }
-      function escapAction(e){
+      function escapeAction(e){
         if (e.key === "Escape") {
           iframeVideo.className = "video hide";
           closeVideo.className = "close hide";
@@ -63,7 +63,7 @@
         event.target.playVideo();
       }
       function stopVideo() {
-        window.removeEventListener("keydown",escapAction)
+        window.removeEventListener("keydown",escapeAction)
         player.stopVideo();
       }
       function playVideo() {
@@ -71,8 +71,8 @@
       }
 
       function onPlayerStateChange(event) {
-        console.log('event here',event);
-        console.log('yt',YT);
+        // console.log('event here',event);
+        // console.log('yt',YT);
        
         // if (event.data == YT.PlayerState.ENDED) {
           // setTimeout(stopVideo, 1000);
@@ -95,10 +95,10 @@
       };
 
       window.addEventListener("keydown", function (e) {
-        escapAction(e)
+        escapeAction(e)
       });
       document.body.addEventListener("keydown", function (e) {
-        escapAction(e) 
+        escapeAction(e)
       })
 
 
