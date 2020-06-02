@@ -1,5 +1,4 @@
 <div class="section-content-wrapper">
-
     <div class="top-traders-wrapper ">
         <h1>
             Our Top Traders
