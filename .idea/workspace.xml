@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/assets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/images/interview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/blankscreen-macbook-mockup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/speaker 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/speaker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/qulifirers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +193,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update js files" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591143308607">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1591143308607" />
     <state x="40" y="75" key="CommitChangelistDialog2" timestamp="1591089328028">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
