@@ -9,7 +9,7 @@
     <!--    pre request packages -->
     <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies.js"
             type="text/javascript"></script>
-
+            
      <!-- external links   -->
     <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript" ></script>
 
@@ -17,7 +17,6 @@
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map" crossorigin="anonymous" defer async></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetchival/0.3.2/index.min.js" integrity="sha256-JAUhVrURjJBWcWw4rjX42p4JltYpCS3kjpU7oxpuEjY=" crossorigin="anonymous"></script>
-
 
     <!-- end of pre request packages-->
 
