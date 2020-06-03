@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\calendar\calendar$caoverridepermissions@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-06-06T22:40:20+00:00 */
+/* Expiration: 2020-06-08T03:10:07+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1591483220;
+$expiration = 1591585807;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YToxOntpOjA7TzoyNzoiRG9jdHJpbmVcT1JNXE1hcHBpbmdcQ29sdW1uIjo5OntzOjQ6Im5hbWUiO047czo0OiJ0eXBlIjtzOjc6ImJvb2xlYW4iO3M6NjoibGVuZ3RoIjtOO3M6OToicHJlY2lzaW9uIjtpOjA7czo1OiJzY2FsZSI7aTowO3M6NjoidW5pcXVlIjtiOjA7czo4OiJudWxsYWJsZSI7YjowO3M6Nzoib3B0aW9ucyI7YToxOntzOjc6ImRlZmF1bHQiO2k6MDt9czoxNjoiY29sdW1uRGVmaW5pdGlvbiI7Tjt9fQ=='));
 
 /* Child Type: integer */
-$data['createdOn'] = 1591078267;
+$data['createdOn'] = 1591161060;
