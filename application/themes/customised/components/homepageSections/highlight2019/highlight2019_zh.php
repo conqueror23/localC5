@@ -26,57 +26,73 @@
 
 </div>
 <script>
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    var player;
+  let hlTag = document.createElement("script");
+hlTag.src = "https://www.youtube.com/iframe_api";
+let firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(hlTag, firstScriptTag);
+let player;
 
-    function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-            height: '100%',
-            width: '100%',
-            videoId: 'ily_06wrUb0',
-            events: {
-                'onStateChange': onPlayerStateChange
-            }
-        });
-    }
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player("player", {
+    height: '800',
+    width: '800',
+    videoId: "ily_06wrUb0",
+    events: {
+      "onStateChange": onPlayerStateChange,
+    },
+  });
+}
+function escapeAction(e){
+  if (e.key === "Escape") {
+    iframeVideo.className = "video hide";
+    closeVideo.className = "close hide";
+    stopVideo();
+  }
+}
 
-    function onPlayerReady(event) {
-        event.target.playVideo();
-    }
+function onPlayerReady(event) {
+  event.target.playVideo();
+}
+function stopVideo() {
+  window.removeEventListener("keydown",escapeAction)
+  player.stopVideo();
+}
+function playVideo() {
+  player.playVideo();
+}
 
-    var done = false;
+function onPlayerStateChange(event) {
+  // console.log('event here',event);
+  // console.log('yt',YT);
 
-    function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-            setTimeout(stopVideo, 6000);
-            done = true;
-        }
-    }
+  // if (event.data == YT.PlayerState.ENDED) {
+  // setTimeout(stopVideo, 1000);
+  // setTimeout(event.target.clearVideo, 1000);
+  // }
+}
 
-    function stopVideo() {
-        player.stopVideo();
-    }
+const watchVideo = document.querySelector(".highlights-words-btn");
+const closeVideo = document.querySelector(".close");
+const iframeVideo = document.querySelector(".video-wrap");
 
-    function playVideo() {
-        player.playVideo();
-    }
+watchVideo.onclick = function () {
+  iframeVideo.className = "video show";
+  closeVideo.className = "close show";
+};
+closeVideo.onclick = function () {
+  iframeVideo.className = "video hide";
+  closeVideo.className = "close hide";
+  stopVideo();
+};
 
-    const watchVideo = document.querySelector(".highlights-words-btn");
-    const closeVideo = document.querySelector(".close");
-    const iframeVideo = document.querySelector(".video-wrap");
+window.addEventListener("keydown", function (e) {
+  escapeAction(e)
+});
+document.body.addEventListener("keydown", function (e) {
+  escapeAction(e)
+})
 
-    watchVideo.onclick = function () {
-        iframeVideo.className = "video show";
-        closeVideo.className = "close show"
-    }
-    closeVideo.onclick = function () {
-        iframeVideo.className = "video hide";
-        closeVideo.className = "close hide";
-        stopVideo();
-    }
+
 </script>
 <!--<script src="--><? //= $this->getThemePath() ?><!--/components/homepageSections/highlight2019/assets/index.js"></script>-->
 
