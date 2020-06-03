@@ -17,4 +17,4 @@
     </div>
 </div>
 
-<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/topTraders002.js"></script>
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/topTraders000.js"></script>
