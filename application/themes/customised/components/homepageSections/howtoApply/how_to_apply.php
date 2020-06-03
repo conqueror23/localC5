@@ -4,7 +4,7 @@
         <ul>
             <li><span> 01 </span> <a href="javascript:void(0)" class="open-form">Click here</a> to open a live account with ACY Securities</li>
             <li><span> 02 </span> You Will receive an email confirmation once approved</li>
-            <li><span> 03 </span> Deposite a minimun of $2000 into your ACY Live Trading Account. *</li>
+            <li><span> 03 </span> Deposit a minimum of $2000 into your ACY Live Trading Account. *</li>
             <li><span> 04 </span> Start trading</li>
         </ul>
         <a href='javascript:void(0)' class="enter-button open-form"> Enter Now </a>

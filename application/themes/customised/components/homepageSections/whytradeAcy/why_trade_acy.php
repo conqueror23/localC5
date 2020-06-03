@@ -66,7 +66,7 @@
                     ASIC-regulated
                 </p>
                 <p class="icon-desc">
-                    Headequartered in Sydney
+                    Headquartered in Sydney
                 </p>
             </div>
         </div>
