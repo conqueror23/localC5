@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/themes/customised/basic_default_page_zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/999698dd0325a989/b67cf893dfb81066.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/999698dd0325a989/b67cf893dfb81066.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
