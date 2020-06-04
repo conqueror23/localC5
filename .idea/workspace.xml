@@ -3,10 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/assets/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/assets/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getEnCountryList.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getEnCountryList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +172,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/application/themes/customised" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -180,6 +194,7 @@
       <workItem from="1591087324829" duration="97000" />
       <workItem from="1591087832158" duration="1502000" />
       <workItem from="1591235334503" duration="44000" />
+      <workItem from="1591259915172" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
@@ -246,6 +261,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="430" y="23" width="1948" height="1417" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1591249872142" />
+    <state x="0" y="23" width="1184" height="1417" key="find.popup" timestamp="1591260905030">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="0" y="23" width="1184" height="1417" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1591260905030" />
     <state x="693" y="23" width="1173" height="1417" key="search.everywhere.popup" timestamp="1591088920030">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

@@ -45,6 +45,8 @@
 }
 
 .how-to-wrapper .how-to-left .enter-button {
+    display: flex;
+    justify-content: center;
     width: fit-content;
     text-decoration: none;
     color: #ffffff !important;
@@ -128,6 +130,7 @@
     }
 
     .how-to-wrapper .how-to-left p {
+        margin-top: 8px;
         font-size: 12px;
         line-height: 16px;
     }

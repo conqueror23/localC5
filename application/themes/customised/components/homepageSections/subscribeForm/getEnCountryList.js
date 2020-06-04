@@ -255,7 +255,8 @@ var getCountryList = function getCountryList() {
         QA: "Qatar",
         MZ: "Mozambique"
     };
-    var countryList = Object.values(countryObject).sort();
+    var countryKeys = Object.keys(countryObject);
+    var countryList = countryKeys.map(function(key){return countryObject[key]}).sort();
     var finalList = ['Country'].concat(_toConsumableArray(countryList));
     return finalList;
 };

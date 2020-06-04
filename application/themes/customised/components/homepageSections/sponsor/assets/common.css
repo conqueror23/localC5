@@ -84,6 +84,7 @@
         align-items: center;
         flex-sponsorWrapper: sponsorWrapper;
         padding-left: 25px;
+        flex-wrap: wrap;
     }
 
     .logo > .logo-small-pics > picture:nth-child(11) > img {
