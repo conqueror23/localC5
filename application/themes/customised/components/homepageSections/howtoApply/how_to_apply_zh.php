@@ -16,23 +16,5 @@
                src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/Trading_Cup_How_to_Register.mp4"></video>
     </div>
 </div>
-<script>
-    const video = document.querySelector("video");
-    window.addEventListener("scroll", function () {
-        const howTo = document.getElementById("how-to");
-        const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
-        const howToHeight = howTo.offsetTop;
-        if (scrollTop > howToHeight) {
-            video.play();
-        }
-    })
 
-    video.addEventListener("timeupdate", function () {
-        let timeDisplay = Math.floor(video.currentTime);
-        if (timeDisplay === 63) {
-            setTimeout(() => {
-                video.play();
-            }, 5000);
-        }
-    }, false)
-</script>
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/howtoApply.js"></script>
