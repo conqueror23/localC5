@@ -1,11 +1,13 @@
+"use strict";
+
 $(function () {
     $(".open-form").on("click", function () {
-        sideMenu.openNav()
+        sideMenu.openNav();
         return false;
     });
 
     $('body').on("click", '#widgetEnterNow', function () {
-        sideMenu.openNav()
+        sideMenu.openNav();
         return false;
     });
 });

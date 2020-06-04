@@ -1,21 +1,19 @@
+"use strict";
 
- function getCookie(name) {
-    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
-    if (arr = document.cookie.match(reg))
-        return unescape(arr[2]);
-    else
-        return null;
+function getCookie(name) {
+    var arr,
+        reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg)) return unescape(arr[2]);else return null;
 }
 
- function createCookie(name, value, days) {
+function createCookie(name, value, days) {
     if (days) {
         var date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
         var expires = "; expires=" + date.toGMTString();
     } else var expires = "";
     document.cookie = name + "=" + value + expires + "; path=/";
 }
-
 
 function createAgent(par_accountType) {
     var accountType = par_accountType;
@@ -26,7 +24,7 @@ function createAgent(par_accountType) {
         ///////////////////////////////////////////////////////////////////
         //IMPORTANT LOGIC, CHANGE CAREFULLY !!!!!!!!!! UNIT TEST PROVIDED
         //////////////////////////////////////////////////////////////////
-    var link = getURLbyCookiesOrURL();
+        var link = getURLbyCookiesOrURL();
         var par = filterOtherParameter(link);
         if (hasParamters(link) && !isEmpty(par)) {
             setCookie(link);
@@ -36,12 +34,12 @@ function createAgent(par_accountType) {
         // console.log('leadSource',leadSource,
         // leadSourceClassification)
         return {
-            leadSource,
-            leadSourceClassification
-        }
+            leadSource: leadSource,
+            leadSourceClassification: leadSourceClassification
+        };
     };
 
-    this.createAgentCookie=function() {
+    this.createAgentCookie = function () {
         var queryResult = removeQueryStringByKey(window.location.search);
         // console.log('test',queryResult)
         var query_empty = isEmpty(queryResult);
@@ -49,7 +47,7 @@ function createAgent(par_accountType) {
             var link = window.location.protocol + '//' + window.location.hostname + queryResult;
             setCookie(link);
         }
-       };
+    };
     ////////////////////////////////////////////////
     // --- IMPORTANT LOGIC:MUST RUN/WRITE UNIT CASE IF CHANGE --- //
     ////////////////////////////////////////////////
@@ -62,15 +60,15 @@ function createAgent(par_accountType) {
         var items = a_queryString.split('&');
         var newString = '';
         for (var index = 0; index < items.length; index++) {
-            if (items[index].search("showStep") === -1 && items[index].search("token") === -1 && items[index].search("country") === -1 && items[index].search("host") === -1 && items[index].search("isBusiness") === -1 ) {
+            if (items[index].search("showStep") === -1 && items[index].search("token") === -1 && items[index].search("country") === -1 && items[index].search("host") === -1 && items[index].search("isBusiness") === -1) {
                 newString += items[index];
             }
         }
         return newString;
-      }
+    }
 
     function isEmpty(val) {
-        return (val === undefined || val == null || val.length <= 0 || val === '');
+        return val === undefined || val == null || val.length <= 0 || val === '';
     }
     function getURLbyCookiesOrURL() {
         ///////////////////////////////////////////////////////////////////////////////
@@ -95,17 +93,17 @@ function createAgent(par_accountType) {
     function hasParamters(par_url) {
         return par_url === undefined ? false : true;
     }
-    
+
     function filterOtherParameter(a_querystring) {
         if (a_querystring === undefined || a_querystring === false || a_querystring === '' || a_querystring === null) {
             return undefined;
-    }
+        }
         //Split the url and the query string
         if (a_querystring.indexOf("?") !== -1) {
             a_querystring = a_querystring.split("?")[1];
         } else {
             return undefined;
-    }
+        }
         //Split all the & , if not showStep or token , it = to agent
         var tmp = [];
         var items = a_querystring.split("&");
@@ -118,14 +116,11 @@ function createAgent(par_accountType) {
             }
         }
         return undefined;
-        }
     }
+}
 
-
-
- const leadData=()=>{
-     const leadData = new createAgent('form')
-     leadData.createAgentCookie();
-     return leadData.getAgent();
- }
-
+var leadData = function leadData() {
+    var leadData = new createAgent('form');
+    leadData.createAgentCookie();
+    return leadData.getAgent();
+};

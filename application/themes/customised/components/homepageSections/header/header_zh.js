@@ -1,23 +1,19 @@
-const toggleDropDown = () => {
+"use strict";
+
+var toggleDropDown = function toggleDropDown() {
   console.log("you have clicked anchor");
   document.getElementById("campaign-dropdown-list").classList.toggle("show");
 };
 
-const listenAnchor = () => {
-  document
-    .getElementById("dropdown-list-anchor")
-    .addEventListener("click", toggleDropDown);
+var listenAnchor = function listenAnchor() {
+  document.getElementById("dropdown-list-anchor").addEventListener("click", toggleDropDown);
 };
 
-const sideMenu = new PromoLiveAccountSideMenu(
-  "交易杯报名",
-  "仅需几步即可在ACY创建真实交易账户",
-  "zh"
-);
-const mobileBtn = $(".mobile-nav-btn");
+var sideMenu = new PromoLiveAccountSideMenu("交易杯报名", "仅需几步即可在ACY创建真实交易账户", "zh");
+var mobileBtn = $(".mobile-nav-btn");
 
 mobileBtn.on("click", function () {
-  const mobileNav = $("mobile-nav");
+  var mobileNav = $("mobile-nav");
   mobileNav.fadeIn(300);
 });
 
@@ -27,7 +23,7 @@ $(function () {
     var url = $(this).val(); // get selected value
     if (url) {
       // require a URL
-      window.location =window.location.href+url; // redirect
+      window.location = window.location.href + url; // redirect
     }
     return false;
   });

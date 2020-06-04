@@ -1,8 +1,10 @@
-let hlTag = document.createElement("script");
+"use strict";
+
+var hlTag = document.createElement("script");
 hlTag.src = "https://www.youtube.com/iframe_api";
-let firstScriptTag = document.getElementsByTagName("script")[0];
+var firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(hlTag, firstScriptTag);
-let player;
+var player = void 0;
 
 function onYouTubeIframeAPIReady() {
   player = new YT.Player("player", {
@@ -10,11 +12,11 @@ function onYouTubeIframeAPIReady() {
     width: '800',
     videoId: "ily_06wrUb0",
     events: {
-      "onStateChange": onPlayerStateChange,
-    },
+      "onStateChange": onPlayerStateChange
+    }
   });
 }
-function escapeAction(e){
+function escapeAction(e) {
   if (e.key === "Escape") {
     iframeVideo.className = "video hide";
     closeVideo.className = "close hide";
@@ -26,7 +28,7 @@ function onPlayerReady(event) {
   event.target.playVideo();
 }
 function stopVideo() {
-  window.removeEventListener("keydown",escapeAction)
+  window.removeEventListener("keydown", escapeAction);
   player.stopVideo();
 }
 function playVideo() {
@@ -43,9 +45,9 @@ function onPlayerStateChange(event) {
   // }
 }
 
-const watchVideo = document.querySelector(".highlights-words-btn");
-const closeVideo = document.querySelector(".close");
-const iframeVideo = document.querySelector(".video-wrap");
+var watchVideo = document.querySelector(".highlights-words-btn");
+var closeVideo = document.querySelector(".close");
+var iframeVideo = document.querySelector(".video-wrap");
 
 watchVideo.onclick = function () {
   iframeVideo.className = "video show";
@@ -58,9 +60,8 @@ closeVideo.onclick = function () {
 };
 
 window.addEventListener("keydown", function (e) {
-  escapeAction(e)
+  escapeAction(e);
 });
 document.body.addEventListener("keydown", function (e) {
-  escapeAction(e)
-})
-
+  escapeAction(e);
+});

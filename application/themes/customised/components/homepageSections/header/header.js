@@ -1,35 +1,19 @@
-const toggleDropDown = () => {
+"use strict";
+
+var toggleDropDown = function toggleDropDown() {
   document.getElementById("campaign-dropdown-list").classList.toggle("show");
 };
 
-const listenAnchor = () => {
-  document
-    .getElementById("dropdown-list-anchor")
-    .addEventListener("click", toggleDropDown);
+var listenAnchor = function listenAnchor() {
+  document.getElementById("dropdown-list-anchor").addEventListener("click", toggleDropDown);
 };
 
-const sideMenu = new PromoLiveAccountSideMenu(
-  'Trading Cup Entry',
-  "Create a live trading account with ACY in a few simple steps.",
-  "en"
-);
-const mobileBtn = $(".mobile-nav-btn");
+var sideMenu = new PromoLiveAccountSideMenu('Trading Cup Entry', "Create a live trading account with ACY in a few simple steps.", "en");
+var mobileBtn = $(".mobile-nav-btn");
 
 mobileBtn.on("click", function () {
-  const mobileNav = $("mobile-nav");
+  var mobileNav = $("mobile-nav");
   mobileNav.fadeIn(300);
 });
-
-// $(function () {
-//   // bind change event to select
-//   $("#language-switch").on("change", function () {
-//     var url = $(this).val(); // get selected value
-//     if (url) {
-//       // require a URL
-//       window.location =window.location.href+url; // redirect
-//     }
-//     return false;
-//   });
-// });
 
 listenAnchor();

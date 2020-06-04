@@ -47,6 +47,9 @@
 .tradingcup-warpper .tradingcup-content-wrapper h1 span {
   color: #f67102;
 }
+
+
+
 .tradingcup-warpper ul {
   font-size: 28px;
   line-height: 36px;
@@ -79,6 +82,13 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+.tradingcup-warpper .trader_zh ul li{
+  word-break: keep-all;
+}
+
+
+
 @media screen and (max-width:768px){
   .tradingcup-warpper a {
     padding: 12px 0;
