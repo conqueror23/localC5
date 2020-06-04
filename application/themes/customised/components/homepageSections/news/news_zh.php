@@ -5,10 +5,10 @@
         </div>
         <div class="news-right">
             <h1>
-                新闻与公告
+                新闻和公告
             </h1>
             <p>
-             获取最新的参赛者访谈和交易策略分享，以及2020交易杯总决赛预选赛最新更新。
+                获取最新的参赛者访谈和交易策略分享，以及2020交易杯总决赛预选赛最新更新。
             </p>
             <a href="https://dev.tradingcup.com/blog/">Go to Trading Cup Blog</a>
         </div>

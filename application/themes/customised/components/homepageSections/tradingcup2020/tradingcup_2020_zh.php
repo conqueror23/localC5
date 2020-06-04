@@ -1,11 +1,8 @@
 <div class="tradingcup-warpper">
     <div class="tradingcup-veil section-content-wrapper">
-        <div class="tradingcup-content-wrapper trader_zh">
+        <div class="tradingcup-content-wrapper">
             <p class="sub">2020交易杯</p>
-            <h1> 保底总奖金
-             <br>
-            <span>150,000美元*</span>
-            </h1>
+            <h1><span>150,000美元*</span> 保底总奖金</h1>
             <ul>
                 <li>
                     6个阶段资格赛，每阶段奖金10,000美元，比赛周期一个月

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/news/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/news/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/news/news_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/news/news_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/New.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/New.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +182,7 @@
       <workItem from="1591078319323" duration="23000" />
       <workItem from="1591087324829" duration="97000" />
       <workItem from="1591087832158" duration="1502000" />
+      <workItem from="1591235334503" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>

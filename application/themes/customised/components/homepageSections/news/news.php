@@ -9,7 +9,8 @@
                 News & Announcements
             </h1>
             <p>
-                Catch up with the latest interviews and strategies from the leaders, plus the 2020 Grand Final qualifier updates.
+                Catch up with the latest interviews and strategies from the leaders, plus the 2020 Grand Final qualifier
+                updates.
             </p>
             <a href="https://dev.tradingcup.com/blog/">Go to Trading Cup Blog</a>
         </div>
