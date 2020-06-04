@@ -15,6 +15,11 @@ body h1 {
   font-size: 60px;
   color: #ffffff;
 }
+@media (max-width: 375px) {
+  body h1 {
+    font-size: 32px;
+  }
+}
 body h2 {
   font-size: 40px;
   color: #ffffff;
@@ -50,6 +55,9 @@ body .enter-button:hover {
   }
 }
 @media screen and (max-width: 1366px) {
+  body {
+    margin: 0;
+  }
   body .section-content-wrapper {
     padding: 0 5px;
   }

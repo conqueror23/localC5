@@ -63,7 +63,7 @@
 
     <!--end of modules css    -->
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath() ?>/css/basic-default-page001.css">
-    <?php echo $html->css($view->getStylesheet('main.less')) ?>
+    <!-- <?php echo $html->css($view->getStylesheet('main.less')) ?> -->
 
     <?php
     View::element('header_required', [
