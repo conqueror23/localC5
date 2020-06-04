@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/themes/customised/css/langSwitcher.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/themes/customised/thumbnail.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/thumnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591247498499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update select options">
+      <created>1591250573247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591250573247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,17 +226,18 @@
     <MESSAGE value="update js files" />
     <MESSAGE value="update zh form validat" />
     <MESSAGE value="transform es6 to es2015" />
-    <option name="LAST_COMMIT_MESSAGE" value="transform es6 to es2015" />
+    <MESSAGE value="update select options" />
+    <option name="LAST_COMMIT_MESSAGE" value="update select options" />
   </component>
   <component name="WindowStateProjectService">
     <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591143308607">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1591143308607" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591250387343">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591250573013">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591250387343" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591250573013" />
     <state x="797" y="382" key="EditFileWatcherDialog" timestamp="1591249580643">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
