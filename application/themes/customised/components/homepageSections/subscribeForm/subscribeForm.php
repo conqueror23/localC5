@@ -34,5 +34,6 @@
     </div>
 </div>
 <div id="error-msg">*Error happened when submitting please try again*</div>
-<script src="<?= $this->getThemePath()?>/components/homepageSections/subscribeForm/getEnCountryList.js"></script>
+<script> var lang ='en'</script>
+<script src="<?= $this->getThemePath()?>/components/homepageSections/subscribeForm/getCountryList-f6b41.js"></script>
 
