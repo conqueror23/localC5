@@ -54,5 +54,5 @@ $this->inc('components/header_top.php');
         </div>
 
     </div>
-    <script src="<?= $this->getThemePath() ?>/components/homepageSections/header/header1.js"></script>
+    <script src="<?= $this->getThemePath() ?>/components/homepageSections/header/header.js"></script>
 </header>

@@ -7,7 +7,7 @@
           href="<?php echo $view->getThemePath() ?>/css/main.css">
 
     <!--    pre request packages -->
-    <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies1.js"
+    <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies.js"
             type="text/javascript"></script>
             
      <!-- external links   -->
@@ -26,7 +26,7 @@
     <?php //echo $view->getThemePath() ?><!--/css/footer-modified.css">-->
 
     <link rel="stylesheet" type="text/css"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header1.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/footer/footer.css">
 
@@ -44,7 +44,7 @@
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/topTraders/top_traders.css">
     <link rel="stylesheet" type="text/css"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/tradingcup2020/tradingcup_2020_1.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/tradingcup2020/tradingcup_2020.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/whytradeAcy/why_trade_acy.css">
 
