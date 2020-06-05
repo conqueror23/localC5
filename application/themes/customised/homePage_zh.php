@@ -1,7 +1,7 @@
 <?php
 defined('C5_EXECUTE') or die("Access Denied.");
 
-$this->inc('components/header_zh.php');
+$this->inc('components/header_zh1.php');
 
 ?>
 

@@ -4,22 +4,34 @@
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/8f3a01e2e3b200aa/f980d8ea6abd2ae6/033312bb6508a32e/6fe36ad0dbc631e6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/assets/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/assets/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getEnCountryList.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getEnCountryList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/basic_default_page_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/basic_default_page_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/footer_bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/footer_bottom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/header_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/header_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/header/header_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribForm/subscribForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribForm/subscribForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getCookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getCountryDropDownList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getEnCountryList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/getZhCountryList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/submitSub.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm_zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders_zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/langSwitcher.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/langSwitcher.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/langSwitcher.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/homePage_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/homePage_zh.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +182,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/application/themes/customised" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -194,7 +209,8 @@
       <workItem from="1591087324829" duration="97000" />
       <workItem from="1591087832158" duration="1502000" />
       <workItem from="1591235334503" duration="44000" />
-      <workItem from="1591259915172" duration="1069000" />
+      <workItem from="1591259915172" duration="2190000" />
+      <workItem from="1591317016168" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
@@ -231,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591250573247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update mobile layout and ie support for tradingcup">
+      <created>1591261101860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591261101860</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,17 +265,18 @@
     <MESSAGE value="update zh form validat" />
     <MESSAGE value="transform es6 to es2015" />
     <MESSAGE value="update select options" />
-    <option name="LAST_COMMIT_MESSAGE" value="update select options" />
+    <MESSAGE value="update mobile layout and ie support for tradingcup" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mobile layout and ie support for tradingcup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591143308607">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1591143308607" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591250573013">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591261101602">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591250573013" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591261101602" />
     <state x="797" y="382" key="EditFileWatcherDialog" timestamp="1591249580643">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -265,9 +289,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="0" y="23" width="1184" height="1417" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1591260905030" />
-    <state x="693" y="23" width="1173" height="1417" key="search.everywhere.popup" timestamp="1591088920030">
+    <state x="693" y="23" width="1369" height="1417" key="search.everywhere.popup" timestamp="1591261935603">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="693" y="23" width="1173" height="1417" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1591088920030" />
+    <state x="693" y="23" width="1369" height="1417" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1591261935603" />
   </component>
 </project>

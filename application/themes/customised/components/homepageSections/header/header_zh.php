@@ -40,4 +40,4 @@
         </ul>
     </div>
 </div>
-<script src="<?= $this->getThemePath() ?>/components/homepageSections/header/header.js"></script>
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/header/header1.js"></script>

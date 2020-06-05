@@ -7,12 +7,12 @@
           href="<?php echo $view->getThemePath() ?>/css/main.css">
 
     <!--    pre request packages -->
-    <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies.js"
+    <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies1.js"
             type="text/javascript"></script>
             
      <!-- external links   -->
     <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript" ></script>
-
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous" defer></script>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map" crossorigin="anonymous" defer async></script> -->
@@ -26,7 +26,7 @@
     <?php //echo $view->getThemePath() ?><!--/css/footer-modified.css">-->
 
     <link rel="stylesheet" type="text/css"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header1.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/footer/footer.css">
 
@@ -44,7 +44,7 @@
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/topTraders/top_traders.css">
     <link rel="stylesheet" type="text/css"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/tradingcup2020/tradingcup_2020.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/tradingcup2020/tradingcup_2020_1.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/whytradeAcy/why_trade_acy.css">
 
