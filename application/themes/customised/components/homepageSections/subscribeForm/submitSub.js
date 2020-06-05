@@ -53,7 +53,7 @@ var handleResponseMsg = function handleResponseMsg(res){
 
   res.json().then(data=>{
     console.log('you got response here',data);
-    if(data.status === 202 || data.status === 201 || data.status === 200){
+    if(data.status_code === 202 || data.status_code === 201 || data.status_code === 200){
       showSubmitMessage();
     }else{
       showErrorMessage(data.message);
@@ -72,16 +72,18 @@ var submitForm = function submitForm(e) {
       method: "POST",
       body: getRequestBody()
     }).then(function (res) {
+      
       if (res.status === 202 || res.status === 201 || res.status === 200) {
-        window.resultF = res;
         handleResponseMsg(res)
       } else {
         console.log(res);
       }
     }).catch(function (err) {
+      console.log('in the cache process');
       showErrorMessage(err);
     });
   } else {
+    console.log('res countryNot fit');
     showErrorMessage();
   }
 };

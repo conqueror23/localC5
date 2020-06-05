@@ -5,7 +5,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 var submitUrl = 'https://apiform.crm.zerologix.com/v1/landing-page/2020/trading-cup-subscribe';
 // create options list
 function createDefaultValue(list) {
-    var defaultEn = 'Country1';
+    var defaultEn = 'Country';
     var defaultZh = '请选择国家';
     var finalList = [];
     if (lang === 'en') {
