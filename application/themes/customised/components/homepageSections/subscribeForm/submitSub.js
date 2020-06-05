@@ -49,6 +49,20 @@ var showErrorMessage = function showErrorMessage(err) {
 var concealErrorMessage = function concealErrorMessage() {
   document.getElementById('error-msg').setAttribute('style', 'display:none');
 };
+var handleResponseMsg = function handleResponseMsg(res){
+
+  res.json().then(data=>{
+    console.log('you got response here',data);
+    if(data.status === 202 || data.status === 201 || data.status === 200){
+      showSubmitMessage();
+    }else{
+      showErrorMessage(data.message);
+    }
+  })
+
+  // showErrorMessage(err);
+
+}
 
 var submitForm = function submitForm(e) {
   e.preventDefault();
@@ -58,8 +72,9 @@ var submitForm = function submitForm(e) {
       method: "POST",
       body: getRequestBody()
     }).then(function (res) {
-      if (res.status === 202 || res.status === 200) {
-        showSubmitMessage();
+      if (res.status === 202 || res.status === 201 || res.status === 200) {
+        window.resultF = res;
+        handleResponseMsg(res)
       } else {
         console.log(res);
       }
