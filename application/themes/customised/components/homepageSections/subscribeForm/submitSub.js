@@ -52,7 +52,6 @@ var concealErrorMessage = function concealErrorMessage() {
 var handleResponseMsg = function handleResponseMsg(res){
 
   res.json().then(data=>{
-    console.log('you got response here',data);
     if(data.status_code === 202 || data.status_code === 201 || data.status_code === 200){
       showSubmitMessage();
     }else{
@@ -79,11 +78,9 @@ var submitForm = function submitForm(e) {
         console.log(res);
       }
     }).catch(function (err) {
-      console.log('in the cache process');
       showErrorMessage(err);
     });
   } else {
-    console.log('res countryNot fit');
     showErrorMessage();
   }
 };
