@@ -69,7 +69,13 @@ var submitForm = function submitForm(e) {
   if (getSubmitData().country !== "Country" && getSubmitData().country !== "%E8%AF%B7%E9%80%89%E6%8B%A9%E5%9B%BD%E5%AE%B6") {
     fetch(submitUrl, {
       method: "POST",
-      body: getRequestBody()
+      headers: {
+        'Content-Type': 'application/json'
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body:JSON.stringify(getSubmitData()),
+      // body: getRequestBody()
+
     }).then(function (res) {
       
       if (res.status === 202 || res.status === 201 || res.status === 200) {
