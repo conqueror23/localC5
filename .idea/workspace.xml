@@ -185,7 +185,7 @@
       <workItem from="1591317016168" duration="143000" />
       <workItem from="1591679706768" duration="861000" />
       <workItem from="1591681303407" duration="5684000" />
-      <workItem from="1591690122779" duration="244000" />
+      <workItem from="1591690122779" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591688890482</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update mobile layout and ie support for tradingcup">
+      <created>1591690523684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591690523685</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,10 +266,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="821" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1591143308607" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591688888807">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591690523380">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591688888807" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591690523380" />
     <state x="797" y="382" key="EditFileWatcherDialog" timestamp="1591249580643">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

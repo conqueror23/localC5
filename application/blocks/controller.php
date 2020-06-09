@@ -185,5 +185,42 @@ class Controller extends BlockController{
         return true;
     }
 
+    public function action_preview_pane()
+    {
+        $token = $this->app->make('token');
+        if (!$token->validate('cusBlock-ui-preview')) {
+            throw new UserMessageException($token->getErrorMessage());
+        }
+        $bt = $this->app->make(EntityManagerInterface::class)->find(BlockType::class, $this->getBlockTypeID());
+        $btc = $bt->getController();
+        $post = $this->request->request;
+        $btc->collection = $this->getCollectionObject();
+        $btc->orderBy = $post->get('orderBy');
+        $btc->cID = $post->get('cID');
+        $btc->displayPages = $post->get('displayPages');
+        $btc->displaySubPages = $post->get('displaySubPages');
+        $btc->displaySubPageLevels = $post->get('displaySubPageLevels');
+        $btc->displaySubPageLevelsNum = $post->get('displaySubPageLevelsNum');
+        $btc->displayUnavailablePages = $post->get('displayUnavailablePages');
+        if ($btc->displayPages === 'custom') {
+            $btc->displayPagesCID = $post->get('displayPagesCID');
+            $btc->displayPagesIncludeSelf = $post->get('displayPagesIncludeSelf');
+        }
+        $bv = new BlockView($bt);
+        ob_start();
+        $bv->render('view');
+        $content = ob_get_contents();
+        ob_end_clean();
 
-}
+        return $this->app->make(ResponseFactoryInterface::class)->create($content);
+    }
+    public function shouldIncludeParentItem()
+    {
+        return $this->includeParentItem;
+    }
+    public function setIncludeParentItem($includeParentItem)
+    {
+        $this->includeParentItem = $includeParentItem;
+    }
+
+    }
