@@ -8,11 +8,14 @@ var subscribeFormAfter = document.getElementById('form-after');
 var getFormData = function getFormData() {
   var dataObject = {};
   var data = $('form').serialize();
+  const form =document.getElementById('subscribe-form'); 
+  var dataT = new FormData(form);
   var dataArr = data.split('&');
   dataArr.map(function (key) {
     var record = key.split('=');
     dataObject[record[0]] = record[1];
   });
+  dataObject["email"]=dataT.get('email');
   return dataObject;
 };
 
@@ -24,13 +27,13 @@ var getSubmitData = function getSubmitData() {
   var _leadData = leadData(),
       leadSource = _leadData.leadSource,
       leadSourceClassification = _leadData.leadSourceClassification;
-
   var formData = getFormData();
   formData["lead_source"] = leadSource;
   formData["lead_source_classification"] = leadSourceClassification;
   return formData;
 };
 var getRequestBody = function getRequestBody() {
+
   var body = [];
   var submitData = getSubmitData();
   var keys = Object.keys(submitData);
