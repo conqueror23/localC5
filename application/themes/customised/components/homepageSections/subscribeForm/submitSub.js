@@ -74,13 +74,9 @@ var submitForm = function submitForm(e) {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
-        // 'Content-Type': 'application/x-www-form-urlencoded',
       },
       body:JSON.stringify(getSubmitData()),
-      // body: getRequestBody()
-
     }).then(function (res) {
-      
       if (res.status === 202 || res.status === 201 || res.status === 200) {
         handleResponseMsg(res)
       } else {
