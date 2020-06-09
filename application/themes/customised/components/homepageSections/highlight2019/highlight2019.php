@@ -23,8 +23,8 @@
             </div>
         </div>
     </div>
-    <div class="close hide">×</div>
     <div class="video-wrap hide">
+      <div class="close hide">×</div>
         <div id="player" class="video">
         </div>
     </div>

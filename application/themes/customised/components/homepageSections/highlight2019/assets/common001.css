@@ -34,7 +34,7 @@
 .close {
   color:#fff;
   font-size: 40px;
-  position: absolute;
+  position: fixed;
   right:5px;
   top:0;
   cursor: pointer;
