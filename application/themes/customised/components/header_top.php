@@ -3,7 +3,7 @@
 <html lang="<?php echo Localization::activeLanguage() ?>">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta data-n-head="true" data-hid="og:image" property="og:image" content="<?php echo $view->getThemePath() ?>/images/ogImage.jpg">
+    <meta data-n-head="true" data-hid="og:image" property="og:image" content="https://www.tradingcup.com/application/themes/customised/images/ogImage.jpg">
     <!-- google tag manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
