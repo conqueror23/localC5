@@ -4,7 +4,6 @@ defined('C5_EXECUTE') or die("Access Denied.");
 $this->inc('components/header.php');
 
 ?>
-
 <?php
 $this->inc('components/homepageSections/tradingcup2020/tradingcup_2020.php');
 ?>

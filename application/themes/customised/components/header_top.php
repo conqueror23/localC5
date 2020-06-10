@@ -95,6 +95,8 @@
     </script>
 </head>
 <body>
+<script> var lang = "<?php echo Localization::activeLanguage() ?>"; </script>
+
 <!-- google tag manager -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M649WJD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

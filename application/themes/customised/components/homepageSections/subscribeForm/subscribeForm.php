@@ -34,5 +34,4 @@
     </div>
 </div>
 <div id="error-msg">*Error happened when submitting please try again*</div>
-<script> var lang ='en'</script>
 
