@@ -7,7 +7,7 @@ use Concrete\Core\Support\Facade\Config;
 use Concrete\Core\User\User;
 use Permissions;
 use CollectionVersion;
-use Loader;
+use Symfony\Component\Config\Loader\Loader;
 use Page;
 use Concrete\Core\Workflow\Request\ApprovePageRequest as ApprovePagePageWorkflowRequest;
 use PageEditResponse;

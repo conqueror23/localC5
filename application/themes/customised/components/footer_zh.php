@@ -65,7 +65,7 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                 ACY Securities Pty Ltd（“ACY AU”）由澳大利亚证券和投资委员会（ASIC AFSL：403863）授权和监管。注册地址：Level 18, 799 Pacific Hwy,
                 Chatswood NSW 2067。AFSL授权我们为澳大利亚居民或企业提供服务。
             </p>
-            <p class="term-line"> © 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href="<?= $this->getThemePath()?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf"> 网站使用条款</a></p>
+            <p class="term-line"> © 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href="<?= $this->getThemePath()?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf" target="_blank"> 网站使用条款</a></p>
 
 
         </div>

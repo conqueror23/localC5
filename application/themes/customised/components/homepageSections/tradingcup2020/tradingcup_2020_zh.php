@@ -18,7 +18,7 @@
                 </li>
             </ul>
             <a href="#how-to" class='enter-button'>如何参与 <span>&#8595;</span> </a>
-            <p id="sub-msg">*交易有风险。<a href='<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf'>活动条款适用。</a></p>
+            <p id="sub-msg">*交易有风险。<a href='<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf' target="_blank">活动条款适用。</a></p>
         </div>
     </div>
 </div>

@@ -77,7 +77,7 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                 Investments Commission (ASIC AFSL:403863). Registered address: Level 18, 799 Pacific Hwy, Chatswood NSW
                 2067. AFSL is authorised us to provide our services to Australian Residents or Businesses.
             </p>
-            <p class="term-line">© 2018 - 2020 ACY Securities Pty Ltd. All right Reserved. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf"> Terms of use ACY Securities
+            <p class="term-line">© 2018 - 2020 ACY Securities Pty Ltd. All right Reserved. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank"> Terms of use ACY Securities
                 Website </a></p>
 
         </div>

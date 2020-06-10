@@ -10,4 +10,5 @@ $(function () {
         sideMenu.openNav();
         return false;
     });
+
 });

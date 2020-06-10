@@ -15,7 +15,7 @@
                     </li>
                 </ul>
                 <a href="#how-to" class='enter-button'>How To Enter <span>&#8595;</span> </a>
-                <p id="sub-msg">*Trading involves risk. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf">T&Cs apply.</a></p>
+                <p id="sub-msg">*Trading involves risk. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank">T&Cs apply.</a></p>
             </div>
         </div>
     </div>

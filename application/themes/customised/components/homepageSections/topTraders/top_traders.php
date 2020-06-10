@@ -6,7 +6,7 @@
         <p>
             Each stage runs for a month and has a total prize pool of $US10,000.
             The prize pool is split up with $US7,000, $US2,000 and $US1,000 going to 1st, 2nd and 3rd.
-            <a href='<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf'>
+            <a href='<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf' target="_blank">
             T&Cs apply.</a>
         </p>
         <div class="tab-section">

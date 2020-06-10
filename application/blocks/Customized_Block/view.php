@@ -2,8 +2,7 @@
 
 ?>
 <div class="customized_block_wrapper">
-
-    <div>
+    <div class="customized_block_content_wrapper">
         <h1>
             A Customized Block is here in Title
         </h1>
@@ -11,6 +10,7 @@
             This is the main content here in the customized block wrapper in p tag
         </p>
     </div>
+
 
 </div>
 

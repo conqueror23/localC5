@@ -7,7 +7,7 @@
         <p>
             每个阶段为期一个月，阶段赛奖金为10,000美元。
             前三名的奖金分别为$7,000，$2,000，$1,000。
-            <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf">活动条款适用。</a>
+            <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf" target="_blank">活动条款适用。</a>
         </p>
         <div class="tab-section">
             <div id="tradingCupWidget" style="width:100%; height: 1200px; background-color:transparent;"

@@ -2,11 +2,21 @@
 <schema version="0.3">
     <table name="btCustomizedBlock">
         <field name="bID" type="I">
-            <key ></key>
-            <unsigned ></unsigned>
+            <key />
+            <unsigned />
             <default value="0"/>
         </field>
         <field name="content" type="X2">
         </field>
+        <field name="btDescription" type="">
+
+        </field>
+
+        <field name="btName" type="">
+
+        </field>
+
+
+
     </table>
 </schema>

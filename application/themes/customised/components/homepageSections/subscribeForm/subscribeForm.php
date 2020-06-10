@@ -6,7 +6,7 @@
                     Subscribe to our trading interviews
                 </h2>
                 <p>
-                    Stay up to date with how our winner share trading
+                    Stay up to date with how our winners are trading
                 </p>
             </div>
             <div class="form-right">
