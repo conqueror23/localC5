@@ -13,7 +13,7 @@
     </div>
     <div class="how-to-right">
         <video controls muted width="580px" height="360px"
-               src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/Trading_Cup_How_to_Register.mp4"></video>
+               src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/Trading_Cup_How_to_Register.mp4" webkit-playsinline playsinline></video>
     </div>
 </div>
 

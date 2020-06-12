@@ -22,17 +22,12 @@
      <!-- external links   -->
     <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript" ></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous" defer></script>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map" crossorigin="anonymous" defer async></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetchival/0.3.2/index.min.js" integrity="sha256-JAUhVrURjJBWcWw4rjX42p4JltYpCS3kjpU7oxpuEjY=" crossorigin="anonymous"></script>
 
     <!-- end of pre request packages-->
 
-    <script src="<?php echo $view->getThemePath() ?>/js/globalActions.js"></script>
 
-    <?php //echo $view->getThemePath() ?><!--/css/header-modified.css">-->
-    <?php //echo $view->getThemePath() ?><!--/css/footer-modified.css">-->
 
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header.css">
