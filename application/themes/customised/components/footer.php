@@ -35,6 +35,9 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                     </li>
 
                     <li>
+                        <a href="https://www.tradingcup.com/en/news">News</a> |
+                    </li>
+                    <li>
                         <a href="https://www.tradingcup.com/en/faq">FAQ</a> |
                     </li>
 
@@ -62,23 +65,16 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
         </div>
         <div class="footer-description section-content-wrapper">
             <p>
-                RISK WARNING: Foreign exchange and derivatives trading carry a high level of risk. Before you decide to
-                trade foreign exchange, we encourage you to consider your investment objectives, your risk tolerance and
-                trading experience. It is possible to lose more than your initial investment, so do not invest money you
-                cannot afford to lose. ACY Securities Pty Ltd (ABN: 80 150 565 781 AFSL: 403863) provides general advice
-                that does not consider your objectives, financial situation or needs. The content of this website must
-                not be construed as personal advice; please seek advice from an independent financial or tax advisor if
-                you have any questions. The FSG and PDS are available upon request or registration. If there is any
-                advice on this site, it is general advice only.
+                <?php echo t("disclaimer-line1");?>
             </p>
 
             <p>
-                ACY Securities Pty Ltd (“ACY AU”) is authorised and regulated by the Australian Securities and
-                Investments Commission (ASIC AFSL:403863). Registered address: Level 18, 799 Pacific Hwy, Chatswood NSW
-                2067. AFSL is authorised us to provide our services to Australian Residents or Businesses.
+            <?php echo t("disclaimer-line2");?>
             </p>
-            <p class="term-line">© 2018 - 2020 ACY Securities Pty Ltd. All right Reserved. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank"> Terms of use ACY Securities
-                Website </a></p>
+            <p>
+                <?php echo t("disclaimer-line3");?>
+
+            </p>
 
         </div>
     </div>

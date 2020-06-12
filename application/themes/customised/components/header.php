@@ -10,7 +10,7 @@ $this->inc('components/header_top.php');
             <div class="header-nav">
                 <ul>
                     <li><a href="https://www.tradingcup.com">Home</a></li>
-                    <!--                <li><a href="/news">News</a></li>-->
+                                   <li><a href="https://www.tradingcup.com/en/news">News</a></li>
                     <li id="dropdown-list-anchor">Past Champions <img
                                 src="<?= $this->getThemePath() ?>/components/homepageSections/header/Path.png"
                                 alt="arrow lost">
@@ -40,7 +40,7 @@ $this->inc('components/header_top.php');
             <div class="mobile-nav">
                 <ul>
                     <li><a href="https://www.tradingcup.com">Home</a></li>
-                    <!--                    <li><a href="">News</a></li>-->
+                                       <li><a href="https://www.tradingcup.com/en/news">News</a></li>
                     <li id="dropdown-list-anchor">Past Champions <img
                                 src="<?= $this->getThemePath() ?>/components/homepageSections/header/Path.png"
                                 alt="arrow lost">
