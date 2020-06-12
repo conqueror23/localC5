@@ -1,13 +1,13 @@
 <div class="sponsorWrapper section-content-wrapper">
     <div class="logo">
-        <p>Major Sponsor</p>
+        <p><?php echo t("Major Sponsor");?></p>
         <div class="acy">
             <a href="https://www.acysecurities.com/en-int/">
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy_securities_logo_eng_white.png"
                      alt="">
             </a>
         </div>
-        <p>Media Partners</p>
+        <p><?php echo t("Media Partners");?></p>
         <div class="logo-pics">
             <div>
                 <picture>

@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-12T04:40:49+00:00\n"
-"PO-Revision-Date: 2020-06-12T04:40:49+00:00\n"
+"POT-Creation-Date: 2020-06-12T04:55:11+00:00\n"
+"PO-Revision-Date: 2020-06-12T04:55:11+00:00\n"
 "Language: zh_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -228,6 +228,83 @@ msgstr "获取最新的参赛者访谈和交易策略分享，以及2020交易�
 msgid "Go to Trading Cup Blog"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:5
+msgid "Why Trade with ACY Securities"
+msgstr "选择ACY稀万证券的六大理由"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:8
+msgid ""
+"ACY Securities is proud to provide the leading ECN trading accounts for the Trading Cup in 2020. When you\n"
+"            trade\n"
+"            with ACY Securities, you get the best of our zeroECN account with spreads from 0.0 pips, plus no\n"
+"            restrictions on\n"
+"            Expert Advisors (EAs) or high-frequency trading. You get ultra-fast execution and direct access to our\n"
+"            Equinix\n"
+"            servers in New York and Asia, with execution speeds under 30ms."
+msgstr "ACY稀万证券很荣幸能为2020交易杯提供领先的ECN交易账户服务。当您在ACY稀万证券交易时，我们将为您提供最适合的zeroECN零点差交易账户。该账户允许使用EA交易，也可以日内高频交易。通过直接访问我们位于纽约和亚洲的Equinix顶级服务器，毫秒级交易体验，超快的订单执行速度。"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:20
+msgid "Super-fast execution of orders"
+msgstr "超快速交易执行"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:23
+msgid "Trade with confidence"
+msgstr "助力交易"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:30
+msgid "Ultra-low-cost trading"
+msgstr "超低交易成本"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:33
+msgid "Spreads from 0.0 pips"
+msgstr "产品点差低至0"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:39
+msgid "No Dealing Desk"
+msgstr "无交易员模式"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:42
+msgid "True ECN broker"
+msgstr "订单直通全球交易市场"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:48
+msgid "Cut-through Market Analysis"
+msgstr "每日市场分析"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:51
+msgid "Morning & Afternoon reports"
+msgstr "早市和下午分析报告覆盖全球"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:57
+msgid "Premium Educational Resources"
+msgstr "优质教育资源"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:60
+msgid "Free Professional Trading Courses"
+msgstr "提供多样的教学资源"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:66
+msgid "ASIC-regulated"
+msgstr "监管安全"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:69
+msgid "Headquartered in Sydney"
+msgstr "受澳大利亚证券投资委员会（ASIC）监管"
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:73
+msgid ""
+"Create\n"
+"            Account"
+msgstr "开设账户"
+
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:3
+msgid "Major Sponsor"
+msgstr "赞助商"
+
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:10
+msgid "Media Partners"
+msgstr "合作媒体"
+
 #: application/themes/customised/components/homepageSections/highlight2019/highlight2019.php:5
 msgid "2019 Highlights"
 msgstr "2019集锦"
@@ -267,12 +344,26 @@ msgid "Start trading"
 msgstr "开始交易！"
 
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:12
+#: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:17
 msgid "Enter Now"
 msgstr "立即参与"
 
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:13
 msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
 msgstr "*$2,000货币单位是基于开设的比赛账户货币单位，如2,000美元或2,000澳元"
+
+#: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:7
+msgid "The 2020 Qualifiers"
+msgstr "2020资格赛晋级选手"
+
+#: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:10
+msgid ""
+"You have two chances to qualify for the grand final. If you win one of the 6 qualifying stages, you\n"
+"                    gain\n"
+"                    automatic entry into the final 10 spots. The second way is if you come 2nd, 3rd, 4th or 5th, you’ll\n"
+"                    get\n"
+"                    an invite to the grand final top 30, where 4 spots will be up for grabs in our live qualifier."
+msgstr "您有两种方式晋级总决赛之夜。其一，如果您是在这6个阶段资格赛中成为第一名，那么您将可以自动获得总决赛之夜最后一场十个席位之一，争夺总冠军。其二，每个阶段资格赛的第二名至第五名将获得总决赛的参赛资格，竞争十个席位中的最后四个。"
 
 #: packages/modena/controller.php:42
 #: packages/modena/themes/modena/page_theme.php:13

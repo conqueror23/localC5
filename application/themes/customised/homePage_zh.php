@@ -27,7 +27,7 @@ $this->inc('components/homepageSections/highlight2019/highlight2019.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/top2020Qualifiers/top_2020_qualifiers_zh.php');
+$this->inc('components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php');
 ?>
 
 <?php
@@ -35,11 +35,11 @@ $this->inc('components/homepageSections/news/news.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/whytradeAcy/why_trade_acy_zh.php');
+$this->inc('components/homepageSections/whytradeAcy/why_trade_acy.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/sponsor/sponsor_zh.php');
+$this->inc('components/homepageSections/sponsor/sponsor.php');
 ?>
 
 <?php

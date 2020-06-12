@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-12T04:39:47+00:00\n"
-"PO-Revision-Date: 2020-06-12T04:39:48+00:00\n"
+"POT-Creation-Date: 2020-06-12T04:54:39+00:00\n"
+"PO-Revision-Date: 2020-06-12T04:54:40+00:00\n"
 "Language: en_AU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -228,6 +228,83 @@ msgstr ""
 msgid "Go to Trading Cup Blog"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:5
+msgid "Why Trade with ACY Securities"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:8
+msgid ""
+"ACY Securities is proud to provide the leading ECN trading accounts for the Trading Cup in 2020. When you\n"
+"            trade\n"
+"            with ACY Securities, you get the best of our zeroECN account with spreads from 0.0 pips, plus no\n"
+"            restrictions on\n"
+"            Expert Advisors (EAs) or high-frequency trading. You get ultra-fast execution and direct access to our\n"
+"            Equinix\n"
+"            servers in New York and Asia, with execution speeds under 30ms."
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:20
+msgid "Super-fast execution of orders"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:23
+msgid "Trade with confidence"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:30
+msgid "Ultra-low-cost trading"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:33
+msgid "Spreads from 0.0 pips"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:39
+msgid "No Dealing Desk"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:42
+msgid "True ECN broker"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:48
+msgid "Cut-through Market Analysis"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:51
+msgid "Morning & Afternoon reports"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:57
+msgid "Premium Educational Resources"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:60
+msgid "Free Professional Trading Courses"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:66
+msgid "ASIC-regulated"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:69
+msgid "Headquartered in Sydney"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/whytradeAcy/why_trade_acy.php:73
+msgid ""
+"Create\n"
+"            Account"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:3
+msgid "Major Sponsor"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:10
+msgid "Media Partners"
+msgstr ""
+
 #: application/themes/customised/components/homepageSections/highlight2019/highlight2019.php:5
 msgid "2019 Highlights"
 msgstr ""
@@ -267,11 +344,25 @@ msgid "Start trading"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:12
+#: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:17
 msgid "Enter Now"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:13
 msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:7
+msgid "The 2020 Qualifiers"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:10
+msgid ""
+"You have two chances to qualify for the grand final. If you win one of the 6 qualifying stages, you\n"
+"                    gain\n"
+"                    automatic entry into the final 10 spots. The second way is if you come 2nd, 3rd, 4th or 5th, you’ll\n"
+"                    get\n"
+"                    an invite to the grand final top 30, where 4 spots will be up for grabs in our live qualifier."
 msgstr ""
 
 #: packages/modena/controller.php:42
