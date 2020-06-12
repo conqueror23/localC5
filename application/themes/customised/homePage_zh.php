@@ -15,7 +15,7 @@ $this->inc('components/homepageSections/subscribeForm/subscribeForm_zh.php');
 
 
 <?php
-$this->inc('components/homepageSections/howtoApply/how_to_apply_zh.php');
+$this->inc('components/homepageSections/howtoApply/how_to_apply.php');
 ?>
 
 <?php
@@ -23,7 +23,7 @@ $this->inc('components/homepageSections/topTraders/top_traders_zh.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/highlight2019/highlight2019_zh.php');
+$this->inc('components/homepageSections/highlight2019/highlight2019.php');
 ?>
 
 <?php
@@ -31,7 +31,7 @@ $this->inc('components/homepageSections/top2020Qualifiers/top_2020_qualifiers_zh
 ?>
 
 <?php
-$this->inc('components/homepageSections/news/news_zh.php');
+$this->inc('components/homepageSections/news/news.php');
 ?>
 
 <?php

@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-12T03:53:00+00:00\n"
-"PO-Revision-Date: 2020-06-12T03:53:01+00:00\n"
+"POT-Creation-Date: 2020-06-12T04:39:47+00:00\n"
+"PO-Revision-Date: 2020-06-12T04:39:48+00:00\n"
 "Language: en_AU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -204,12 +204,74 @@ msgstr ""
 msgid "$US90,000 up for grabs in the grand final"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:14
+msgid "The Grand Champion gets $US63,000"
+msgstr ""
+
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:17
 msgid "How To Enter "
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
 msgid "*Trading involves risk. <a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs apply.</a>"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/news/news.php:8
+msgid "News & Announcements"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/news/news.php:10
+msgid "Catch up with the latest interviews and strategies from the leaders, plus the 2020 Grand Final qualifier updates."
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/news/news.php:12
+msgid "Go to Trading Cup Blog"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/highlight2019/highlight2019.php:5
+msgid "2019 Highlights"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/highlight2019/highlight2019.php:6
+msgid ""
+"The grand final was live telecast around the world and hosted at the e-stadium in Macau to a live\n"
+"                    audience.\n"
+"                    30 contestants were flown in from around the world for the chance to be crowned the 2019 Trading\n"
+"                    Champion. The\n"
+"                    atmosphere of the final was electrifying as you’ll see by clicking play on the highlights video\n"
+"                    here."
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/highlight2019/highlight2019.php:14
+msgid "Watch full highlights"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:3
+msgid "How To Apply"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:6
+msgid "<a href=\"javascript:void(0)\" class=\"open-form\">Click here</a> to open a live account with ACY Securities"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:8
+msgid "You Will receive an email confirmation once approved"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:9
+msgid "Deposit a minimum of $2000 into your ACY Live Trading Account. *"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:10
+msgid "Start trading"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:12
+msgid "Enter Now"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:13
+msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
 msgstr ""
 
 #: packages/modena/controller.php:42

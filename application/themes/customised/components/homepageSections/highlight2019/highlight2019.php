@@ -2,16 +2,16 @@
     <div class="wrap">
         <div class="highlights">
             <div class="highlights-words">
-                <h1>2019 Highlights</h1>
-                <p>The grand final was live telecast around the world and hosted at the e-stadium in Macau to a live
+                <h1><?php echo t("2019 Highlights");?></h1>
+                <p><?php echo t("The grand final was live telecast around the world and hosted at the e-stadium in Macau to a live
                     audience.
                     30 contestants were flown in from around the world for the chance to be crowned the 2019 Trading
                     Champion. The
                     atmosphere of the final was electrifying as you’ll see by clicking play on the highlights video
-                    here.</p>
+                    here.");?></p>
                 <div>
                     <button class="highlights-words-btn">
-                        <span>Watch full highlights</span>
+                        <span><?php echo t("Watch full highlights");?></span>
                         <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/highlight2019/images/Youtube.png"
                              alt="">
                     </button>
