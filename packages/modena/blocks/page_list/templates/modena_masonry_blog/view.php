@@ -139,12 +139,12 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) : ?>
                         <?php
                             $page_owner = UserInfo::getByID($page->getCollectionUserID());
                                 if (is_object($page_owner)) {
-                                echo h("Posted by ") . $page_owner->getUserDisplayName() . " /";
+                                echo h(t("Posted by ")) . $page_owner->getUserDisplayName() . " /";
                             }
                         ?>
                         <time datetime="<?php echo $page->getCollectionDatePublic(); ?>"><?php echo $date; ?></time>
                             <span class="masonry-blog-read-more float-right">
-                                <a href="<?php echo h($url) ?>" target="<?php echo h($target) ?>" class="<?php echo h($buttonClasses) ?>"><?php echo h("Read more...") ?></a>
+                                <a href="<?php echo h($url) ?>" target="<?php echo h($target) ?>" class="<?php echo h($buttonClasses) ?>"><?php echo h(t("Read more...")) ?></a>
                             </span>
                     </div>
                 <?php endif; ?>
@@ -153,7 +153,7 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) : ?>
         <?php endforeach; ?>
     </div><!-- end .ccm-block-page-list-pages -->
         <?php if (count($pages) == 0) : ?>
-            <div class="ccm-block-page-list-no-pages"><?php echo h($noResultsMessage) ?></div>
+            <div class="ccm-block-page-list-no-pages"><?php echo h(t($noResultsMessage)) ?></div>
         <?php endif; ?>
 </div><!-- end .ccm-block-page-list-wrapper -->
 

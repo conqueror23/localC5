@@ -155,7 +155,7 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) : ?>
                             <?php endif; ?>
                         </p>
                         <span class="blog-teaser__read-more">
-                            <a href="<?php echo h($url) ?>" target="<?php echo h($target) ?>" class="<?php echo h($buttonClasses) ?>"><?php echo h("Read more...") ?></a>
+                            <a href="<?php echo h($url) ?>" target="<?php echo h($target) ?>" class="<?php echo h($buttonClasses) ?>"><?php echo h(t("Read more...")) ?></a>
                         </span>
                     </div>
                 <?php endif; ?>
@@ -165,7 +165,7 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) : ?>
                 <?php } ?>
 
             <?php if (count($pages) == 0) { ?>
-                <div class="ccm-block-page-list-no-pages"><?php echo h($noResultsMessage) ?></div>
+                <div class="ccm-block-page-list-no-pages"><?php echo h(t($noResultsMessage)) ?></div>
             <?php } ?>
 
         <?php if ($showPagination) : ?>

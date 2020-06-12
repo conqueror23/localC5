@@ -115,14 +115,16 @@
             <div class="column-12 copyright-content <?php echo $pObj->getConfig()->get('site_front_end.copyright_position.copyright_position'); ?> ">
                 <div class="copyright-border margin-bottom-5 margin-top-30"></div>
                 <p>
-                    <span class="copyright"><?php echo h("Copyright") ?> &copy; <?php echo date('Y'); ?>&nbsp;</span> 
+                    <!-- <span class="copyright"><?php echo h("Copyright") ?> &copy; <?php echo date('Y'); ?>&nbsp;</span>  -->
                         <?php 
                             $copyrightNotice = $pObj->getConfig()->get('site_front_end.copyright_notice.copyright_notice');
-                            if ($copyrightNotice) {
-                                echo $copyrightNotice;
-                            }else{
-                                echo t('Your company name here');
-                        } ?>
+                            // if ($copyrightNotice) {
+                            //     echo $copyrightNotice;
+                            // }else{
+                            //     echo t('Your company name here');
+                            // } 
+                            echo t('disclaimer-line1')
+                        ?>
 
                         <?php if($pObj->getConfig()->get('site_front_end.login_link.login_link')) : ?>
                             &nbsp; | &nbsp;
@@ -142,6 +144,19 @@
                                 echo t('Built with <a href="http://concrete5.com" target="_blank">Concrete5</a> CMS');
                         } ?>
                 </p>
+                <p>
+                    <?php
+                        echo t('disclaimer-line2')
+                    ?>
+                </p>
+                <p>
+                    <?php echo t('disclaimer-line3')?> <a href="/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target='_blank'>
+                    <?php
+                    echo t('Terms of use Acy')
+                    ?>
+                    </a>
+                </p>
+
             </div>
         </div>
     </div>
