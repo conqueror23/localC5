@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-12T04:55:11+00:00\n"
-"PO-Revision-Date: 2020-06-12T04:55:11+00:00\n"
+"POT-Creation-Date: 2020-06-12T05:22:35+00:00\n"
+"PO-Revision-Date: 2020-06-12T05:22:35+00:00\n"
 "Language: zh_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -365,6 +365,89 @@ msgid ""
 "                    an invite to the grand final top 30, where 4 spots will be up for grabs in our live qualifier."
 msgstr "您有两种方式晋级总决赛之夜。其一，如果您是在这6个阶段资格赛中成为第一名，那么您将可以自动获得总决赛之夜最后一场十个席位之一，争夺总冠军。其二，每个阶段资格赛的第二名至第五名将获得总决赛的参赛资格，竞争十个席位中的最后四个。"
 
+#: application/themes/customised/components/footer.php:16
+#: application/themes/customised/components/footer.php:26
+#: application/themes/customised/components/footer.php:30
+#: application/themes/customised/components/footer.php:34
+#: application/themes/customised/components/footer.php:38
+#: application/themes/customised/components/footer.php:41
+#: application/themes/customised/components/footer.php:49
+#: application/themes/customised/components/header.php:7
+#: application/themes/customised/components/header.php:13
+#: application/themes/customised/components/header.php:15
+#: application/themes/customised/components/header.php:20
+#: application/themes/customised/components/header.php:21
+#: application/themes/customised/components/header.php:44
+#: application/themes/customised/components/header.php:45
+#: application/themes/customised/components/header.php:50
+#: application/themes/customised/components/header.php:51
+msgid "https://www.tradingcup.com/en"
+msgstr "https://www.tradingcup.com/zh"
+
+#: application/themes/customised/components/footer.php:26
+#: application/themes/customised/components/header.php:13
+#: application/themes/customised/components/header.php:44
+#: packages/modena/controller.php:206
+msgid "Home"
+msgstr "首页"
+
+#: application/themes/customised/components/footer.php:30
+#: application/themes/customised/components/header.php:20
+#: application/themes/customised/components/header.php:50
+msgid "2019 Champion"
+msgstr "2019交易杯"
+
+#: application/themes/customised/components/footer.php:34
+#: application/themes/customised/components/header.php:21
+#: application/themes/customised/components/header.php:51
+msgid "2018 Champion"
+msgstr "2018交易杯"
+
+#: application/themes/customised/components/footer.php:38
+#: application/themes/customised/components/header.php:15
+#: application/themes/customised/components/header.php:45
+msgid "News"
+msgstr ""
+
+#: application/themes/customised/components/footer.php:41
+msgid "FAQ"
+msgstr ""
+
+#: application/themes/customised/components/footer.php:45
+msgid "T&Cs"
+msgstr "网站使用条款"
+
+#: application/themes/customised/components/footer.php:49
+msgid "Privacy"
+msgstr "隐私条款"
+
+#: application/themes/customised/components/footer.php:68
+#: packages/modena/themes/modena/elements/footer.php:125
+#: packages/modena/themes/modena/elements/footer_zh.php:126
+msgid "disclaimer-line1"
+msgstr "风险提示：外汇及其他金融衍生品交易风险较高。在您决定进行外汇交易投资之前，我们建议您考虑您的投资目标、风险承受能力以及交易经验。您的交易亏损有可能超过您的原始投入。ACY Securities Pty Ltd（ABN：80 150 565 781 AFSL：403863）并未将您的投资目标、财务状况和需求考虑在内。本网站的内容不构成投资建议，如有任何疑问，请您咨询独立专业的财务或税务的意见。请您务必在进行交易投资前，仔细阅读金融服务指南（FSG）和产品披露申明（PDS）。如果本网站上有任何建议，则仅为一般建议。"
+
+#: application/themes/customised/components/footer.php:72
+#: packages/modena/themes/modena/elements/footer.php:147
+#: packages/modena/themes/modena/elements/footer_zh.php:149
+msgid "disclaimer-line2"
+msgstr "ACY Securities Pty Ltd（“ACY AU”）由澳大利亚证券和投资委员会（ASIC AFSL：403863）授权和监管。注册地址：Level 18, 799 Pacific Hwy, Chatswood NSW 2067。AFSL授权我们为澳大利亚居民或企业提供服务。"
+
+#: application/themes/customised/components/footer.php:75
+#: packages/modena/themes/modena/elements/footer.php:148
+#: packages/modena/themes/modena/elements/footer_zh.php:153
+msgid "disclaimer-line3"
+msgstr "© 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\" target=\"_blank\"> 网站使用条款</a>"
+
+#: application/themes/customised/components/header.php:16
+#: application/themes/customised/components/header.php:46
+msgid "Past Champions"
+msgstr "往届回顾"
+
+#: application/themes/customised/components/header.php:27
+msgid "Enter 2020 Cup"
+msgstr "2020交易杯"
+
 #: packages/modena/controller.php:42
 #: packages/modena/themes/modena/page_theme.php:13
 msgid "Modena Theme"
@@ -392,10 +475,6 @@ msgstr ""
 
 #: packages/modena/controller.php:202
 msgid "Blog Entry"
-msgstr ""
-
-#: packages/modena/controller.php:206
-msgid "Home"
 msgstr ""
 
 #: packages/modena/controller.php:214
@@ -3393,27 +3472,12 @@ msgstr ""
 msgid "Your settings were saved successfully."
 msgstr ""
 
-#: packages/modena/themes/modena/elements/footer.php:125
-#: packages/modena/themes/modena/elements/footer_zh.php:126
-msgid "disclaimer-line1"
-msgstr "风险提示：外汇及其他金融衍生品交易风险较高。在您决定进行外汇交易投资之前，我们建议您考虑您的投资目标、风险承受能力以及交易经验。您的交易亏损有可能超过您的原始投入。ACY Securities Pty Ltd（ABN：80 150 565 781 AFSL：403863）并未将您的投资目标、财务状况和需求考虑在内。本网站的内容不构成投资建议，如有任何疑问，请您咨询独立专业的财务或税务的意见。请您务必在进行交易投资前，仔细阅读金融服务指南（FSG）和产品披露申明（PDS）。如果本网站上有任何建议，则仅为一般建议。"
-
 #: packages/modena/themes/modena/elements/footer.php:144
 #: packages/modena/themes/modena/elements/footer_zh.php:144
 #: packages/modena/themes/modena/elements/footer.php:142
 #: packages/modena/themes/modena/elements/footer_zh.php:142
 msgid "Built with <a href=\"http://concrete5.com\" target=\"_blank\">Concrete5</a> CMS"
 msgstr ""
-
-#: packages/modena/themes/modena/elements/footer.php:147
-#: packages/modena/themes/modena/elements/footer_zh.php:149
-msgid "disclaimer-line2"
-msgstr "ACY Securities Pty Ltd（“ACY AU”）由澳大利亚证券和投资委员会（ASIC AFSL：403863）授权和监管。注册地址：Level 18, 799 Pacific Hwy, Chatswood NSW 2067。AFSL授权我们为澳大利亚居民或企业提供服务。"
-
-#: packages/modena/themes/modena/elements/footer.php:148
-#: packages/modena/themes/modena/elements/footer_zh.php:153
-msgid "disclaimer-line3"
-msgstr "© 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\" target=\"_blank\"> 网站使用条款</a>"
 
 #: packages/modena/themes/modena/page_theme.php:18
 msgid "A stylish, modern, multi-use Concrete5 theme."
