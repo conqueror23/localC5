@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-12T03:16:54+00:00\n"
-"PO-Revision-Date: 2020-06-12T03:16:54+00:00\n"
+"POT-Creation-Date: 2020-06-12T03:33:44+00:00\n"
+"PO-Revision-Date: 2020-06-12T03:33:44+00:00\n"
 "Language: zh_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -3236,7 +3236,7 @@ msgstr "ACY Securities Pty Ltd（“ACY AU”）由澳大利亚证券和投资�
 #: packages/modena/themes/modena/elements/footer.php:148
 #: packages/modena/themes/modena/elements/footer_zh.php:153
 msgid "disclaimer-line3"
-msgstr "© 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。"
+msgstr "© 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\" target=\"_blank\"> 网站使用条款</a>"
 
 #: packages/modena/themes/modena/elements/footer.php:150
 #: packages/modena/themes/modena/elements/footer_zh.php:155

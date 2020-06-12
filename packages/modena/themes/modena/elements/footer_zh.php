@@ -150,11 +150,7 @@
                     ?>
                 </p>
                 <p>
-                    <?php echo t('disclaimer-line3')?> <a href="/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target='_blank'>
-                    <?php
-                    echo t('Terms of use Acy')
-                    ?>
-                    </a>
+                    <?php echo t('disclaimer-line3')?> 
                 </p>
 
             </div>

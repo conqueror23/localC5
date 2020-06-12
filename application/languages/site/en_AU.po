@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-12T03:16:54+00:00\n"
-"PO-Revision-Date: 2020-06-12T03:16:54+00:00\n"
+"POT-Creation-Date: 2020-06-12T03:34:47+00:00\n"
+"PO-Revision-Date: 2020-06-12T03:34:47+00:00\n"
 "Language: en_AU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -3236,7 +3236,7 @@ msgstr "ACY Securities Pty Ltd (“ACY AU”) is authorised and regulated by the
 #: packages/modena/themes/modena/elements/footer.php:148
 #: packages/modena/themes/modena/elements/footer_zh.php:153
 msgid "disclaimer-line3"
-msgstr "© 2018 - 2020 ACY Securities Pty Ltd. All right Reserved"
+msgstr "© 2018 - 2020 ACY Securities Pty Ltd. All right Reserved. <a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\"> Terms of use ACY Securities Website</a>"
 
 #: packages/modena/themes/modena/elements/footer.php:150
 #: packages/modena/themes/modena/elements/footer_zh.php:155

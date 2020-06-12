@@ -144,14 +144,8 @@
                                 echo t('Built with <a href="http://concrete5.com" target="_blank">Concrete5</a> CMS');
                         } ?>
                 </p>
-                <p> <?php echo t('disclaimer-line2')?></p>
-                        <p><?php echo t('disclaimer-line3')?><a href="/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf" target="_blank">
-                        <?php
-                        echo t('Terms of use Acy')
-                        ?>
-                    </a>
-
-                        </p>
+                <p><?php echo t('disclaimer-line2')?></p>
+                <p><?php echo t('disclaimer-line3')?></p>
             </div>
         </div>
     </div>
