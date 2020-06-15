@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-15T05:41:06+00:00\n"
-"PO-Revision-Date: 2020-06-15T05:41:07+00:00\n"
+"POT-Creation-Date: 2020-06-15T07:18:51+00:00\n"
+"PO-Revision-Date: 2020-06-15T07:18:52+00:00\n"
 "Language: zh_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -214,7 +214,7 @@ msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
 msgid "*Trading involves risk. <a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs apply.</a>"
-msgstr ""
+msgstr "*Tradinginvolvesrisk.<a href=\"https://www.tradingcup.com/zh/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\"target=\"_blank\">T&Csapply.</a>"
 
 #: application/themes/customised/components/homepageSections/news/news.php:8
 msgid "News & Announcements"
@@ -352,6 +352,13 @@ msgstr "立即参与"
 msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
 msgstr "*$2,000货币单位是基于开设的比赛账户货币单位，如2,000美元或2,000澳元"
 
+#: application/themes/customised/components/homepageSections/header/header.php:43
+#: application/themes/customised/components/header.php:63
+#: application/themes/customised/components/header_zh.php:60
+#: application/themes/customised/components/header_zh.php:61
+msgid "header.js"
+msgstr "http://localhost:3000/application/themes/customised/components/homepageSections/header/header_zh.js"
+
 #: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:7
 msgid "The 2020 Qualifiers"
 msgstr "2020资格赛晋级选手"
@@ -407,7 +414,7 @@ msgstr "2018交易杯"
 #: application/themes/customised/components/header.php:15
 #: application/themes/customised/components/header.php:45
 msgid "News"
-msgstr ""
+msgstr "新闻与公告"
 
 #: application/themes/customised/components/footer.php:41
 msgid "FAQ"
@@ -447,6 +454,18 @@ msgstr "往届回顾"
 #: application/themes/customised/components/header.php:27
 msgid "Enter 2020 Cup"
 msgstr "2020交易杯"
+
+#: application/themes/customised/components/header.php:60
+msgid "side-menu-title"
+msgstr "交易杯报名"
+
+#: application/themes/customised/components/header.php:60
+msgid "side-menu-subtitle"
+msgstr "仅需几步即可在ACY创建真实交易账户"
+
+#: application/themes/customised/components/header.php:60
+msgid "side-menu-lang"
+msgstr "zh"
 
 #: packages/modena/controller.php:42
 #: packages/modena/themes/modena/page_theme.php:13
@@ -5368,6 +5387,10 @@ msgstr ""
 msgctxt "TopicName"
 msgid "Holidays"
 msgstr ""
+
+#: application/themes/customised/components/header_zh.php:60
+msgid "<script src='https://www.tradingcup.com/components/homepageSections/header/header_zh.js'></script>"
+msgstr "<script src='http://localhost:3000/application/themes/customised/components/homepageSections/header/header_zh.js'></script>"
 
 #: application/themes/customised/components/footerb.php:66
 msgid "Built with <a href=\"http://www.concrete5.org\" class=\"concrete5\" rel=\"nofollow\">concrete5</a> CMS."
