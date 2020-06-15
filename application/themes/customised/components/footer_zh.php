@@ -13,36 +13,37 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
 <footer id="footer-theme">
     <div class="footer-wrapper ">
         <div class="footer-tab section-content-wrapper">
-            <a href="https://www.tradingcup.com/zh_au" class="footer-logo">
+        <a href="<?php echo t('https://www.tradingcup.com/en');?>" class="footer-logo">
                 <img src="<?= $this->getThemePath() ?>/components/homepageSections/footer/logo.png" alt="">
             </a>
             <div class="footer-nav">
                 <ul>
                     <li>
-                        <a href="https://www.tradingcup.com/zh_au">首页</a> |
+                    <a href="<?php echo t('https://www.tradingcup.com/en');?>"> <?php echo t("Home");?></a> |
                     </li>
 
                     <li>
-                        <a href="https://www.tradingcup.com/zh/champions/2019-champions">2019交易杯</a> |
+                    <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2019-champions"><?php echo t("2019 Champion");?></a> |
                     </li>
                     <li>
-                        <a href="https://www.tradingcup.com/zh/champions/2018-champions">2018交易杯</a>|
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2018-champions"><?php echo t("2018 Champion");?></a> |
                     </li>
-
-
                     <li>
-                        <a href="https://www.tradingcup.com/zh_au/faq">FAQ</a> |
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a> |
                     </li>
 
                     <li>
-                        <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf" target="_blank">网站使用条款</a> |
+                    <a href="<?php echo t('https://www.tradingcup.com/en');?>/faq"><?php echo t("FAQ");?></a> |
                     </li>
-
                     <li>
-                        <a href="https://www.tradingcup.com/zh_au/privacy">隐私条款</a> 
+                        <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf" target="_blank"><?php echo t("T&Cs");?></a> |
                     </li>
+                    <li>
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/privacy"><?php echo t("Privacy");?></a>
+                    </li> 
                 </ul>
             </div>
+            
             <div class="social-media ">
                 <?php
                 $this->inc('components/homepageSections/socialMedia/socialMedia_zh.php');
