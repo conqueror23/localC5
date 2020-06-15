@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\express\entry\manyassociation@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-06-13T12:19:31+00:00 */
+/* Expiration: 2020-06-19T16:46:01+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1592050771;
+$expiration = 1592585161;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YToxOntpOjA7TzoyNzoiRG9jdHJpbmVcT1JNXE1hcHBpbmdcRW50aXR5IjoyOntzOjE1OiJyZXBvc2l0b3J5Q2xhc3MiO047czo4OiJyZWFkT25seSI7YjowO319'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1591659373;
+$data['createdOn'] = 1592181730;
