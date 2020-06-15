@@ -72,11 +72,24 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) : ?>
                 $itemClasses = 'isotope-item'." ".$output_tax." ".$isotope_columns;
 
                 $collectionDate = strtotime($page->getCollectionDatePublic());
+
                 if($pObj->getConfig()->get('site_front_end.use_us_date.use_us_date') == true) {
                     $date = date("M d Y", $collectionDate);
                 }else{
                     $date = date("d M Y", $collectionDate);
                 }
+                $dateArray = explode(' ',$date);
+                if(!function_exists('getTranslatedDate')){
+                    function getTranslatedDate($date){
+                        if(!is_numeric($date)){
+                            return t($date);
+                        }
+                        return $date;
+                    }
+                }
+
+
+
 
                 //Other useful page data...
 
@@ -142,7 +155,19 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) : ?>
                                 echo h(t("Posted by ")) . $page_owner->getUserDisplayName() . " /";
                             }
                         ?>
-                        <time datetime="<?php echo $page->getCollectionDatePublic(); ?>"><?php echo $date; ?></time>
+                        <time datetime="<?php echo $page->getCollectionDatePublic(); ?>">
+                            <?php
+                            //TODO optimize this porcess
+                            //display date result
+                            for($i=0, $iMax = count($dateArray); $i< $iMax; $i++){
+                                if($i<$iMax-1){
+                                    echo getTranslatedDate($dateArray[$i]).',';
+                                }else{
+                                    echo getTranslatedDate($dateArray[$i]);
+                                }
+                            }
+                            ?>
+                        </time>
                             <span class="masonry-blog-read-more float-right">
                                 <a href="<?php echo h($url) ?>" target="<?php echo h($target) ?>" class="<?php echo h($buttonClasses) ?>"><?php echo h(t("Read more...")) ?></a>
                             </span>
