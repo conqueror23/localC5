@@ -26,7 +26,6 @@
     flex-wrap: wrap;
 }
 .news-wrapper .news-right a{
-    display: none;
     text-decoration: none;
     width: fit-content;
     color: #000000;
@@ -55,7 +54,7 @@
     width: 100%;
 }
 .news-wrapper .news-right a{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     padding: 8px 0px;
     width: -webkit-fill-available;

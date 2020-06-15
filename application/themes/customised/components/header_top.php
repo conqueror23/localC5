@@ -40,7 +40,7 @@
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/howtoApply/how_to_apply.css">
     <!--    new css not found?-->
     <link rel="stylesheet" type="text/css"
-          href="<?php echo $view->getThemePath() ?>/components/homepageSections/news/news.css">
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/news/news20200615.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/subscribeForm.css">
     <link rel="stylesheet" type="text/css"

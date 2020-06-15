@@ -9,7 +9,7 @@
             <p>
             <?php echo t("Catch up with the latest interviews and strategies from the leaders, plus the 2020 Grand Final qualifier updates.");?>
             </p>
-            <a href="https://dev.tradingcup.com/blog/"><?php echo t("Go to Trading Cup Blog");?></a>
+            <a href="<?php echo t('https://www.tradingcup.com/en');?>/news" class='enter-button'><?php echo t("Go to Trading Cup Blog");?></a>
         </div>
     </div>
 </div>
