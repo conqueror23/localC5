@@ -1,0 +1,12 @@
+.customized_content_block {
+  padding: 16px;
+}
+.customized_content_block p {
+  background: #0b0b0b;
+  color: red;
+}
+.customized_content_block p:hover {
+  background: #00cc00;
+  color: #00a3da;
+}
+/*# sourceMappingURL=view.css.map */

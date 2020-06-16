@@ -1,0 +1,15 @@
+.customized_list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.customized_list li {
+  padding: 16px;
+}
+.customized_list li:hover {
+  background: red;
+}
+/*# sourceMappingURL=view.css.map */
