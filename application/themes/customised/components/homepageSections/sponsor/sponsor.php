@@ -2,7 +2,7 @@
     <div class="logo">
         <p><?php echo t("Major Sponsor");?></p>
         <div class="acy">
-            <a href="https://www.acysecurities.com/en-int/">
+            <a href="<?php echo t('acyUrl');?>">
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy_securities_logo_eng_white.png"
                      alt="">
             </a>
