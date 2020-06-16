@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\statistics\usagetracker\fileusagerepository@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-06-19T15:02:30+00:00 */
+/* Expiration: 2020-06-20T22:35:39+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1592578950;
+$expiration = 1592692539;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YTowOnt9'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1592181730;
+$data['createdOn'] = 1592305050;

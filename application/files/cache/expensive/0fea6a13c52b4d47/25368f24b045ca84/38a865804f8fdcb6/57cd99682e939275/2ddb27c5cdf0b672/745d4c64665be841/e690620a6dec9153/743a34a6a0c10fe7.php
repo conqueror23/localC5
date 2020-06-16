@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\attribute\value\abstractvalue$attribute_value@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-06-19T08:32:52+00:00 */
+/* Expiration: 2020-06-20T19:11:51+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1592555572;
+$expiration = 1592680311;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YTowOnt9'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1592181730;
+$data['createdOn'] = 1592305051;
