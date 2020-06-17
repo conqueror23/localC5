@@ -45,6 +45,8 @@ body .section-content-wrapper {
   padding: 0 15%;
 }
 body .enter-button {
+  font-weight: 700;
+  font-size: 16px;
   cursor: pointer;
 }
 body .enter-button:hover {
