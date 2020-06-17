@@ -1,3 +1,6 @@
+html body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Apple Color Emoji" !important;
+}
 body {
   background: #000000;
   font-size: 16px;
@@ -39,6 +42,9 @@ body p {
 }
 body .section-content-wrapper {
   padding: 0 15%;
+}
+body .enter-button {
+  cursor: pointer;
 }
 body .enter-button:hover {
   -webkit-transform: scale(1.1);

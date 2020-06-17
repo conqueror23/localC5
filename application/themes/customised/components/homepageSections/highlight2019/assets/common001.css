@@ -65,6 +65,7 @@
 
 .highlights > .highlights-words button {
   width: 243px;
+  cursor: pointer;
   height: 56px;
   text-align: center;
   background-color: #fff;
