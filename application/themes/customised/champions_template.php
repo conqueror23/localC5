@@ -7,7 +7,6 @@
 
 </head>
 <body>
-    <div id="root"></div>
 
     <script type="text/javascript"
         src="https://lprsc.acycms.com/202005-tradingcup2018/dist/acyid/en/packages/react-16.9.0/react.production.min.js"></script>
