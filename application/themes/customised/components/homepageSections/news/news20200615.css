@@ -26,13 +26,24 @@
     flex-wrap: wrap;
 }
 .news-wrapper .news-right a{
-    text-decoration: none;
+    /* text-decoration: none;
     width: fit-content;
     color: #000000;
     padding: 4px 16px;
     background: #FFFFFF;
-    border-radius: 2px;
+    border-radius: 2px; */
 }
+.news-wrapper .enter-button{
+    background: #FFFFFF;
+    border: none;
+    width: fit-content;
+    /* width: -webkit-fill-available; */
+    text-decoration:none;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 2px;  
+}
+
 
 
 @media screen and (max-width:768px){
