@@ -3,10 +3,10 @@
         <div id="form-section">
             <div class="form-left">
                 <h2>
-                    Subscribe to our trading interviews
+                <?php echo t('Subscribe to our trading interviews'); ?>
                 </h2>
                 <p>
-                    Stay up to date with how our winners are trading
+                <?php echo t('Stay up to date with how our winners are tradin'); ?>
                 </p>
             </div>
             <div class="form-right">
@@ -18,20 +18,22 @@
                         <input type="email" name="email" placeholder="Email">
                     </div>
                     <button class="enter-button">
-                        Sign Up
+                    <?php echo t('Sign Up'); ?>
                     </button>
                 </form>
             </div>
         </div>
         <div id="form-after">
             <h2>
-                Thank you for signing up
+            <?php echo t('Thank you for signing up'); ?>
             </h2>
             <p>
-                Check your email to stay up to date with how our winners are trading.
+            <?php echo t('Check your email to stay up to date with how our winners are trading'); ?> 
             </p>
         </div>
     </div>
 </div>
-<div id="error-msg">*Error happened when submitting please try again*</div>
+<div id="error-msg">
+    <?php echo t('*Error happened when submitting please try again*'); ?> 
+</div>
 

@@ -6,11 +6,11 @@ $this->inc('components/header.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/tradingcup2020/tradingcup_2020_zh.php');
+$this->inc('components/homepageSections/tradingcup2020/tradingcup_2020.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/subscribeForm/subscribeForm_zh.php');
+$this->inc('components/homepageSections/subscribeForm/subscribeForm.php');
 ?>
 
 
@@ -19,7 +19,7 @@ $this->inc('components/homepageSections/howtoApply/how_to_apply.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/topTraders/top_traders_zh.php');
+$this->inc('components/homepageSections/topTraders/top_traders.php');
 ?>
 
 <?php

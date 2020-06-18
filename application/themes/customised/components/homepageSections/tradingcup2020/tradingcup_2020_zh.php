@@ -1,24 +1,26 @@
 <div class="tradingcup-warpper">
     <div class="tradingcup-veil section-content-wrapper">
         <div class="tradingcup-content-wrapper trader_zh">
-            <p class="sub">2020交易杯</p>
-            <h1> 保底总奖金
-             <br>
-            <span>150,000美元*</span>
+            <p class="sub"><?php echo t('2020 Trading Cup'); ?></p>
+            <h1> 
+                <span><?php echo t('$US 150,000');?></span>
+                <br>
+                <?php echo t('Total Price Pool Given Away*'); ?>
             </h1>
             <ul>
                 <li>
-                    6个阶段资格赛，每阶段奖金10,000美元，比赛周期一个月
+                <?php echo t('Six $US10,000 Monthly Qualifying Stages');?>
                 </li>
                 <li>
-                    总决赛之夜保底奖金90,000美元
+                <?php echo t("\$US90,000 up for grabs in the grand final");?>
                 </li>
                 <li>
-                    总冠军奖金63,000美元
-                </li>
+                <?php echo t("The Grand Champion gets \$US63,000"); ?>
             </ul>
-            <a href="#how-to" class='enter-button'>如何参与 <span>&#8595;</span> </a>
-            <p id="sub-msg">*交易有风险。<a href='<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf' target="_blank">活动条款适用。</a></p>
+            <a href="#how-to" class='enter-button'><?php echo t("How To Enter ");?> <span>&#8595;</span> </a>
+            <p id="sub-msg">
+                <?php echo t('*Trading involves risk. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank">T&Cs apply.</a>'); ?> 
+            </p>
         </div>
     </div>
 </div>
