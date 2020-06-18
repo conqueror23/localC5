@@ -40,7 +40,7 @@
 }
 .show{
     display: flex !important;
-    position: fixed ;
+    position: absolute ;
 }
 #campaign-dropdown-list{
     display: none;
@@ -48,12 +48,13 @@
     flex-direction: column;
     background-color: #242424;
     justify-content: space-evenly;
+    margin-top: 25px;
+    border: 1px solid #F67102;
 }
 #campaign-dropdown-list a{
-    margin-top: 4px;
+    padding: 8px 16px;
 } 
 #campaign-dropdown-list a:hover{
-    padding: 4px;
     background-color: #000000;
 }
 .header-right{
@@ -66,6 +67,13 @@
     height: 8px;
     margin-top: 5px;
     margin-left: 5px;
+}
+.header-right #dropdown-list-anchor{
+    cursor: pointer;
+    color: #F67102;
+}
+.header-right #dropdown-list-anchor:hover{
+    color: #ffffff;
 }
 
 .header-right .enter-button{

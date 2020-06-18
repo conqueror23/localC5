@@ -5,7 +5,7 @@ var toggleDropDown = function toggleDropDown() {
 };
 
 var listenAnchor = function listenAnchor() {
-  document.getElementById("dropdown-list-anchor").addEventListener("click", toggleDropDown);
+  document.getElementById("dropdown-list-anchor").addEventListener("click",toggleDropDown);
 };
 
 // var sideMenu = new PromoLiveAccountSideMenu('Trading Cup Entry', "Create a live trading account with ACY in a few simple steps.", "en");
@@ -15,5 +15,6 @@ mobileBtn.on("click", function () {
   var mobileNav = $("mobile-nav");
   mobileNav.fadeIn(300);
 });
+
 
 listenAnchor();
