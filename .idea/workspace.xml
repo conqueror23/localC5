@@ -4,7 +4,10 @@
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/champions_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/champions_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/2018_champions.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/2018_champions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/2018_champions_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/2018_champions_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/2019_champions.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/2019_champions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/2019_champions_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/2019_champions_zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/main.less" afterDir="false" />
@@ -221,6 +224,7 @@
       <workItem from="1591681303407" duration="5684000" />
       <workItem from="1591690122779" duration="422000" />
       <workItem from="1592377087899" duration="442000" />
+      <workItem from="1592439406648" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>

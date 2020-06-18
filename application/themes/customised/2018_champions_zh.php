@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link href="https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/packages/antd-4.1.5/antd.min.css" rel="stylesheet"></head>
+<link href="https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/packages/antd-4.1.5/antd.min.css" rel="stylesheet">
+    <style>
+        html body, body p, body span{
+            font-family:  "Helvetica Neue","PingFang SC","Microsoft YaHei", Arial, sans-serif !important;
+        }
+    </style>
+</head>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <body style="background-color: #000;">
     <div id='root'></div>
