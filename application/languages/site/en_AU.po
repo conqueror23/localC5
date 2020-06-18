@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-15T07:29:07+00:00\n"
-"PO-Revision-Date: 2020-06-15T07:29:07+00:00\n"
+"POT-Creation-Date: 2020-06-18T06:17:42+00:00\n"
+"PO-Revision-Date: 2020-06-18T06:17:42+00:00\n"
 "Language: en_AU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -185,36 +185,80 @@ msgid "Customized-Block"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:4
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:4
 msgid "2020 Trading Cup"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:5
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:6
 msgid "$US 150,000"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:5
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:8
 msgid "Total Price Pool Given Away*"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:8
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:12
 msgid "Six $US10,000 Monthly Qualifying Stages"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:11
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:15
 msgid "$US90,000 up for grabs in the grand final"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:14
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:18
 msgid "The Grand Champion gets $US63,000"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:17
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:20
 msgid "How To Enter "
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:22
 msgid "*Trading involves risk. <a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs apply.</a>"
 msgstr "*Trading involves risk.<a href=\"localhost:3000/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\"target=\"_blank\"> T&Cs apply.</a>"
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:6
+msgid "Subscribe to our trading interviews"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:9
+msgid "Stay up to date with how our winners are tradin"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:15
+msgid "First Name"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:16
+msgid "Last Name"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:18
+msgid "Email"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:21
+msgid "Sign Up"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:28
+msgid "Thank you for signing up"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:31
+msgid "Check your email to stay up to date with how our winners are trading"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:37
+msgid "*Error happened when submitting please try again*"
+msgstr ""
 
 #: application/themes/customised/components/homepageSections/news/news.php:8
 msgid "News & Announcements"
@@ -224,6 +268,34 @@ msgstr ""
 msgid "Catch up with the latest interviews and strategies from the leaders, plus the 2020 Grand Final qualifier updates."
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/news/news.php:13
+#: application/themes/customised/components/footer.php:16
+#: application/themes/customised/components/footer.php:26
+#: application/themes/customised/components/footer.php:30
+#: application/themes/customised/components/footer.php:34
+#: application/themes/customised/components/footer.php:38
+#: application/themes/customised/components/footer.php:41
+#: application/themes/customised/components/footer.php:49
+#: application/themes/customised/components/footer_zh.php:16
+#: application/themes/customised/components/footer_zh.php:22
+#: application/themes/customised/components/footer_zh.php:26
+#: application/themes/customised/components/footer_zh.php:29
+#: application/themes/customised/components/footer_zh.php:32
+#: application/themes/customised/components/footer_zh.php:36
+#: application/themes/customised/components/footer_zh.php:42
+#: application/themes/customised/components/header.php:7
+#: application/themes/customised/components/header.php:13
+#: application/themes/customised/components/header.php:15
+#: application/themes/customised/components/header.php:20
+#: application/themes/customised/components/header.php:21
+#: application/themes/customised/components/header.php:44
+#: application/themes/customised/components/header.php:45
+#: application/themes/customised/components/header.php:50
+#: application/themes/customised/components/header.php:51
+msgid "https://www.tradingcup.com/en"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/news/news.php:13
 #: application/themes/customised/components/homepageSections/news/news.php:12
 msgid "Go to Trading Cup Blog"
 msgstr ""
@@ -301,6 +373,11 @@ msgstr ""
 msgid "Major Sponsor"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:5
+#: application/themes/customised/components/homepageSections/sponsor/sponsor_zh.php:5
+msgid "acyUrl"
+msgstr ""
+
 #: application/themes/customised/components/homepageSections/sponsor/sponsor.php:10
 msgid "Media Partners"
 msgstr ""
@@ -352,6 +429,20 @@ msgstr ""
 msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/topTraders/top_traders.php:4
+msgid "Our Top Traders"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/topTraders/top_traders.php:7
+msgid ""
+"Each stage runs for a month and has a total prize pool of $US10,000.\n"
+"            The prize pool is split up with $US7,000, $US2,000 and $US1,000 going to 1st, 2nd and 3rd."
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/topTraders/top_traders.php:9
+msgid "<a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs Apply</a>"
+msgstr ""
+
 #: application/themes/customised/components/homepageSections/header/header.php:43
 #: application/themes/customised/components/header.php:63
 #: application/themes/customised/components/header_zh.php:60
@@ -372,26 +463,8 @@ msgid ""
 "                    an invite to the grand final top 30, where 4 spots will be up for grabs in our live qualifier."
 msgstr ""
 
-#: application/themes/customised/components/footer.php:16
 #: application/themes/customised/components/footer.php:26
-#: application/themes/customised/components/footer.php:30
-#: application/themes/customised/components/footer.php:34
-#: application/themes/customised/components/footer.php:38
-#: application/themes/customised/components/footer.php:41
-#: application/themes/customised/components/footer.php:49
-#: application/themes/customised/components/header.php:7
-#: application/themes/customised/components/header.php:13
-#: application/themes/customised/components/header.php:15
-#: application/themes/customised/components/header.php:20
-#: application/themes/customised/components/header.php:21
-#: application/themes/customised/components/header.php:44
-#: application/themes/customised/components/header.php:45
-#: application/themes/customised/components/header.php:50
-#: application/themes/customised/components/header.php:51
-msgid "https://www.tradingcup.com/en"
-msgstr ""
-
-#: application/themes/customised/components/footer.php:26
+#: application/themes/customised/components/footer_zh.php:22
 #: application/themes/customised/components/header.php:13
 #: application/themes/customised/components/header.php:44
 #: packages/modena/controller.php:206
@@ -399,32 +472,38 @@ msgid "Home"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:30
+#: application/themes/customised/components/footer_zh.php:26
 #: application/themes/customised/components/header.php:20
 #: application/themes/customised/components/header.php:50
 msgid "2019 Champion"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:34
+#: application/themes/customised/components/footer_zh.php:29
 #: application/themes/customised/components/header.php:21
 #: application/themes/customised/components/header.php:51
 msgid "2018 Champion"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:38
+#: application/themes/customised/components/footer_zh.php:32
 #: application/themes/customised/components/header.php:15
 #: application/themes/customised/components/header.php:45
 msgid "News"
 msgstr "News"
 
 #: application/themes/customised/components/footer.php:41
+#: application/themes/customised/components/footer_zh.php:36
 msgid "FAQ"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:45
+#: application/themes/customised/components/footer_zh.php:39
 msgid "T&Cs"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:49
+#: application/themes/customised/components/footer_zh.php:42
 msgid "Privacy"
 msgstr ""
 
@@ -2999,13 +3078,15 @@ msgstr ""
 msgid "Empty Page List Block."
 msgstr ""
 
+#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:145
 #: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:155
 #: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:142
 msgid "Posted by "
 msgstr "Posted by "
 
-#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:172
+#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:152
 #: packages/modena/blocks/page_list/templates/modena_blog/view.php:158
+#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:172
 #: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:174
 #: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:147
 msgid "Read more..."
@@ -3678,10 +3759,6 @@ msgid "Ensemble"
 msgstr ""
 
 msgctxt "AreaName"
-msgid "Blog Footer"
-msgstr ""
-
-msgctxt "AreaName"
 msgid "Disclaimer"
 msgstr ""
 
@@ -3715,10 +3792,6 @@ msgstr ""
 
 msgctxt "AreaName"
 msgid "Footer ZhSite Column 1"
-msgstr ""
-
-msgctxt "AreaName"
-msgid "Footer ZhSite Column 2"
 msgstr ""
 
 msgctxt "AreaName"
@@ -5386,6 +5459,18 @@ msgstr ""
 
 msgctxt "TopicName"
 msgid "Holidays"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/topTraders/top_traders.php:9
+msgid "top-trader-t&cs"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Blog Footer"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Footer ZhSite Column 2"
 msgstr ""
 
 #: application/themes/customised/components/header_zh.php:60

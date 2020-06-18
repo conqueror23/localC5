@@ -6,7 +6,7 @@ $this->inc('components/header.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/tradingcup2020/tradingcup_2020.php');
+$this->inc('components/homepageSections/tradingcup2020/tradingcup_2020_zh.php');
 ?>
 
 <?php

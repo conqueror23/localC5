@@ -12,10 +12,10 @@
             <div class="form-right">
                 <form action="#" id="subscribe-form" name='subscribe-form'>
                     <div class="form-inputs">
-                        <input type="text" name='first_name' placeholder="First Name">
-                        <input type="text" name='last_name' placeholder="Last Name">
+                        <input type="text" name='first_name' placeholder="<?php echo t('First Name'); ?>">
+                        <input type="text" name='last_name' placeholder="<?php echo t('Last Name'); ?>">
                         <select name="country" id="country-dropdown" aria-placeholder="Country"></select>
-                        <input type="email" name="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="<?php echo t('Email'); ?>">
                     </div>
                     <button class="enter-button">
                     <?php echo t('Sign Up'); ?>
