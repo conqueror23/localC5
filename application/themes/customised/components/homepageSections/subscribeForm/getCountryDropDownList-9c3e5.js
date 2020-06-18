@@ -1,5 +1,12 @@
 "use strict";
 
+var defaultsLangs = { en: "Country", zh: "请选择国家", vi: "Vui lòng chọn một quốc gia", id: "Silakan pilih satu negara", ar: "رجاء قم بإختيار دوله" };
+var supportedLangs = Object.keys(defaultsLangs);
+
+var defaultCountryOptions =  Object.keys(defaultsLangs).map(function(key) {
+  return defaultsLangs[key];
+});
+
 function _toConsumableArray(arr) {
   if (Array.isArray(arr)) {
     for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
@@ -13,14 +20,13 @@ function _toConsumableArray(arr) {
 
 var submitUrl = "https://apiform.crm.zerologix.com/v1/landing-page/2020/trading-cup-subscribe";
 // create options list
+
 function createDefaultValue(list) {
-  var defaultEn = "Country";
-  var defaultZh = "请选择国家";
-  var finalList = [];
-  if (lang === "en") {
-    finalList = [defaultEn].concat(_toConsumableArray(list));
+  var finalList;
+  if (supportedLangs.indexOf(lang) > -1) {
+    finalList = [defaultsLangs[lang]].concat(_toConsumableArray(list));;
   } else {
-    finalList = [defaultZh].concat(_toConsumableArray(list));
+    finalList =[defaultsLangs[en]].concat(_toConsumableArray(list));;
   }
   return finalList;
 }

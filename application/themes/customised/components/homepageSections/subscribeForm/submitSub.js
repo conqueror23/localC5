@@ -1,6 +1,7 @@
 'use strict';
 
 // global variables
+
 var subscribeForm = document.getElementById('subscribe-form');
 var subscribeFormSection = document.getElementById('form-section');
 var subscribeFormAfter = document.getElementById('form-after');
@@ -8,14 +9,12 @@ var subscribeFormAfter = document.getElementById('form-after');
 var getFormData = function getFormData() {
   var dataObject = {};
   var data = $('form').serialize();
-  const form =document.getElementById('subscribe-form'); 
-  var dataT = new FormData(form);
   var dataArr = data.split('&');
   dataArr.map(function (key) {
     var record = key.split('=');
     dataObject[record[0]] = record[1];
   });
-  dataObject["email"]=dataT.get('email');
+  dataObject["email"] =document.getElementById('subscribe-form-email').value;
   return dataObject;
 };
 
@@ -52,33 +51,33 @@ var showErrorMessage = function showErrorMessage(err) {
 var concealErrorMessage = function concealErrorMessage() {
   document.getElementById('error-msg').setAttribute('style', 'display:none');
 };
-var handleResponseMsg = function handleResponseMsg(res){
+var handleResponseMsg = function handleResponseMsg(res) {
 
-  res.json().then(data=>{
-    if(data.status_code === 202 || data.status_code === 201 || data.status_code === 200){
+  res.json().then(function (data) {
+    if (data.status_code === 202 || data.status_code === 201 || data.status_code === 200) {
       showSubmitMessage();
-    }else{
+      document.getElementById('error-msg').setAttribute('style', 'display:none');
+    } else {
+      console.log('show data',data);
       showErrorMessage(data.message);
     }
-  })
+  });
 
   // showErrorMessage(err);
-
-}
+};
 
 var submitForm = function submitForm(e) {
   e.preventDefault();
-
-  if (getSubmitData().country !== "Country" && getSubmitData().country !== "%E8%AF%B7%E9%80%89%E6%8B%A9%E5%9B%BD%E5%AE%B6") {
+  if (defaultCountryOptions.indexOf(getSubmitData().country)==-1) {
     fetch(submitUrl, {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
       },
-      body:JSON.stringify(getSubmitData()),
+      body: JSON.stringify(getSubmitData())
     }).then(function (res) {
       if (res.status === 202 || res.status === 201 || res.status === 200) {
-        handleResponseMsg(res)
+        handleResponseMsg(res);
       } else {
         console.log(res);
       }
@@ -86,6 +85,7 @@ var submitForm = function submitForm(e) {
       showErrorMessage(err);
     });
   } else {
+    console.log('debugging',defaultCountryOptions.indexOf(getSubmitData().country)>-1);
     showErrorMessage();
   }
 };

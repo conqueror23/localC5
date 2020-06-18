@@ -7,10 +7,13 @@
     <title>subscribeForm</title>
     <link rel="stylesheet" href="./subscribeForm.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map" crossorigin="anonymous"></script> -->
+    <!-- fetch and promise polyfills -->
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
     <script src="./getCookies.js"></script>
-    <script>var lang ='zh';</script>
-    <script src="./getCountryList-cc31a.js"></script>
+    <script>var lang ='en';</script>
+    
     
 </head>
 
@@ -34,7 +37,7 @@
                         <input type="text" name="first_name" placeholder="First Name">
                         <input type="text" name="last_name" placeholder="Last Name">
                         <select name="country" id="country-dropdown" aria-placeholder="Country"></select>
-                        <input type="email" name="email" placeholder="Email">
+                        <input id="subscribe-form-email" type="email" name="email" placeholder="Email">
                     </div>
                     <button class="enter-button">
                         Sign Up
@@ -53,9 +56,8 @@
     </div>
     </div>
     <div id="error-msg">*Error happend when submitting please try again*</div>
-
-    <script src="./getEnCountryList.js"></script>
-    <script src="./getCountryDropDownList-cc31a.js"></script>
+    <script src="./getCountryList-9c3e5.js"></script>
+    <script src="./getCountryDropDownList-9c3e5.js"></script>
     <script src="./submitSub.js"></script>
 </body>
 
