@@ -7,7 +7,7 @@
 <link href="https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/packages/antd-4.1.5/antd.min.css" rel="stylesheet">
     <style>
         html body, body p, body span{
-            font-family:  "Helvetica Neue","PingFang SC","Microsoft YaHei", Arial, sans-serif !important;
+            font-family:  "Helvetica Neue", "PingFang SC",  "Microsoft YaHei", "Tajawal", "Ayuthaya", Arial, sans-serif !important;
         }
     </style>
 </head>

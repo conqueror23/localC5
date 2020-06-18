@@ -22,6 +22,7 @@ var getFormData = function getFormData() {
   return dataObject;
 };
 
+
 var showSubmitMessage = function showSubmitMessage() {
   subscribeFormSection.setAttribute('style', 'display:none;');
   subscribeFormAfter.setAttribute('style', 'display:flex;');
