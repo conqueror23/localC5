@@ -8,9 +8,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-06-18T07:35:45+00:00\n"
-"PO-Revision-Date: 2020-06-18T07:35:46+00:00\n"
-"Language: en_AU\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: 2020-06-18T07:35:47+00:00\n"
+"Language: id_AU\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgctxt "SiteName"
 msgid "LocalC5"
@@ -222,7 +222,7 @@ msgstr ""
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:22
 msgid "*Trading involves risk. <a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs apply.</a>"
-msgstr "*Trading involves risk.<a href=\"localhost:3000/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\"target=\"_blank\"> T&Cs apply.</a>"
+msgstr ""
 
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:6
 msgid "Subscribe to our trading interviews"
@@ -292,18 +292,10 @@ msgstr ""
 #: application/themes/customised/components/header.php:47
 #: application/themes/customised/components/header.php:52
 #: application/themes/customised/components/header.php:53
-#: application/themes/customised/components/header.php:13
-#: application/themes/customised/components/header.php:15
-#: application/themes/customised/components/header.php:20
-#: application/themes/customised/components/header.php:44
-#: application/themes/customised/components/header.php:45
-#: application/themes/customised/components/header.php:50
-#: application/themes/customised/components/header.php:51
 msgid "https://www.tradingcup.com/en"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/news/news.php:13
-#: application/themes/customised/components/homepageSections/news/news.php:12
 msgid "Go to Trading Cup Blog"
 msgstr ""
 
@@ -451,11 +443,8 @@ msgid "<a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/header/header.php:43
-#: application/themes/customised/components/header.php:63
-#: application/themes/customised/components/header_zh.php:60
-#: application/themes/customised/components/header_zh.php:61
 msgid "header.js"
-msgstr "http://localhost:3000/application/themes/customised/components/homepageSections/header/header.js"
+msgstr ""
 
 #: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:7
 msgid "The 2020 Qualifiers"
@@ -475,8 +464,6 @@ msgstr ""
 #: application/themes/customised/components/header.php:12
 #: application/themes/customised/components/header.php:46
 #: packages/modena/controller.php:206
-#: application/themes/customised/components/header.php:13
-#: application/themes/customised/components/header.php:44
 msgid "Home"
 msgstr ""
 
@@ -484,8 +471,6 @@ msgstr ""
 #: application/themes/customised/components/footer_zh.php:26
 #: application/themes/customised/components/header.php:19
 #: application/themes/customised/components/header.php:52
-#: application/themes/customised/components/header.php:20
-#: application/themes/customised/components/header.php:50
 msgid "2019 Champion"
 msgstr ""
 
@@ -493,8 +478,6 @@ msgstr ""
 #: application/themes/customised/components/footer_zh.php:29
 #: application/themes/customised/components/header.php:22
 #: application/themes/customised/components/header.php:53
-#: application/themes/customised/components/header.php:21
-#: application/themes/customised/components/header.php:51
 msgid "2018 Champion"
 msgstr ""
 
@@ -502,10 +485,8 @@ msgstr ""
 #: application/themes/customised/components/footer_zh.php:32
 #: application/themes/customised/components/header.php:14
 #: application/themes/customised/components/header.php:47
-#: application/themes/customised/components/header.php:15
-#: application/themes/customised/components/header.php:45
 msgid "News"
-msgstr "News"
+msgstr ""
 
 #: application/themes/customised/components/footer.php:41
 #: application/themes/customised/components/footer_zh.php:36
@@ -526,46 +507,40 @@ msgstr ""
 #: packages/modena/themes/modena/elements/footer.php:125
 #: packages/modena/themes/modena/elements/footer_zh.php:126
 msgid "disclaimer-line1"
-msgstr "RISK WARNING: Foreign exchange and derivatives trading carry a high level of risk. Before you decide to trade foreign exchange, we encourage you to consider your investment objectives, your risk tolerance and trading experience. It is possible to lose more than your initial investment, so do not invest money you cannot afford to lose. ACY Securities Pty Ltd (ABN: 80 150 565 781 AFSL: 403863) provides general advice that does not consider your objectives, financial situation or needs. The content of this website must not be construed as personal advice; please seek advice from an independent financial or tax advisor if you have any questions. The FSG and PDS are available upon request or registration. If there is any advice on this site, it is general advice only."
+msgstr ""
 
 #: application/themes/customised/components/footer.php:72
 #: packages/modena/themes/modena/elements/footer.php:147
 #: packages/modena/themes/modena/elements/footer_zh.php:149
 msgid "disclaimer-line2"
-msgstr "ACY Securities Pty Ltd (“ACY AU”) is authorised and regulated by the Australian Securities and Investments Commission (ASIC AFSL:403863). Registered address: Level 18, 799 Pacific Hwy, Chatswood NSW 2067. AFSL is authorised us to provide our services to Australian Residents or Businesses."
+msgstr ""
 
 #: application/themes/customised/components/footer.php:75
 #: packages/modena/themes/modena/elements/footer.php:148
 #: packages/modena/themes/modena/elements/footer_zh.php:153
 msgid "disclaimer-line3"
-msgstr "© 2018 - 2020 ACY Securities Pty Ltd. All right Reserved. <a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\"> Terms of use ACY Securities Website</a>"
+msgstr ""
 
 #: application/themes/customised/components/header.php:15
 #: application/themes/customised/components/header.php:48
-#: application/themes/customised/components/header.php:16
-#: application/themes/customised/components/header.php:46
 msgid "Past Champions"
 msgstr ""
 
 #: application/themes/customised/components/header.php:29
-#: application/themes/customised/components/header.php:27
 msgid "Enter 2020 Cup"
 msgstr ""
 
 #: application/themes/customised/components/header.php:62
-#: application/themes/customised/components/header.php:60
 msgid "side-menu-title"
-msgstr "Trading Cup Entry"
+msgstr ""
 
 #: application/themes/customised/components/header.php:62
-#: application/themes/customised/components/header.php:60
 msgid "side-menu-subtitle"
-msgstr "Create a live trading account with ACY in a few simple steps."
+msgstr ""
 
 #: application/themes/customised/components/header.php:62
-#: application/themes/customised/components/header.php:60
 msgid "side-menu-lang"
-msgstr "en"
+msgstr ""
 
 #: packages/modena/controller.php:42
 #: packages/modena/themes/modena/page_theme.php:13
@@ -3100,16 +3075,11 @@ msgid "Empty Page List Block."
 msgstr ""
 
 #: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:145
-#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:155
-#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:142
 msgid "Posted by "
-msgstr "Posted by "
+msgstr ""
 
 #: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:152
 #: packages/modena/blocks/page_list/templates/modena_blog/view.php:158
-#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:172
-#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:174
-#: packages/modena/blocks/page_list/templates/modena_masonry_blog/view.php:147
 msgid "Read more..."
 msgstr ""
 
@@ -3598,8 +3568,6 @@ msgstr ""
 
 #: packages/modena/themes/modena/elements/footer.php:144
 #: packages/modena/themes/modena/elements/footer_zh.php:144
-#: packages/modena/themes/modena/elements/footer.php:142
-#: packages/modena/themes/modena/elements/footer_zh.php:142
 msgid "Built with <a href=\"http://concrete5.com\" target=\"_blank\">Concrete5</a> CMS"
 msgstr ""
 
@@ -5492,34 +5460,4 @@ msgstr ""
 
 msgctxt "TopicName"
 msgid "Holidays"
-msgstr ""
-
-#: application/themes/customised/components/homepageSections/topTraders/top_traders.php:9
-msgid "top-trader-t&cs"
-msgstr ""
-
-msgctxt "AreaName"
-msgid "Blog Footer"
-msgstr ""
-
-msgctxt "AreaName"
-msgid "Footer ZhSite Column 2"
-msgstr ""
-
-#: application/themes/customised/components/header_zh.php:60
-msgid "<script src='https://www.tradingcup.com/components/homepageSections/header/header_zh.js'></script>"
-msgstr ""
-
-#: application/themes/customised/components/footerb.php:66
-msgid "Built with <a href=\"http://www.concrete5.org\" class=\"concrete5\" rel=\"nofollow\">concrete5</a> CMS."
-msgstr ""
-
-#: packages/modena/themes/modena/elements/footer.php:150
-#: packages/modena/themes/modena/elements/footer_zh.php:155
-msgid "Terms of use Acy"
-msgstr "Terms of use ACY Securities Website"
-
-#: packages/modena/themes/modena/elements/footer.php:124
-#: packages/modena/themes/modena/elements/footer_zh.php:124
-msgid "Your company name here"
 msgstr ""

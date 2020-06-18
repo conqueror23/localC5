@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/homePage_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/homePage_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/zh_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/zh_AU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/zh_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/zh_AU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/champions_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/champions_template.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
