@@ -12,9 +12,13 @@ var getFormData = function getFormData() {
   var dataArr = data.split('&');
   dataArr.map(function (key) {
     var record = key.split('=');
-    dataObject[record[0]] = record[1];
+    if(record[0]==='email'){
+      var b =record[1].replace('%40','@')
+      dataObject[record[0]] = b;
+    }else{
+      dataObject[record[0]] = record[1];
+    }
   });
-  dataObject["email"] =document.getElementById('subscribe-form-email').value;
   return dataObject;
 };
 
@@ -85,7 +89,7 @@ var submitForm = function submitForm(e) {
       showErrorMessage(err);
     });
   } else {
-    console.log('debugging',defaultCountryOptions.indexOf(getSubmitData().country)>-1);
+    console.log('debugging',defaultCountryOptions.indexOf(getSubmitData().country)==-1);
     showErrorMessage();
   }
 };

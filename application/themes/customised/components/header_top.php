@@ -60,15 +60,16 @@
     <!--    Bosco`s part -->
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/assets/common.css">
-
     <link rel="stylesheet"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/highlight2019/assets/common001.css">
 
-
     <!--end of modules css    -->
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath() ?>/css/basic-default-page001.css">
-    <!-- <?php echo $html->css($view->getStylesheet('main.less')) ?> -->
 
+    <!--  polyfill for ie11  -->
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+    <!--  end of polyfill section  -->
     <?php
     View::element('header_required', [
         'pageTitle' => isset($pageTitle) ? $pageTitle : '',
