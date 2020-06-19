@@ -18,7 +18,7 @@ var showMobileNavMenu =function showMobileNavMenu(){
   var mobileNav = document.getElementById('mobile-nav-menu');
     mobileNav.setAttribute('style','opacity:1');
     console.log(windowWidth);
-  if(windowWidth>378){
+  if(windowWidth>377){
     showTabletNavMenu(mobileNav);    
   }else{
     showPhoneNavMenu(mobileNav);
