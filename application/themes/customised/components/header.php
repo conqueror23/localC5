@@ -3,6 +3,7 @@ $this->inc('components/header_top.php');
 ?>
 
 <header>
+    <script>var headerResource ='<?php echo $view->getThemePath()."/components/homepageSections/header"; ?>';</script>
     <div class="header-wrapper section-content-wrapper">
             <a href="<?php echo t('https://www.tradingcup.com/en');?>"><img src="<?= $this->getThemePath() ?>/components/homepageSections/header/logo.png" alt=""></a>
         <div class="header-right">

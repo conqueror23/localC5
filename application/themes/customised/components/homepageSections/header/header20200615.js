@@ -29,11 +29,11 @@ var transformMobileMenu= function transformMobileMenu() {
   var navBtn= document.getElementById('mobile-nav-btn')
   if(navBtn.getAttribute('src').includes('hamburger')) {
     // /application/themes/customised/components/homepageSections/header/close.png
-    navBtn.setAttribute('src','./close.png')
+    navBtn.setAttribute('src',headerResource+'/close.png')
     navBtn.setAttribute('style','height:16px');
     showMobileNavMenu();
   }else{
-    navBtn.setAttribute('src','./hamburger.png')
+    navBtn.setAttribute('src',headerResource+'/hamburger.png')
     navBtn.setAttribute('style','height:10px');
     document.getElementById('mobile-nav-menu').setAttribute('style','opacity:0');
   }
