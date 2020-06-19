@@ -87,6 +87,8 @@
 }
 
 .header-right select{
+    text-align: justify;
+    text-align-last:center;
    -webkit-appearance:none;
    -moz-appearance:none;
    appearance:none;
@@ -180,7 +182,7 @@
 
     .header-right select{
         width: 150px;
-        text-align-last:center;
+
     }
 
 }
