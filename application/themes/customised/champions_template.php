@@ -1,34 +1,18 @@
-<?php defined('C5_EXECUTE') or die("Access Denied."); ?>
 <html lang="en">
 <head>
-    <?php
-    View::element('header_required', [
-        'pageTitle' => isset($pageTitle) ? $pageTitle : '',
-        'pageDescription' => isset($pageDescription) ? $pageDescription : '',
-        'pageMetaKeywords' => isset($pageMetaKeywords) ? $pageMetaKeywords : ''
-    ]);
-    ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/packages/antd-4.1.5/antd.min.css" rel="stylesheet">
 
-        <?php
-            $a = new Area('script-section');
-            $a->display($c);
-            ?>
 </head>
-
 <body>
 
-    <div class="<?php echo $c->getPageWrapperClass() ?>">
-
-        <?php
-            $a = new Area('main-body');
-            $a->display($c);
-            ?>
-                <?php
-            $a = new Area('footer-section');
-            $a->display($c);
-            ?>
-
-    <?php View::element('footer_required'); ?>
+    <script type="text/javascript"
+        src="https://lprsc.acycms.com/202005-tradingcup2018/dist/acyid/en/packages/react-16.9.0/react.production.min.js"></script>
+    <script type="text/javascript"
+        src="https://lprsc.acycms.com/202005-tradingcup2018/dist/acyid/en/packages/react-dom-16.9.0/react-dom.production.min.js"></script>
+    <script type="text/javascript"
+        src="https://lprsc.acycms.com/202005-tradingcup2018/dist/acyid/en/packages/antd-4.1.5/antd-with-locales.min.js"></script>
 </body>
-    
 </html>
