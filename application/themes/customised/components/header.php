@@ -11,7 +11,9 @@ $this->inc('components/header_top.php');
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>"><?php echo t("Home");?></a>
                     </li>
-                    <li><a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a></li>
+                    <li>
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a>
+                    </li>
                     <li id="dropdown-list-anchor"><?php echo t("Past Champions");?>
                     <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/Path.png" alt="arrow lost">
                         <div id="campaign-dropdown-list">
@@ -19,7 +21,7 @@ $this->inc('components/header_top.php');
                                 <?php echo t("2019 Champion");?>
                             </a>
                             <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2018-champions">
-                            <?php echo t("2018 Champion");?>
+                                <?php echo t("2018 Champion");?>
                             </a>
                         </div>
                     </li>
@@ -27,33 +29,28 @@ $this->inc('components/header_top.php');
             </div>
 
             <button class="enter-button open-form"><?php echo t("Enter 2020 Cup");?></button>
-            <?php
-            $c= new Area('langauge-switch');
-            $c->display();
-            ?>
-            <select name="language" id="language-switch">
-                <option value="/en">
-                    English
-                </option>
-                <option value="/zh">
-                    Chinese
-                </option>
-            </select>
-            <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/Shape.png" alt=""
-                 class="mobile-nav-btn">
-            <div class="mobile-nav">
-                <ul>
-                    <li><a href="<?php echo t('https://www.tradingcup.com/en');?>"><?php echo t("Home");?></a></li>
-                                       <li><a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a></li>
-                    <li id="dropdown-list-anchor"><?php echo t("Past Champions");?> <img
-                    src="<?= $this->getThemePath() ?>/components/homepageSections/header/Path.png"
-                    alt="arrow lost">
-                        <div id="campaign-dropdown-list">
-                            <a href="<?php echo t('https://www.tradingcup.com/en');?>/2019-champions/"><?php echo t("2019 Champion");?></a>
-                            <a href="<?php echo t('https://www.tradingcup.com/en');?>/2018-champions/"><?php echo t("2018 Champion");?></a>
-                        </div>
-                    </li>
-                </ul>
+            <div id='normal-language-switch'>
+                <?php
+                $c= new Area('langauge-switch');
+                $c->display();
+                ?>
+            </div>
+           
+            <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/Hamburger.png" alt=""
+                 class="mobile-nav-btn" id='mobile-nav-btn'>
+            <div class="mobile-nav" id="mobile-nav-menu">
+                <div id="mobile-campaign-dropdown-list">
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2019-champions/"><?php echo t("2019 Champion");?> ></a>
+
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2018-champions/"><?php echo t("2018 Champion");?> ></a>
+                            <button id='mobile-enter-button' class="enter-button open-form"><?php echo t("Enter 2020 Cup");?></button>
+                            <div id='mobile-language-switch'>
+                            <?php
+                                $c= new Area('langauge-switch');
+                                $c->display();
+                                ?>
+                            </div>
+                </div>
             </div>
         </div>
 
