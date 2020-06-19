@@ -3,3 +3,4 @@ application/files/cache/*
 .idea/*
 errors
 errors/
+application/languages

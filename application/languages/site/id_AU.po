@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-18T07:35:45+00:00\n"
-"PO-Revision-Date: 2020-06-18T07:35:47+00:00\n"
+"POT-Creation-Date: 2020-06-19T04:43:56+00:00\n"
+"PO-Revision-Date: 2020-06-19T04:43:56+00:00\n"
 "Language: id_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -283,12 +283,17 @@ msgstr ""
 #: application/themes/customised/components/footer_zh.php:32
 #: application/themes/customised/components/footer_zh.php:36
 #: application/themes/customised/components/footer_zh.php:42
+#: application/themes/customised/components/header.php:8
+#: application/themes/customised/components/header.php:13
+#: application/themes/customised/components/header.php:16
+#: application/themes/customised/components/header.php:21
+#: application/themes/customised/components/header.php:24
+#: application/themes/customised/components/header.php:44
+#: application/themes/customised/components/header.php:46
 #: application/themes/customised/components/header.php:7
 #: application/themes/customised/components/header.php:12
 #: application/themes/customised/components/header.php:14
 #: application/themes/customised/components/header.php:18
-#: application/themes/customised/components/header.php:21
-#: application/themes/customised/components/header.php:46
 #: application/themes/customised/components/header.php:47
 #: application/themes/customised/components/header.php:52
 #: application/themes/customised/components/header.php:53
@@ -461,14 +466,17 @@ msgstr ""
 
 #: application/themes/customised/components/footer.php:26
 #: application/themes/customised/components/footer_zh.php:22
+#: application/themes/customised/components/header.php:13
+#: packages/modena/controller.php:206
 #: application/themes/customised/components/header.php:12
 #: application/themes/customised/components/header.php:46
-#: packages/modena/controller.php:206
 msgid "Home"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:30
 #: application/themes/customised/components/footer_zh.php:26
+#: application/themes/customised/components/header.php:22
+#: application/themes/customised/components/header.php:44
 #: application/themes/customised/components/header.php:19
 #: application/themes/customised/components/header.php:52
 msgid "2019 Champion"
@@ -476,6 +484,8 @@ msgstr ""
 
 #: application/themes/customised/components/footer.php:34
 #: application/themes/customised/components/footer_zh.php:29
+#: application/themes/customised/components/header.php:25
+#: application/themes/customised/components/header.php:46
 #: application/themes/customised/components/header.php:22
 #: application/themes/customised/components/header.php:53
 msgid "2018 Champion"
@@ -483,6 +493,7 @@ msgstr ""
 
 #: application/themes/customised/components/footer.php:38
 #: application/themes/customised/components/footer_zh.php:32
+#: application/themes/customised/components/header.php:16
 #: application/themes/customised/components/header.php:14
 #: application/themes/customised/components/header.php:47
 msgid "News"
@@ -521,25 +532,39 @@ msgstr ""
 msgid "disclaimer-line3"
 msgstr ""
 
+#: application/themes/customised/components/header.php:18
 #: application/themes/customised/components/header.php:15
 #: application/themes/customised/components/header.php:48
 msgid "Past Champions"
 msgstr ""
 
+#: application/themes/customised/components/header.php:32
+#: application/themes/customised/components/header.php:47
 #: application/themes/customised/components/header.php:29
 msgid "Enter 2020 Cup"
 msgstr ""
 
+#: application/themes/customised/components/header.php:60
 #: application/themes/customised/components/header.php:62
 msgid "side-menu-title"
 msgstr ""
 
+#: application/themes/customised/components/header.php:60
 #: application/themes/customised/components/header.php:62
 msgid "side-menu-subtitle"
 msgstr ""
 
+#: application/themes/customised/components/header.php:60
 #: application/themes/customised/components/header.php:62
 msgid "side-menu-lang"
+msgstr ""
+
+#: application/themes/customised/2018_champions_template.php:21
+msgid "https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/index6.js"
+msgstr "https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/index7.js"
+
+#: application/themes/customised/2019_champions_template.php:26
+msgid "https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/index7.js"
 msgstr ""
 
 #: packages/modena/controller.php:42
