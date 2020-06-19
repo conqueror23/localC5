@@ -7,48 +7,57 @@
     <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./header.css">
+    <style>
+        body{
+            background-color: #000;
+        }
+    </style>
 </head>
 <body>
     <div class="header-wrapper section-content-wrapper">
-        <a href="#"><img src="./logo.png" alt=""></a>
-        <div class="header-nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="/news">News</a></li>
-                <li id="dropdown-list-anchor">Past Champions <img src="./Path.png" alt="arrow lost">
-                    <div id="campaign-dropdown-list">
-                        <a href="https://www.tradingcup.com/en/2019-champions/">2019 Champion</a>
-                        <a href="https://www.tradingcup.com/en/2018-champions/">2018 Champion</a>
-                    </div>
-                </li>
-            </ul>
-
-        </div>
+        <a href="https://www.tradingcup.com/en"><img src="./logo.png" alt=""></a>
         <div class="header-right">
-            <button class="enter-button" >Enter 2020 Cup</button>
-            <select name="language" id="language-switch">
-                <option value="/en">
-                    English
-                </option>
-                <option value="/zh">
-                    Chinese
-                </option>
-            </select>
-        </div>
-        <img src="./Shape.png" alt="" class="mobile-nav-btn">
-        <div class="mobile-nav">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">News</a></li>
-                <li id="dropdown-list-anchor">Past Champions <img src="./Path.png" alt="arrow lost">
-                    <div id="campaign-dropdown-list">
-                        <a href="https://www.tradingcup.com/en/2019-champions/">2019 Champion</a>
-                        <a href="https://www.tradingcup.com/en/2018-champions/">2018 Champion</a>
-                    </div>
-                </li>
-            </ul>
+            <div class="header-nav">
+                <ul>
+                    <li>
+                        <a href="https://www.tradingcup.com/en">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://www.tradingcup.com/en/news">News</a>
+                    </li>
+                    <li id="dropdown-list-anchor">Past Champions
+                    <img src="./Path.png" alt="arrow lost">
+                        <div id="campaign-dropdown-list">
+                            <a href="https://www.tradingcup.com/en/champions/2019-champions">
+                                2019 Champion
+                            </a>
+                            <a href="https://www.tradingcup.com/en/champions/2018-champions">
+                                2018 Champion
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="enter-button open-form">Enter 2020 Cup</button>
+            <div id='normal-language-switch'>
+                langauge-switch
+            </div>
+           
+            <img src="./Hamburger.png" alt=""
+                 class="mobile-nav-btn" id='mobile-nav-btn'>
+            <div class="mobile-nav" id="mobile-nav-menu">
+                <div id="mobile-campaign-dropdown-list">
+                        <a href="https://www.tradingcup.com/en');?>/champions/2019-champions/">2019 Champion></a>
+                        <a href="https://www.tradingcup.com/en');?>/champions/2018-champions/">2018 Champion></a>
+                            <button id='mobile-enter-button' class="enter-button open-form">Enter 2020 Cup</button>
+                            <div id='mobile-language-switch'>
+                                langauge-switch
+                            </div>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="./header.js"></script>
+    <script src="./header20200615.js"></script>
 </body>
 </html>

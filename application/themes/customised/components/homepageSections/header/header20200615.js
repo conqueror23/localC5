@@ -18,7 +18,7 @@ var showMobileNavMenu =function showMobileNavMenu(){
   var mobileNav = document.getElementById('mobile-nav-menu');
     mobileNav.setAttribute('style','opacity:1');
     console.log(windowWidth);
-  if(windowWidth>377){
+  if(windowWidth>37){
     showTabletNavMenu(mobileNav);    
   }else{
     showPhoneNavMenu(mobileNav);
@@ -28,11 +28,12 @@ var showMobileNavMenu =function showMobileNavMenu(){
 var transformMobileMenu= function transformMobileMenu() {
   var navBtn= document.getElementById('mobile-nav-btn')
   if(navBtn.getAttribute('src').includes('hamburger')) {
-    navBtn.setAttribute('src','/application/themes/customised/components/homepageSections/header/close.png')
+    // /application/themes/customised/components/homepageSections/header/close.png
+    navBtn.setAttribute('src','./close.png')
     navBtn.setAttribute('style','height:16px');
     showMobileNavMenu();
   }else{
-    navBtn.setAttribute('src','/application/themes/customised/components/homepageSections/header/hamburger.png')
+    navBtn.setAttribute('src','./hamburger.png')
     navBtn.setAttribute('style','height:10px');
     document.getElementById('mobile-nav-menu').setAttribute('style','opacity:0');
   }
