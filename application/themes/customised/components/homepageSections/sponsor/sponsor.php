@@ -2,7 +2,7 @@
     <div class="logo">
         <p><?php echo t("Major Sponsor");?></p>
         <div class="acy">
-            <a href="<?php echo t('acyUrl');?>">
+            <a href="<?php echo t('acyUrl');?>" target="_blank">
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy_securities_logo_eng_white.png"
                      alt="">
             </a>
@@ -15,7 +15,7 @@
                             srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/finlogix.png'/>
                     <source media='(min-width: 415x) and (max-width: 1200px)'
                             srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/finlogix.png'/>
-                    <a href='https://www.finlogix.com/'>
+                    <a href='https://www.finlogix.com/' target="_blank">
                         <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/Finlogix.png'
                              style='cursor: pointer'/></a>
                 </picture>
@@ -127,7 +127,7 @@
                         srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/finlogix.png'/>
                 <source media='(min-width: 415x) and (max-width: 1200px)'
                         srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/finlogix.png'/>
-                <a href='https://www.finlogix.com/'>
+                <a href='https://www.finlogix.com/' target="_blank">
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/Finlogix.png'
                          style='cursor: pointer'/></a>
             </picture>

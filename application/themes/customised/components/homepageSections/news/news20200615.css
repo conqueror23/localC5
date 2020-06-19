@@ -25,14 +25,7 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-.news-wrapper .news-right a{
-    /* text-decoration: none;
-    width: fit-content;
-    color: #000000;
-    padding: 4px 16px;
-    background: #FFFFFF;
-    border-radius: 2px; */
-}
+
 
 .news-wrapper .enter-button{
     background: #FFFFFF;
@@ -41,10 +34,11 @@
     /* width: max-content; */
     /* white-space: nowrap; */
     /* width: fit-content; */
+    height: 44px;
+    line-height: 28px;
     text-decoration:none;
     color: #000000;
     padding: 8px 16px;
-    border-radius: 2px;  
     display: inline-block;
 
 }

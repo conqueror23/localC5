@@ -6,7 +6,7 @@
                 <?php echo t('Subscribe to our trading interviews'); ?>
                 </h2>
                 <p>
-                <?php echo t('Stay up to date with how our winners are tradin'); ?>
+                <?php echo t('Stay up to date with how our winners are trading.'); ?>
                 </p>
             </div>
             <div class="form-right">

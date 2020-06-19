@@ -1,3 +1,4 @@
+<div class='how-to-section-wrapper'>
 <div class="how-to-wrapper section-content-wrapper" id="how-to">
     <div class="how-to-left">
         <h1><?php echo t("How To Apply");?></h1>
@@ -17,6 +18,7 @@
         <video controls muted width="580px" height="360px"
                src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/Trading_Cup_How_to_Register.mp4" webkit-playsinline playsinline></video>
     </div>
+</div>
 </div>
 
 <script src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/howtoApply.js"></script>

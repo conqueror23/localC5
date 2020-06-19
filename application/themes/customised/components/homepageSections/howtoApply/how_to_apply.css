@@ -1,7 +1,9 @@
-
-.how-to-wrapper{
-    padding: 24px;
+.how-to-section-wrapper{
+    padding: 120px 0;
     background: #242424;
+}
+.how-to-wrapper{
+    padding:0 24px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,9 +22,7 @@
 .how-to-wrapper ul li{
     list-style:none;
 }
-.how-to-wrapper ul li a{
-    /*color: #ffffff;*/
-}
+
 .how-to-wrapper ul li span{
     color: #F67102;
     font-weight: 700;
