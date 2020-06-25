@@ -131,13 +131,15 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background:#ffffff;
+    color: #000000;
     border-top: 1px solid #979797;
     border-bottom: 1px solid #979797;
     height: 100%;
 }
 #mobile-campaign-dropdown-list a{
     text-decoration: none;
-    color:#ffffff;
+    color: #000000;
 }
 
 #mobile-language-switch,#mobile-enter-button{
@@ -175,6 +177,11 @@
     }
     #mobile-campaign-dropdown-list ,#mobile-enter-button,#mobile-language-switch{
         display: flex;
+    }
+    #mobile-language-switch select{
+        background: #ffffff;
+        border: 1px solid #979797;
+        color: #000000;
     }
     #normal-language-switch{
         display: none;

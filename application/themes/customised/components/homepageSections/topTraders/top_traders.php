@@ -1,4 +1,4 @@
-<div class="section-content-wrapper">
+<div class="section-content-wrapper" id="top-trader-anchor">
     <div class="top-traders-wrapper ">
         <h1>
         <?php echo t('Our Top Traders'); ?>

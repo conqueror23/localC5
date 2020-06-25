@@ -1,6 +1,9 @@
 <div class="section-content-wrapper sub-form-bk">
     <div class="subscribe-form-wrapper">
         <div id="form-section">
+            <!--TODO add cover for other langs-->
+            <?php if(Localization::activeLanguage()==='en'){
+             ?>
             <div class="form-left">
                 <h2>
                 <?php echo t('Subscribe to our trading interviews'); ?>
@@ -22,6 +25,21 @@
                     </button>
                 </form>
             </div>
+            <?php
+            }else{
+                ?>
+                <div class="replacement-wrapper">
+                    <div class="replacement-left">
+                        <h2><?php echo t("replacement-title");?></h2>
+                        <p><?php echo t('replacement-content');?></p>
+                    </div>
+                    <div class="replacement-right">
+                        <a href="#top-trader-anchor" class="enter-button"> <?php echo t('check-top-traders');?></a>
+                    </div>
+                </div>
+            <?php
+            }
+            ?>
         </div>
         <div id="form-after">
             <h2>

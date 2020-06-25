@@ -1,66 +1,55 @@
-"use strict";
+var hlPlayer = document.getElementById("player");
+      var playButton = document.getElementsByClassName(
+        "highlights-words-btn"
+      )[0];
 
-var hlTag = document.createElement("script");
-hlTag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName("script")[0];
-firstScriptTag.parentNode.insertBefore(hlTag, firstScriptTag);
-var player = void 0;
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player("player", {
-    height: '800',
-    width: '800',
-    videoId: "ily_06wrUb0",
-    events: {
-      "onStateChange": onPlayerStateChange
-    }
-  });
-}
-function escapeAction(e) {
-  if (e.key === "Escape") {
-    iframeVideo.className = "video hide";
-    closeVideo.className = "close hide";
-    stopVideo();
-  }
-}
+      function setVideoSource(country) {
+        var iframeWidth =window.innerWidth;
+        var iframeHeight=window.innerHeight;
+        if (country ==="CN") {
+          hlPlayer.src =
+          '//1253488992.vod2.myqcloud.com/vod-player/1253488992/5285890803989768181/tcplayer/console/vod-player.html?autoplay=false&width='+iframeWidth+'&height='+iframeHeight
+        }
+      }
+   
+      function showVideo() {
+        var videoWrap = document.getElementsByClassName("video-wrap")[0];
+        var videoClose = videoWrap.getElementsByClassName("close")[0];
+        $.get(
+          "https://ipinfo.io",
+          function (response) {
+            localStorage.setItem("tradingcup-countries", response.country);
+            
+          },
+          "jsonp"
+      );
+       var country = localStorage.getItem('tradingcup-countries')
+            setVideoSource(country);
+        function escPress(e) {
+          console.log("press", e);
+          if (e.keycode === 27 || e.code === "Escape") {
+            closeVideo();
+          }
+        }
+        function closeVideo() {
+          videoWrap.classList.remove("show");
+          videoWrap.classList.add("hide");
+          videoClose.classList.remove("show");
+          videoClose.classList.add("hide");
+          hlPlayer.src = "https://www.youtube.com/embed/ily_06wrUb0";
+          document.body.setAttribute("style", "overflow:auto");
+          hlPlayer.removeEventListener("keydown", escPress);
+          document.body.removeEventListener("keydown", escPress);
+          videoClose.removeEventListener("click", closeVideo);
+        }
+        videoWrap.classList.remove("hide");
+        videoWrap.classList.add("show");
+        videoClose.classList.remove("hide");
+        videoClose.classList.add("show");
+        document.body.setAttribute("style", "overflow:hidden");
 
-function onPlayerReady(event) {
-  event.target.playVideo();
-}
-function stopVideo() {
-  window.removeEventListener("keydown", escapeAction);
-  player.stopVideo();
-}
-function playVideo() {
-  player.playVideo();
-}
-
-function onPlayerStateChange(event) {
-  // console.log('event here',event);
-  // console.log('yt',YT);
-
-  // if (event.data == YT.PlayerState.ENDED) {
-  // setTimeout(stopVideo, 1000);
-  // setTimeout(event.target.clearVideo, 1000);
-  // }
-}
-
-var watchVideo = document.querySelector(".highlights-words-btn");
-var closeVideo = document.querySelector(".close");
-var iframeVideo = document.querySelector(".video-wrap");
-
-watchVideo.onclick = function () {
-  iframeVideo.className = "video show";
-  closeVideo.className = "close show";
-};
-closeVideo.onclick = function () {
-  iframeVideo.className = "video hide";
-  closeVideo.className = "close hide";
-  stopVideo();
-};
-
-window.addEventListener("keydown", function (e) {
-  escapeAction(e);
-});
-document.body.addEventListener("keydown", function (e) {
-  escapeAction(e);
-});
+        hlPlayer.addEventListener("keydown", escPress);
+        document.body.addEventListener("keydown", escPress);
+        videoClose.addEventListener("click", closeVideo);
+      }
+      playButton.addEventListener("click", showVideo);

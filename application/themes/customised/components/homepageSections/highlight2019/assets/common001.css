@@ -19,28 +19,29 @@
 .show {
   display: block;
 }
-.video {
-  position: fixed;
-  right:0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 99;
-  background-color: pink;
-}
 
 .close {
   color:#fff;
-  font-size: 40px;
+  font-size: 14px;
   position: fixed;
-  right:5px;
-  top:0;
+  right:155px;
+  top:10px;
   cursor: pointer;
   z-index: 999;
+  min-width: 48px;
+  max-width: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
+.close :nth-child(1){
+  font-size: 25px;
+}
+
+.close :nth-child(2){
+  margin-top: 5px;
+  margin-left: -5px;
+}
 .video>.video-close {
   color:#fff;
   font-size: 40px;
@@ -48,6 +49,16 @@
   right:5px;
   cursor: pointer;
   z-index: 999;
+}
+
+.video-wrap #player{
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  overflow:hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .highlights > .highlights-words {

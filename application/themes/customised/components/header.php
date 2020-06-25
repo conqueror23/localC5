@@ -37,7 +37,7 @@ $this->inc('components/header_top.php');
                 ?>
             </div>
            
-            <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/Hamburger.png" alt=""
+            <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/hamburger.png" alt=""
                  class="mobile-nav-btn" id='mobile-nav-btn'>
             <div class="mobile-nav" id="mobile-nav-menu">
                 <div id="mobile-campaign-dropdown-list">
