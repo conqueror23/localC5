@@ -4,12 +4,17 @@ var playButton = document.getElementsByClassName("highlights-words-btn")[0];
 function setVideoSource(country) {
   var iframeWidth = window.innerWidth;
   var iframeHeight = window.innerHeight;
+  var closePlayer= document.getElementsByClassName('close')[0]
   if (country === "CN") {
     hlPlayer.src =
-      "//1253488992.vod2.myqcloud.com/vod-player/1253488992/5285890803989768181/tcplayer/console/vod-player.html?autoplay=false&width=" +
+      "//1253488992.vod2.myqcloud.com/vod-player/1253488992/5285890803989768181/tcplayer/console/vod-player.html?autoplay=1&width=" +
       iframeWidth +
       "&height=" +
       iframeHeight;
+     closePlayer.setAttribute('style','right:0;top:0;');
+  }else{
+    hlPlayer.src="https://www.youtube.com/embed/ily_06wrUb0?autoplay=1";
+    // hlPlayer.setAttribute('allow','autoplay; encrypted-media');
   }
 }
 

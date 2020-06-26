@@ -26,11 +26,11 @@
     <div class="video-wrap hide">
     <div class="close hide">
           <div>X</div>
-          <div>Close</div>
         </div>
         <iframe
           id="player"
-          src="https://www.youtube.com/embed/ily_06wrUb0"
+          allow="autoplay; encrypted-media"
+          autoplay
           allowfullscreen
         ></iframe>
     </div>

@@ -40,11 +40,9 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/faq"><?php echo t("FAQ");?></a> |
                     </li>
-
                     <li>
-                        <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank"><?php echo t("T&Cs");?></a> |
+                        <a href="<?echo t('https://www.tradingcup.com/en/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf'); ?>" target="_blank"><?php echo t("T&Cs");?></a> |
                     </li>
-
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/privacy"><?php echo t("Privacy");?></a>
                     </li> 

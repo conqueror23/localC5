@@ -129,6 +129,7 @@
 .subscribe-form-wrapper .replacement-wrapper .replacement-right{
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 
 @media screen and (max-width: 768px) {
