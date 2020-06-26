@@ -106,6 +106,7 @@
   justify-content: space-between;
   width: 100%;
 }
+
 .subscribe-form-wrapper .replacement-wrapper .enter-button{
   display: flex;
   justify-content: center;
@@ -144,7 +145,10 @@
   .subscribe-form-wrapper .replacement-wrapper{
     flex-direction: column;
   }
-
+  .subscribe-form-wrapper .replacement-wrapper  .enter-button{
+    width: 100%;
+    width: -webkit-fill-available;
+  }
 }
 
 @media screen and (max-width: 375px) {
