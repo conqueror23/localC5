@@ -2,10 +2,10 @@
     <div class="tradingcup-veil section-content-wrapper">
         <div class="tradingcup-content-wrapper trader_zh">
             <p class="sub"><?php echo t('2020 Trading Cup'); ?></p>
-            <h1> 
-                <span><?php echo t('$US 150,000');?></span>
-                <br>
+            <h1>
                 <?php echo t('Total Price Pool Given Away*'); ?>
+                <br>
+                <span><?php echo t('$US 150,000');?></span>
             </h1>
             <ul>
                 <li>

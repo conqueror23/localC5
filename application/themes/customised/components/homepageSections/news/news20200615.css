@@ -30,6 +30,7 @@
 .news-wrapper .enter-button{
     background: #FFFFFF;
     border: none;
+    font-weight: bold;
     /* width: -webkit-fill-available; */
     /* width: max-content; */
     /* white-space: nowrap; */

@@ -2,7 +2,25 @@
         <div class="tradingcup-veil section-content-wrapper">
             <div class="tradingcup-content-wrapper">
                 <p class="sub"><?php echo t('2020 Trading Cup'); ?></p>
-                <h1> <span><?php echo t('$US 150,000');?></span> <?php echo t('Total Price Pool Given Away*'); ?></h1>
+
+                <?php if(Localization::activeLanguage()!=='id')
+                    {
+                        ?>
+
+                <h1> <span><?php echo t('$US 150,000');?></span>
+                    <?php echo t('Total Price Pool Given Away*'); ?>
+                </h1>
+
+                <?php
+                    }else{
+                    ?>
+                    <h1>
+                        <?php echo t('Total Price Pool Given Away*'); ?>
+                        <span><?php echo t('$US 150,000');?></span>
+                    </h1>
+                <?php
+                    }
+                    ?>
                 <ul>
                     <li>
                         <?php echo t('Six $US10,000 Monthly Qualifying Stages');?>

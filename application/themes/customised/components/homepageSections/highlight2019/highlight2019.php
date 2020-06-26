@@ -36,4 +36,4 @@
     </div>
 
 </div>
-<script src="<?php echo $view->getThemePath();?>/components/homepageSections/highlight2019/assets/index.js"></script>
+<!--<script src="--><?php //echo $view->getThemePath();?><!--/components/homepageSections/highlight2019/assets/index.js"></script>-->

@@ -52,11 +52,14 @@
 }
 
 .video-wrap #player{
+  border-width: 0;
   height: 100vh;
   width: 100vw;
   z-index: 10;
   overflow:hidden;
-  position: absolute;
+  position: fixed;
+  margin: 0;
+  padding: 0;
   top: 0;
   left: 0;
 }
