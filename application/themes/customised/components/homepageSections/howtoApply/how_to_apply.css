@@ -34,6 +34,7 @@
     flex-direction: column;
     justify-content: center;
     line-height: 40px;
+    font-weight:500;
 }
 
 .how-to-wrapper .how-to-left li {
@@ -88,12 +89,12 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        /* justify-content: center; */
+        /*align-items: center;*/
+         justify-content: center;
     }
 
     .how-to-wrapper .how-to-left ul li {
-        width: 500px;
+        /*width: 500px;*/
     }
 
     .how-to-wrapper .how-to-left .enter-button {
@@ -122,11 +123,11 @@
 
     .how-to-wrapper ul li {
         font-size: 14px;
-        line-height: 20px;
+        /*line-height: 20px;*/
     }
 
     .how-to-wrapper .how-to-left ul li {
-        width: 280px;
+        /*width: 280px;*/
     }
 
     .how-to-wrapper .how-to-left p {
