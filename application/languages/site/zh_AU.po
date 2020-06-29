@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-19T04:43:15+00:00\n"
-"PO-Revision-Date: 2020-06-19T04:43:18+00:00\n"
+"POT-Creation-Date: 2020-06-29T01:50:48+00:00\n"
+"PO-Revision-Date: 2020-06-29T01:50:48+00:00\n"
 "Language: zh_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -184,78 +184,119 @@ msgstr ""
 msgid "Customized-Block"
 msgstr ""
 
+#: application/blocks/content/templates/fancyDesigns
+msgctxt "TemplateFileName"
+msgid "FancyDesigns"
+msgstr ""
+
+#: application/single_pages/champions/2018C.php:21
+#: application/themes/customised/2018_champions_template.php:21
+msgid "https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/index6.js"
+msgstr "https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/tradingcup2018-autolang.js"
+
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:4
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:4
 msgid "2020 Trading Cup"
 msgstr "2020交易杯"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:10
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:8
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:5
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:6
 msgid "$US 150,000"
 msgstr "150,000美元*"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:11
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:18
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:6
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:5
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:8
 msgid "Total Price Pool Given Away*"
 msgstr "保底总奖金"
 
-#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:8
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:26
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:12
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:8
 msgid "Six $US10,000 Monthly Qualifying Stages"
 msgstr "6个阶段资格赛，每阶段奖金10,000美元，比赛周期一个月"
 
-#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:11
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:29
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:15
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:11
 msgid "$US90,000 up for grabs in the grand final"
 msgstr "总决赛之夜保底奖金90,000美元"
 
-#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:14
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:32
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:18
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:14
 msgid "The Grand Champion gets $US63,000"
 msgstr "总冠军奖金63,000美元"
 
-#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:17
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:35
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:20
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:17
 msgid "How To Enter "
 msgstr "如何参与 "
 
-#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:37
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:22
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
 msgid "*Trading involves risk. <a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs apply.</a>"
 msgstr "*交易有风险。<a  href=\"https://www.tradingcup.com/zh/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\"target=\"_blank\">活动条款适用。</a>"
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:9
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:6
 msgid "Subscribe to our trading interviews"
 msgstr "订阅交易杯参赛者访谈"
 
-#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:9
-msgid "Stay up to date with how our winners are tradin"
-msgstr "获取最新的参赛者交易策略"
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:12
+msgid "Stay up to date with how our winners are trading."
+msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:18
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:15
 msgid "First Name"
 msgstr "名"
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:19
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:16
 msgid "Last Name"
 msgstr "姓"
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:21
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:18
 msgid "Email"
 msgstr "邮箱"
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:24
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:21
 msgid "Sign Up"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:33
+msgid "replacement-title"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:34
+msgid "replacement-content"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:37
+msgid "check-top-traders"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:46
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:28
 msgid "Thank you for signing up"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:49
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:31
 msgid "Check your email to stay up to date with how our winners are trading"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:55
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:37
 msgid "*Error happened when submitting please try again*"
 msgstr ""
@@ -275,7 +316,7 @@ msgstr "获取最新的参赛者访谈和交易策略分享，以及2020交易�
 #: application/themes/customised/components/footer.php:34
 #: application/themes/customised/components/footer.php:38
 #: application/themes/customised/components/footer.php:41
-#: application/themes/customised/components/footer.php:49
+#: application/themes/customised/components/footer.php:47
 #: application/themes/customised/components/footer_zh.php:16
 #: application/themes/customised/components/footer_zh.php:22
 #: application/themes/customised/components/footer_zh.php:26
@@ -290,6 +331,7 @@ msgstr "获取最新的参赛者访谈和交易策略分享，以及2020交易�
 #: application/themes/customised/components/header.php:24
 #: application/themes/customised/components/header.php:44
 #: application/themes/customised/components/header.php:46
+#: application/themes/customised/components/footer.php:49
 #: application/themes/customised/components/header.php:7
 #: application/themes/customised/components/header.php:12
 #: application/themes/customised/components/header.php:14
@@ -411,31 +453,38 @@ msgstr "总决赛在澳门电竞馆向全球观众进行了现场直播。来自
 msgid "Watch full highlights"
 msgstr "点击观看"
 
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:4
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:3
 msgid "How To Apply"
 msgstr "如何参与"
 
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:7
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:6
 msgid "<a href=\"javascript:void(0)\" class=\"open-form\">Click here</a> to open a live account with ACY Securities"
 msgstr "<a href=\"javascript:void(0)\" class=\"open-form\">点击此处</a> 开通ACY稀万证券真实交易账户。"
 
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:9
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:8
 msgid "You Will receive an email confirmation once approved"
 msgstr "您将会收到一封确认报名的邮件。"
 
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:10
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:9
 msgid "Deposit a minimum of $2000 into your ACY Live Trading Account. *"
 msgstr "入金$2,000至比赛用ACY交易账户"
 
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:11
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:10
 msgid "Start trading"
 msgstr "开始交易！"
 
-#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:12
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:13
 #: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:17
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:12
 msgid "Enter Now"
 msgstr "立即参与"
 
+#: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:14
 #: application/themes/customised/components/homepageSections/howtoApply/how_to_apply.php:13
 msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
 msgstr "*$2,000货币单位是基于开设的比赛账户货币单位，如2,000美元或2,000澳元"
@@ -521,33 +570,46 @@ msgstr "新闻与公告"
 msgid "FAQ"
 msgstr ""
 
-#: application/themes/customised/components/footer.php:45
+#: application/themes/customised/components/footer.php:44
+msgid "https://www.tradingcup.com/en/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf"
+msgstr ""
+
+#: application/themes/customised/components/footer.php:44
 #: application/themes/customised/components/footer_zh.php:39
+#: application/themes/customised/components/footer.php:45
 msgid "T&Cs"
 msgstr "网站使用条款"
 
-#: application/themes/customised/components/footer.php:49
+#: application/themes/customised/components/footer.php:47
 #: application/themes/customised/components/footer_zh.php:42
+#: application/themes/customised/components/footer.php:49
 msgid "Privacy"
 msgstr "隐私条款"
 
-#: application/themes/customised/components/footer.php:68
+#: application/themes/customised/components/footer.php:66
 #: packages/modena/themes/modena/elements/footer.php:125
 #: packages/modena/themes/modena/elements/footer_zh.php:126
+#: application/themes/customised/components/footer.php:68
 msgid "disclaimer-line1"
 msgstr "风险提示：外汇及其他金融衍生品交易风险较高。在您决定进行外汇交易投资之前，我们建议您考虑您的投资目标、风险承受能力以及交易经验。您的交易亏损有可能超过您的原始投入。ACY Securities Pty Ltd（ABN：80 150 565 781 AFSL：403863）并未将您的投资目标、财务状况和需求考虑在内。本网站的内容不构成投资建议，如有任何疑问，请您咨询独立专业的财务或税务的意见。请您务必在进行交易投资前，仔细阅读金融服务指南（FSG）和产品披露申明（PDS）。如果本网站上有任何建议，则仅为一般建议。"
 
-#: application/themes/customised/components/footer.php:72
+#: application/themes/customised/components/footer.php:70
 #: packages/modena/themes/modena/elements/footer.php:147
 #: packages/modena/themes/modena/elements/footer_zh.php:149
+#: application/themes/customised/components/footer.php:72
 msgid "disclaimer-line2"
 msgstr "ACY Securities Pty Ltd（“ACY AU”）由澳大利亚证券和投资委员会（ASIC AFSL：403863）授权和监管。注册地址：Level 18, 799 Pacific Hwy, Chatswood NSW 2067。AFSL授权我们为澳大利亚居民或企业提供服务。"
 
-#: application/themes/customised/components/footer.php:75
+#: application/themes/customised/components/footer.php:73
 #: packages/modena/themes/modena/elements/footer.php:148
 #: packages/modena/themes/modena/elements/footer_zh.php:153
+#: application/themes/customised/components/footer.php:75
 msgid "disclaimer-line3"
 msgstr "© 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\" target=\"_blank\"> 网站使用条款</a>"
+
+#: application/themes/customised/components/footer_zh.php:39
+msgid "https://www.tradingcup.com/en/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf"
+msgstr ""
 
 #: application/themes/customised/components/header.php:18
 #: application/themes/customised/components/header.php:15
@@ -579,13 +641,9 @@ msgstr "仅需几步即可在ACY创建真实交易账户"
 msgid "side-menu-lang"
 msgstr "zh"
 
-#: application/themes/customised/2018_champions_template.php:21
-msgid "https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/index6.js"
-msgstr ""
-
 #: application/themes/customised/2019_champions_template.php:26
 msgid "https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/index7.js"
-msgstr ""
+msgstr "https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/tradingcup2019-autolang.js"
 
 #: packages/modena/controller.php:42
 #: packages/modena/themes/modena/page_theme.php:13
@@ -4124,11 +4182,23 @@ msgid "Sidebar Footer"
 msgstr ""
 
 msgctxt "AreaName"
+msgid "Site Width Customized Footer"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Site Width Customized Header"
+msgstr ""
+
+msgctxt "AreaName"
 msgid "Title"
 msgstr ""
 
 msgctxt "AreaName"
 msgid "body"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "body here"
 msgstr ""
 
 msgctxt "AreaName"
@@ -5513,6 +5583,10 @@ msgstr ""
 msgctxt "TopicName"
 msgid "Holidays"
 msgstr ""
+
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:9
+msgid "Stay up to date with how our winners are tradin"
+msgstr "获取最新的参赛者交易策略"
 
 #: application/themes/customised/components/homepageSections/topTraders/top_traders.php:9
 msgid "top-trader-t&cs"

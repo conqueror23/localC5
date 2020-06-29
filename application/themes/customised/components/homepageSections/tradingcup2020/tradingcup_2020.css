@@ -48,7 +48,6 @@
 .tradingcup-warpper ul {
   font-size: 28px;
   line-height: 36px;
-  padding-left: 16px;
 }
 
 .tradingcup-warpper #sub-msg{
@@ -113,6 +112,7 @@
   .tradingcup-warpper ul {
     font-size: 12px;
     line-height: 16px;
+    padding-left:16px;
   }
   .tradingcup-warpper #sub-msg a{
     display: contents;

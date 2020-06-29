@@ -17,7 +17,9 @@
                     <div class="form-inputs">
                         <input type="text" name='first_name' placeholder="<?php echo t('First Name'); ?>">
                         <input type="text" name='last_name' placeholder="<?php echo t('Last Name'); ?>">
-                        <select name="country" id="country-dropdown" aria-placeholder="Country"></select>
+                        <div id="country-dropdown-container">
+                            <select name="country" id="country-dropdown" aria-placeholder="Country"></select>
+                        </div>
                         <input type="email" name="email" placeholder="<?php echo t('Email'); ?>">
                     </div>
                     <button class="enter-button">

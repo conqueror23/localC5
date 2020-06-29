@@ -132,6 +132,36 @@
   width: fit-content;
 }
 
+#country-dropdown-container{
+  width:  50%;
+  display: inline-block;
+}
+#country-dropdown-container select{
+  width: 88%;
+  color: #000000;
+}
+
+#country-dropdown-container select::-ms-expand {
+  display: none;
+}
+#country-dropdown-container select:active{
+  color: #000000;
+}
+#country-dropdown-container:after {
+  content: "";
+  position: relative;
+  right: 30px;
+  top: 14px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333;
+}
+#country-dropdown-container:after:active{
+  border-top: 10px solid gray;
+}
+
 @media screen and (max-width: 768px) {
 
   .subscribe-form-wrapper #form-section{
@@ -159,4 +189,15 @@
   .subscribe-form-wrapper .form-inputs input{
     width: 100%;
   }
+
+  #country-dropdown-container{
+    width:  100%;
+  }
+  #country-dropdown-container select{
+    width: 100%;
+  }
+  #country-dropdown-container:before {
+    left: 335px;
+  }
+
 }
