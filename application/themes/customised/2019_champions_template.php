@@ -22,9 +22,7 @@
     src="https://lprsc.acycms.com/202005-tradingcup2019/dist/acyid/en/packages/react-dom-16.13.1/react-dom.production.min.js"></script>
 <script type="text/javascript"
     src="https://lprsc.acycms.com/202005-tradingcup2019/dist/acyid/en/packages/antd-4.2.5/antd-with-locales.min.js"></script>
-<script type="text/javascript" src="https://lprsc.acycms.com/202005-tradingcup2019/dist/acyid/en/index7.js"></script>
 <script type="text/javascript" src="<?php echo t('https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/index7.js');?>"></script>
-
 
 <script>
 var sideMenu = new PromoLiveAccountSideMenu("Trading Cup Entry ", "Create a live trading account with ACY in a few simple steps. ", "en");
