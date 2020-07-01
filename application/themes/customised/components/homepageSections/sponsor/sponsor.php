@@ -3,7 +3,7 @@
         <p><?php echo t("Major Sponsor");?></p>
         <div class="acy">
             <a href="<?php echo t('acyUrl');?>" target="_blank">
-                <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy_securities_logo_eng_white.png"
+                <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy-securities-logo-en-white.png"
                      alt="">
             </a>
         </div>
@@ -16,7 +16,7 @@
                     <source media='(min-width: 415x) and (max-width: 1200px)'
                             srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/finlogix.png'/>
                     <a href='https://www.finlogix.com/' target="_blank">
-                        <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/Finlogix.png'
+                        <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finlogix.png'
                              style='cursor: pointer'/></a>
                 </picture>
                 <picture>
@@ -24,7 +24,7 @@
                             srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/forex-factory.png'/>
                     <source media='(min-width: 415x) and (max-width: 1200px)'
                             srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/forex-factory.png'/>
-                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forex factory@4x.png'
+                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forex-factory-mobile.png'
                          style='cursor: pointer'/>
                 </picture>
                 <picture>
@@ -45,10 +45,10 @@
                 </picture>
                 <picture>
                     <source media='(max-width: 414px)'
-                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/financefeeds.png'/>
+                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/finance-feeds.png'/>
                     <source media='(min-width: 415x) and (max-width: 1200px)'
-                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/financefeeds.png'/>
-                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/financeefeeds.png'
+                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/finance-feeds.png'/>
+                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finance-feeds.png'
                          style='cursor: pointer'/>
                 </picture>
             </div>
@@ -79,10 +79,10 @@
                 </picture>
                 <picture>
                     <source media='(max-width: 414px)'
-                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/Forexpress.png'/>
+                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/forexpress.png'/>
                     <source media='(min-width: 415x) and (max-width: 1200px)'
-                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/Forexpress.png'/>
-                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/Forexpress.png'
+                            srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/forexpress.png'/>
+                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forexpress.png'
                          style='cursor: pointer'/>
                 </picture>
                 <picture>
@@ -128,7 +128,7 @@
                 <source media='(min-width: 415x) and (max-width: 1200px)'
                         srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/finlogix.png'/>
                 <a href='https://www.finlogix.com/' target="_blank">
-                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/Finlogix.png'
+                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finlogix.png'
                          style='cursor: pointer'/></a>
             </picture>
             <picture>
@@ -157,10 +157,10 @@
             </picture>
             <picture>
                 <source media='(max-width: 414px)'
-                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/financefeeds.png'/>
+                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/finance-feeds.png'/>
                 <source media='(min-width: 415x) and (max-width: 1200px)'
-                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/financefeeds.png'/>
-                <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/financeefeeds.png'
+                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/finance-feeds.png'/>
+                <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finance-feeds.png'
                      style='cursor: pointer'/>
             </picture>
 
@@ -191,10 +191,10 @@
             </picture>
             <picture>
                 <source media='(max-width: 414px)'
-                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/Forexpress.png'/>
+                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Mobile/forexpress.png'/>
                 <source media='(min-width: 415x) and (max-width: 1200px)'
-                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/Forexpress.png'/>
-                <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/Forexpress.png'
+                        srcset='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/Tablet/forexpress.png'/>
+                <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forexpress.png'
                      style='cursor: pointer'/>
             </picture>
             <picture>
