@@ -15,7 +15,7 @@
         </p>
         <div class="why-icons-section">
             <div class="icons-block">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/icon1.png" alt="">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/super-fast.png" alt="">
                 <p class="icon-title">
                 <?php echo t("Super-fast execution of orders");?>
                 </p>
@@ -25,7 +25,7 @@
             </div>
 
             <div class="icons-block">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/icon2.png" alt="">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/ultra-low.png" alt="">
                 <p class="icon-title">
                 <?php echo t("Ultra-low-cost trading");?>
                 </p>
@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div class="icons-block">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/icon3.png" alt="">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/no-desk.png" alt="">
                 <p class="icon-title">
                 <?php echo t("No Dealing Desk");?>
                 </p>
@@ -43,7 +43,7 @@
                 </p>
             </div>
             <div class="icons-block">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/icon4.png" alt="">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/cut-through.png" alt="">
                 <p class="icon-title">
                 <?php echo t("Cut-through Market Analysis");?>
                 </p>
@@ -52,7 +52,7 @@
                 </p>
             </div>
             <div class="icons-block">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/icon5.png" alt="">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/premium-edu.png" alt="">
                 <p class="icon-title">
                 <?php echo t("Premium Educational Resources");?>
                 </p>
@@ -61,7 +61,7 @@
                 </p>
             </div>
             <div class="icons-block">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/icon6.png" alt="">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/whytradeAcy/asic-regulated.png" alt="">
                 <p class="icon-title">
                 <?php echo t("ASIC-regulated");?>
                 </p>

@@ -2,7 +2,7 @@
 
     <div class="news-wrapper section-content-wrapper">
         <div class="news-left">
-            <img src="<?= $this->getThemePath() ?>/components/homepageSections/news/asia_trading_cup.png" alt="img lost">
+            <img src="<?= $this->getThemePath() ?>/components/homepageSections/news/asia-trading-cup.png" alt="img lost">
         </div>
         <div class="news-right">
             <h1><?php echo t("News & Announcements");?></h1>
