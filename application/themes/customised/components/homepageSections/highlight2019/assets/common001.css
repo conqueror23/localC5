@@ -24,9 +24,9 @@
   color:#fff;
   font-size: 14px;
   position: fixed;
-  right:0;
   top:0;
-  height: 4vh;
+  right: 10px;
+  height: 3vh;
   cursor: pointer;
   z-index: 999;
   width: 100vw;
