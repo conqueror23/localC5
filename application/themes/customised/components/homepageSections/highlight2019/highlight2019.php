@@ -12,7 +12,7 @@
                 <div>
                     <button class="highlights-words-btn">
                         <span><?php echo t("Watch full highlights"); ?></span>
-                        <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/highlight2019/images/Youtube.png"
+                        <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/highlight2019/images/youtube.png"
                              alt="">
                     </button>
                 </div>

@@ -16,7 +16,7 @@ $this->inc('components/header_top.php');
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a>
                     </li>
                     <li id="dropdown-list-anchor"><?php echo t("Past Champions");?>
-                    <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/Path.png" alt="arrow lost">
+                    <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/down-arrow.png" alt="arrow lost">
                         <div id="campaign-dropdown-list">
                             <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2019-champions">
                                 <?php echo t("2019 Champion");?>
