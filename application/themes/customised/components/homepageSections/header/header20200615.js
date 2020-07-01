@@ -32,11 +32,11 @@ var transformMobileMenu= function transformMobileMenu() {
   var navBtn= document.getElementById('mobile-nav-btn')
   if(navBtn.getAttribute('src').includes('hamburger')) {
     navBtn.setAttribute('src',headerResource+'/close.png')
-    navBtn.setAttribute('style','height:16px');
+    navBtn.setAttribute('style','height:20px');
     showMobileNavMenu();
   }else{
     navBtn.setAttribute('src',headerResource+'/hamburger.png')
-    navBtn.setAttribute('style','height:10px');
+    navBtn.setAttribute('style','height:20px');
     document.getElementById('mobile-nav-menu').setAttribute('style','opacity:0');
     // document.body.querySelector(':not(#mobile-nav-btn)').addEventListener('click',hideMobileNav)
   }

@@ -152,12 +152,16 @@
     .header-wrapper .header-nav, .enter-button ,#language-switch{
         display: none;
     } 
-    .mobile-nav-btn{
+    .header-right .mobile-nav-btn{
         display: flex;
+        margin: 0;
+        height: 20px;
+        width: 30px;
     }
     #mobile-campaign-dropdown-list{
         display: flex;
     }
+
     #mobile-nav-menu{
         display: flex;
         position: absolute;
