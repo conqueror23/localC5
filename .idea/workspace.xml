@@ -41,21 +41,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/champions/2018-champions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/champions/2019-champions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/Line logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/line-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Linelogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/line-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Trading_CUP_Line_QR_code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/trading-cup-line-qr-code.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Trading_Cup_Wechat_QR_code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/trading-cup-wechat-qr-code.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Twiiter.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/twiter-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Vector.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/facebook-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/WeChatlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/wechat-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/youtube-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/1105cf71b5b1393f/15e0d8254ba66157.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/1105cf71b5b1393f/15e0d8254ba66157.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/320076142768900a/bed4a903daa2d32b.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/320076142768900a/bed4a903daa2d32b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/6426c9ac64dfb788/404912a797e7f0a2.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/6426c9ac64dfb788/404912a797e7f0a2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/70f5b46e2d7263d7/c9ab12329e6db6d3.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/70f5b46e2d7263d7/c9ab12329e6db6d3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/817c3627d7cef621/00040b921ee26927.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/817c3627d7cef621/00040b921ee26927.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/94b556b7eee1e4c3/ec68b51911e44aee.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/94b556b7eee1e4c3/ec68b51911e44aee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/95870b9271932b65/a21a0415017d68b6.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/95870b9271932b65/a21a0415017d68b6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/97bb79698d924ec8/4de25ca9ca5d7177.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/97bb79698d924ec8/4de25ca9ca5d7177.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/9adc2b76d5ab39bf/854e0baa63d70826.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/9adc2b76d5ab39bf/854e0baa63d70826.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/ac58a46d40df2374/6a29968aa4dfa0da.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/ac58a46d40df2374/6a29968aa4dfa0da.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/b39f9304e92cb87e/0ddfddc60c9a7b5d.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/b39f9304e92cb87e/0ddfddc60c9a7b5d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/bf4868ea312293d6/87c27711dfe0a932.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/bf4868ea312293d6/87c27711dfe0a932.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/d110f867b0b9f913/2791d60fdfc9f3d7.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/d110f867b0b9f913/2791d60fdfc9f3d7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/de8aacfa14b15f6e/7fae2072ebc4efab.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/de8aacfa14b15f6e/7fae2072ebc4efab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/e690620a6dec9153/743a34a6a0c10fe7.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/e690620a6dec9153/743a34a6a0c10fe7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/fa130a16e73f093e/6a9200e34597e265.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/fa130a16e73f093e/6a9200e34597e265.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/fc6056a43eb439d1/663d83cce09325c4.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/fc6056a43eb439d1/663d83cce09325c4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/Asset 3 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/FX110 logo white@4x 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/Forexpress logo 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/Mobile/financefeeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/Screen Shot 2020-05-19 at 5.22 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/Tablet/financefeeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/acy_securities_logo_eng_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/caijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/forex factory@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/fxempire_1@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/huitong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/image 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/image 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/image 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/largeDesktop/financeefeeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/largeDesktop/forex factory@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/toushi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/youcai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/sponsor.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/sponsor.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +372,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591690523685</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update project structures and change source files">
+      <created>1593568462919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593568462919</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update project structures and change source files">
+      <created>1593568484314</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593568484314</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +410,8 @@
     <MESSAGE value="transform es6 to es2015" />
     <MESSAGE value="update select options" />
     <MESSAGE value="update mobile layout and ie support for tradingcup" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mobile layout and ie support for tradingcup" />
+    <MESSAGE value="update project structures and change source files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project structures and change source files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="729" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591764113291">
@@ -393,14 +430,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="937" y="460" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2560.1417@0.23.2560.1417" timestamp="1593489982967" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1591690523380">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1593568484031">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1591690523380" />
-    <state x="256" y="154" key="DiffContextDialog" timestamp="1591772244731">
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1593568484031" />
+    <state x="256" y="154" key="DiffContextDialog" timestamp="1593568368166">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="256" y="154" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1591772244731" />
+    <state x="256" y="154" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1593568368166" />
     <state x="797" y="382" key="EditFileWatcherDialog" timestamp="1591249580643">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
