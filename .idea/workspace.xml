@@ -42,9 +42,20 @@
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/assets/common001.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/highlight2019/assets/common001.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concrete/src/Page/Theme/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/concrete/src/Page/Theme/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/champions/2018-champions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/champions/2019-champions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/Line logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/line-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Linelogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/line-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Trading_CUP_Line_QR_code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/trading-cup-line-qr-code.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Trading_Cup_Wechat_QR_code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/trading-cup-wechat-qr-code.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Twiiter.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/twiter-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/Vector.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/facebook-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/WeChatlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/wechat-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/socialMedia_zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/socialMedia/youtube-logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,6 +292,7 @@
       <workItem from="1593490250167" duration="69000" />
       <workItem from="1593493701537" duration="154000" />
       <workItem from="1593494398631" duration="5914000" />
+      <workItem from="1593567736702" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
