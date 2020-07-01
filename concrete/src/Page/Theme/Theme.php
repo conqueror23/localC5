@@ -61,6 +61,12 @@ class Theme extends ConcreteObject
         return static::getList('pkgID = '.$pkg->getPackageID());
     }
 
+    /**
+     * @param null $where
+     * @return array
+     * get list method query the db before using data
+     */
+
     public static function getList($where = null)
     {
         if ($where != null) {

@@ -120,9 +120,7 @@
     left:0;
     top:0;
   }
-  
 
-  
 }
 
 @media screen and (max-width:767px){
@@ -170,7 +168,10 @@
     width: 100%;
     height: 100%;
 }
-  .close :nth-child(1){
+  .close {
     right: 5px;
+  }
+  .close:nth-child(1){
+    right: 15px;
   }
 }
