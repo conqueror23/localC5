@@ -154,10 +154,12 @@
   top: 14px;
   width: 0;
   height: 0;
+  cursor: pointer;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #333;
 }
+
 #country-dropdown-container:after:active{
   border-top: 10px solid gray;
 }
