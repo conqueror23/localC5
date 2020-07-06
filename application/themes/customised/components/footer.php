@@ -61,18 +61,9 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
 
             </div>
         </div>
-        <div class="footer-description section-content-wrapper">
-            <p>
-                <?php echo t("disclaimer-line1");?>
-            </p>
-
-            <p>
-            <?php echo t("disclaimer-line2");?>
-            </p>
-            <p>
-                <?php echo t("disclaimer-line3");?>
-            </p>
-        </div>
+        <?php
+        $this->inc('components/homepageSections/footer/disclaimerSection.php');
+        ?>
     </div>
 </footer>
 <?php $this->inc('components/footer_bottom.php'); ?>
