@@ -56,8 +56,8 @@ $this->inc('components/header_top.php');
         </div>
 
     </div>
-    <script>
-    var sideMenu = new PromoLiveAccountSideMenu('<?php echo t('side-menu-title');?>', "<?php echo t('side-menu-subtitle');?>", "<?php echo t('side-menu-lang');?>");
-    </script>
+    <?php
+    $this->inc('components/common/acyForm.php');
+    ?>
     <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header20200615.js"?></script>
 </header>
