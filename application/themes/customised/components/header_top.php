@@ -26,7 +26,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetchival/0.3.2/index.min.js" integrity="sha256-JAUhVrURjJBWcWw4rjX42p4JltYpCS3kjpU7oxpuEjY=" crossorigin="anonymous"></script>
 
     <!-- end of pre request packages-->
+<!-- dependencies for catherine-->
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script> -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/19.5.2/i18next.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+<!--    end of catherine-->
 
 
     <link rel="stylesheet" type="text/css"

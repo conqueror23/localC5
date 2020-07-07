@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-29T01:46:56+00:00\n"
-"PO-Revision-Date: 2020-06-29T01:47:00+00:00\n"
+"POT-Creation-Date: 2020-07-06T08:35:30+00:00\n"
+"PO-Revision-Date: 2020-07-06T08:35:32+00:00\n"
 "Language: id_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -194,6 +194,30 @@ msgstr ""
 msgid "https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/index6.js"
 msgstr "https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/index7.js"
 
+#: application/themes/customised/components/homepageSections/footer/disclaimerSection.php:3
+#: packages/modena/themes/modena/elements/footer.php:125
+#: packages/modena/themes/modena/elements/footer_zh.php:126
+#: application/themes/customised/components/footer.php:66
+#: application/themes/customised/components/footer.php:68
+msgid "disclaimer-line1"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/footer/disclaimerSection.php:7
+#: packages/modena/themes/modena/elements/footer.php:147
+#: packages/modena/themes/modena/elements/footer_zh.php:149
+#: application/themes/customised/components/footer.php:70
+#: application/themes/customised/components/footer.php:72
+msgid "disclaimer-line2"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/footer/disclaimerSection.php:10
+#: packages/modena/themes/modena/elements/footer.php:148
+#: packages/modena/themes/modena/elements/footer_zh.php:153
+#: application/themes/customised/components/footer.php:73
+#: application/themes/customised/components/footer.php:75
+msgid "disclaimer-line3"
+msgstr ""
+
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:4
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:4
 msgid "2020 Trading Cup"
@@ -264,38 +288,46 @@ msgstr ""
 msgid "Last Name"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:23
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:21
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:18
 msgid "Email"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:26
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:24
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:21
 msgid "Sign Up"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:35
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:33
 msgid "replacement-title"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:36
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:34
 msgid "replacement-content"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:39
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:37
 msgid "check-top-traders"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:48
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:46
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:28
 msgid "Thank you for signing up"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:51
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:49
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:31
 msgid "Check your email to stay up to date with how our winners are trading"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:57
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:55
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:37
 msgid "*Error happened when submitting please try again*"
@@ -496,10 +528,6 @@ msgstr ""
 msgid "<a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs Apply</a>"
 msgstr ""
 
-#: application/themes/customised/components/homepageSections/header/header.php:43
-msgid "header.js"
-msgstr ""
-
 #: application/themes/customised/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php:7
 msgid "The 2020 Qualifiers"
 msgstr ""
@@ -511,6 +539,24 @@ msgid ""
 "                    automatic entry into the final 10 spots. The second way is if you come 2nd, 3rd, 4th or 5th, you’ll\n"
 "                    get\n"
 "                    an invite to the grand final top 30, where 4 spots will be up for grabs in our live qualifier."
+msgstr ""
+
+#: application/themes/customised/components/common/acyForm.php:3
+#: application/themes/customised/components/header.php:60
+#: application/themes/customised/components/header.php:62
+msgid "side-menu-title"
+msgstr ""
+
+#: application/themes/customised/components/common/acyForm.php:3
+#: application/themes/customised/components/header.php:60
+#: application/themes/customised/components/header.php:62
+msgid "side-menu-subtitle"
+msgstr ""
+
+#: application/themes/customised/components/common/acyForm.php:3
+#: application/themes/customised/components/header.php:60
+#: application/themes/customised/components/header.php:62
+msgid "side-menu-lang"
 msgstr ""
 
 #: application/themes/customised/components/footer.php:26
@@ -569,27 +615,6 @@ msgstr ""
 msgid "Privacy"
 msgstr ""
 
-#: application/themes/customised/components/footer.php:66
-#: packages/modena/themes/modena/elements/footer.php:125
-#: packages/modena/themes/modena/elements/footer_zh.php:126
-#: application/themes/customised/components/footer.php:68
-msgid "disclaimer-line1"
-msgstr ""
-
-#: application/themes/customised/components/footer.php:70
-#: packages/modena/themes/modena/elements/footer.php:147
-#: packages/modena/themes/modena/elements/footer_zh.php:149
-#: application/themes/customised/components/footer.php:72
-msgid "disclaimer-line2"
-msgstr ""
-
-#: application/themes/customised/components/footer.php:73
-#: packages/modena/themes/modena/elements/footer.php:148
-#: packages/modena/themes/modena/elements/footer_zh.php:153
-#: application/themes/customised/components/footer.php:75
-msgid "disclaimer-line3"
-msgstr ""
-
 #: application/themes/customised/components/footer_zh.php:39
 msgid "https://www.tradingcup.com/en/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf"
 msgstr ""
@@ -606,21 +631,7 @@ msgstr ""
 msgid "Enter 2020 Cup"
 msgstr ""
 
-#: application/themes/customised/components/header.php:60
-#: application/themes/customised/components/header.php:62
-msgid "side-menu-title"
-msgstr ""
-
-#: application/themes/customised/components/header.php:60
-#: application/themes/customised/components/header.php:62
-msgid "side-menu-subtitle"
-msgstr ""
-
-#: application/themes/customised/components/header.php:60
-#: application/themes/customised/components/header.php:62
-msgid "side-menu-lang"
-msgstr ""
-
+#: application/themes/customised/2019_champions_template.php:25
 #: application/themes/customised/2019_champions_template.php:26
 msgid "https://lprsc.acycms.com/202005-tradingcup2019/dist/acysecurities/en/index7.js"
 msgstr ""
@@ -4175,6 +4186,14 @@ msgid "body here"
 msgstr ""
 
 msgctxt "AreaName"
+msgid "container-second"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "content-section"
+msgstr ""
+
+msgctxt "AreaName"
 msgid "footer nav"
 msgstr ""
 
@@ -5555,6 +5574,10 @@ msgstr ""
 
 msgctxt "TopicName"
 msgid "Holidays"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/header/header.php:43
+msgid "header.js"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:9
