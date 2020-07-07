@@ -10,8 +10,6 @@
             This is the main content here in the customized block wrapper in p tag
         </p>
     </div>
-
-
 </div>
 
 

@@ -8,15 +8,7 @@
         </field>
         <field name="content" type="X2">
         </field>
-        <field name="btDescription" type="">
-
+        <field name="descriptions" type="string">
         </field>
-
-        <field name="btName" type="">
-
-        </field>
-
-
-
     </table>
 </schema>
