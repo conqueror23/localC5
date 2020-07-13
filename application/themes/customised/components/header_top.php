@@ -39,6 +39,16 @@
 
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header.css">
+
+    <?php 
+      if(Localization::activeLanguage() ==='ar'){
+    ?>
+    
+    <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/css/ar.css'>
+
+    <?php 
+    }
+    ?>
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/footer/footer.css">
 
@@ -86,6 +96,7 @@
     ]);
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script>
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
             var msViewportStyle = document.createElement('style');

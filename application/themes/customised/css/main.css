@@ -1,5 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
 html body {
   font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Tajawal", "Ayuthaya", Arial, sans-serif !important;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 body {
   background: #000000;

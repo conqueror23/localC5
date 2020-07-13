@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-07-06T08:35:30+00:00\n"
-"PO-Revision-Date: 2020-07-06T08:35:31+00:00\n"
+"POT-Creation-Date: 2020-07-13T03:52:34+00:00\n"
+"PO-Revision-Date: 2020-07-13T03:52:35+00:00\n"
 "Language: en_AU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -521,16 +521,19 @@ msgid "*$2,000 in your base currency.i.e. AU$2000, or US$2000"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/topTraders/top_traders.php:4
+#: application/themes/customised/components/homepageSections/topTraders/top_tradersTest.php:4
 msgid "Our Top Traders"
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/topTraders/top_traders.php:7
+#: application/themes/customised/components/homepageSections/topTraders/top_tradersTest.php:7
 msgid ""
 "Each stage runs for a month and has a total prize pool of $US10,000.\n"
 "            The prize pool is split up with $US7,000, $US2,000 and $US1,000 going to 1st, 2nd and 3rd."
 msgstr ""
 
 #: application/themes/customised/components/homepageSections/topTraders/top_traders.php:9
+#: application/themes/customised/components/homepageSections/topTraders/top_tradersTest.php:9
 msgid "<a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs Apply</a>"
 msgstr ""
 
