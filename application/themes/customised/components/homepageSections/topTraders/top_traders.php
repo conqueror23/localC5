@@ -9,11 +9,30 @@
            <?php echo t('<a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank">T&Cs Apply</a>'); ?> 
         </p>
         <div class="tab-section">
-            <div id="tradingCupWidget" style="width:100%; height: 1200px; background-color:transparent;"
-                 data-theme="dark"
-                 data-language="<?php echo Localization::activeLanguage();?>"></div>
+        <div id="Tradingroot" lang="<?php if (Localization::activeLanguage() === 'vi') {
+                                            echo 'viet';
+                                        } else {
+                                            echo Localization::activeLanguage();
+                                        } ?>" >
+          </div>
         </div>
     </div>
 </div>
 
-<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/New.js"></script>
+<script>
+    var containerWidth = (function() {
+        if (window.innerWidth > 1366) {
+            containerWidth = window.innerWidth * 0.7-20;
+        } else {
+            containerWidth = 1366;
+        }
+        return containerWidth;
+    })();
+    var rankingContainer = document.getElementById('Tradingroot');
+    if (rankingContainer) {
+        rankingContainer.setAttribute('width', `${containerWidth}px`);
+    }
+</script>
+
+
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/ranking-by-catherine.js"></script>
