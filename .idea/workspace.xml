@@ -51,19 +51,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-arabic.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply_ar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/id_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/id_AU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/zh_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/zh_AU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/zh_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/zh_AU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/ranking-by-catherine.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/ranking-by-catherine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/2018_champions_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/2018_champions_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/2019_champions_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/2019_champions_template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/ar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +301,8 @@
       <workItem from="1594096578574" duration="2903000" />
       <workItem from="1594106695973" duration="2518000" />
       <workItem from="1594189476116" duration="1564000" />
-      <workItem from="1594792687225" duration="5875000" />
+      <workItem from="1594792687225" duration="6113000" />
+      <workItem from="1594854935124" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
@@ -381,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593568484314</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update project structures and change source files working on how to seprate the span and the p">
+      <created>1594800518918</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594800518918</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +418,8 @@
     <MESSAGE value="update select options" />
     <MESSAGE value="update mobile layout and ie support for tradingcup" />
     <MESSAGE value="update project structures and change source files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project structures and change source files" />
+    <MESSAGE value="update project structures and change source files working on how to seprate the span and the p" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project structures and change source files working on how to seprate the span and the p" />
   </component>
   <component name="WindowStateProjectService">
     <state x="729" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591764113291">
@@ -441,9 +442,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="937" y="460" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2560.1417@0.23.2560.1417" timestamp="1593489982967" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1593568484031">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1594800518541">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1594800518541" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1593568484031" />
     <state x="256" y="154" key="DiffContextDialog" timestamp="1593568368166">
       <screen x="0" y="23" width="2560" height="1417" />

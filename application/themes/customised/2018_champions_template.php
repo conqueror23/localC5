@@ -20,6 +20,8 @@
 <script type="text/javascript" src="https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/packages/antd-4.1.5/antd-with-locales.min.js"></script>
 <script type="text/javascript" src="<?php echo t('https://lprsc.acycms.com/202005-tradingcup2018/dist/acysecurities/en/index6.js');?>"></script>
 
+<!--    ACY FORM actions -->
+    <script type="text/javascript" src="<?php echo $view->getThemePath() ?>/js/globalActions.js"></script>
     <?php
     $this->inc('components/common/acyForm.php');
     ?>
