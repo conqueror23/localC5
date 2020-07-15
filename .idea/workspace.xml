@@ -51,14 +51,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-arabic.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/howtoApply/how_to_apply_ar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/ranking-catherine.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/ranking-catherine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_traders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_tradersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/top_tradersTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags" beforeDir="false" afterPath="$PROJECT_DIR$/tags" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/id_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/id_AU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/zh_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/zh_AU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/languages/site/zh_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/zh_AU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/header_top.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/ranking-by-catherine.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders/ranking-by-catherine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/themes/customised/css/ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/themes/customised/css/ar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +79,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,6 +90,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -240,8 +249,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders" />
-    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -252,15 +261,16 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/themes/customised/components/homepageSections/footer" />
+      <recent name="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders" />
+      <recent name="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/largeDesktop" />
+      <recent name="$PROJECT_DIR$/application/themes/customised" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/single_pages/champions" />
       <recent name="$PROJECT_DIR$/concrete/blocks/social_links/templates/customizedSocial" />
       <recent name="$PROJECT_DIR$/application/blocks/Customized_Block" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/themes/customised/components/homepageSections/topTraders" />
-      <recent name="$PROJECT_DIR$/application/themes/customised/components/homepageSections/sponsor/images/largeDesktop" />
-      <recent name="$PROJECT_DIR$/application/themes/customised" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -299,6 +309,7 @@
       <workItem from="1594096578574" duration="2903000" />
       <workItem from="1594106695973" duration="2518000" />
       <workItem from="1594189476116" duration="1564000" />
+      <workItem from="1594792687225" duration="5875000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>

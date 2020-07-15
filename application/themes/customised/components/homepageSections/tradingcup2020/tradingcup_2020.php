@@ -3,14 +3,28 @@
             <div class="tradingcup-content-wrapper">
                 <p class="sub"><?php echo t('2020 Trading Cup'); ?></p>
 
-                <?php if(Localization::activeLanguage()!=='id')
-                    {
-                        ?>
+                <?php
+//                   Todo why this logic not working here
+                echo 'id  pending --- ';
+                echo  '<br>';
+                echo  Localization::activeLanguage()!=='id';
+                echo  '<br>';
+                echo 'ar pending --- ';
+                echo  '<br>';
+                echo  Localization::activeLanguage()!=='ar';
+                echo  '<br>';
+                echo ' || operations --- ';
+                echo  '<br>';
+                echo ((Localization::activeLanguage()!=='id') || ( Localization::activeLanguage()!=='ar'));
+                ?>
 
+                <?php
+                if((Localization::activeLanguage()!=='id') || ( Localization::activeLanguage()!=='ar'))
+                {
+                        ?>
                 <h1> <span><?php echo t('$US 150,000');?></span>
                     <?php echo t('Total Price Pool Given Away*'); ?>
                 </h1>
-
                 <?php
                     }else{
                     ?>

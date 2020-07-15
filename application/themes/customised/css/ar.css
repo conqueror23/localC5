@@ -1,4 +1,19 @@
-html {
+html body p,
+html body a,
+html body button,
+/*html body span,*/
+html body h1,html body h2,html body h3,html body h4 ,
+/*html body li ,*/
+
+html body .tradingcup-veil,
+.how-to-wrapper .how-to-left,
+.highlights .highlights-words,
+.qualifiers-veil .qualifiers-content,
+.news-wrapper .news-right
+{
     direction: rtl;
-    unicode-bidi: bidi-override;
+}
+.footer-nav ul li,
+html body .tradingcup-veil #sub-msg{
+    direction: ltr;
 }

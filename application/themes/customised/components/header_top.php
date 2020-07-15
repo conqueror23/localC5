@@ -43,7 +43,7 @@
     <?php 
       if(Localization::activeLanguage() ==='ar'){
     ?>
-    
+    <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/components/homepageSections/howtoApply/ar.css'>
     <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/css/ar.css'>
 
     <?php 
