@@ -1,20 +1,20 @@
 "use strict";
-
-var video = document.querySelector("video");
+var howToSection = document.getElementsByClassName('how-to-right')[0];
+var howToVideo = howToSection.querySelector("video");
 window.addEventListener("scroll", function () {
     var howTo = document.getElementById("how-to");
     var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
     var howToHeight = howTo.offsetTop;
     if (scrollTop > howToHeight) {
-        video.play();
+        howToVideo.play();
     }
 });
 
-video.addEventListener("timeupdate", function () {
-    var timeDisplay = Math.floor(video.currentTime);
+howToVideo.addEventListener("timeupdate", function () {
+    var timeDisplay = Math.floor(howToVideo.currentTime);
     if (timeDisplay === 63) {
         setTimeout(function () {
-            video.play();
+            howToVideo.play();
         }, 5000);
     }
 }, false);

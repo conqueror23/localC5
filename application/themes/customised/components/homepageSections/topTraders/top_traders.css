@@ -7,10 +7,10 @@
     margin-top: 16px;
     color: #ffffff;
 }
-.top-traders-wrapper .index__table-container___3VnpG table{
-    width: 100% !important;
-}
+/*.top-traders-wrapper .index__table-container___3VnpG table{*/
+/*    width: 100% !important;*/
+/*}*/
 
-@media screen and (max-width: 768px) {
-
+.top-traders-wrapper  #Tradingroot table th{
+    direction: rtl;
 }

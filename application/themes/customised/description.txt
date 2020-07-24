@@ -1,2 +1,2 @@
-Customizable Theme For TradingCup
+TradingCup Theme
 a customised theme for trading cup to workout

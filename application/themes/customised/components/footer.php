@@ -33,10 +33,14 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2018-champions"><?php echo t("2018 Champion");?></a> |
                     </li>
-
+                <?php if(Localization::activeLanguage() !=='ar') {
+                    ?>
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a> |
                     </li>
+                    <?php
+                }
+                ?>
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/faq"><?php echo t("FAQ");?></a> |
                     </li>

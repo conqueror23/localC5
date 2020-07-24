@@ -12,9 +12,15 @@ $this->inc('components/header_top.php');
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>"><?php echo t("Home");?></a>
                     </li>
+                    <?php if(Localization::activeLanguage() !=='ar') {
+                    ?>
                     <li>
                         <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a>
                     </li>
+                    <?php 
+                    }
+                    ?>
+
                     <li id="dropdown-list-anchor"><?php echo t("Past Champions");?>
                     <img src="<?= $this->getThemePath() ?>/components/homepageSections/header/down-arrow.png" alt="arrow lost">
                         <div id="campaign-dropdown-list">

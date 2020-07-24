@@ -7,6 +7,13 @@
                      alt="">
             </a>
         </div>
+        <p><?php echo t("Partners");?></p>
+        <div class="tirthas">
+<!--            <a href="--><?php //echo t('Tirthas');?><!--" target="_blank">-->
+                <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/tirthas-aesst-management.png"
+                     alt="">
+<!--            </a>-->
+        </div>
         <p><?php echo t("Media Partners");?></p>
         <div class="logo-pics">
             <div>

@@ -5,6 +5,7 @@ function setVideoSource(country) {
   var iframeWidth = window.innerWidth;
   var iframeHeight = window.innerHeight;
   var closePlayer= document.getElementsByClassName('close')[0]
+
   if (country === "CN") {
     hlPlayer.src =
       "//1253488992.vod2.myqcloud.com/vod-player/1253488992/5285890803989768181/tcplayer/console/vod-player.html?autoplay=1&width=" +
@@ -19,6 +20,9 @@ function setVideoSource(country) {
 }
 
 function showVideo() {
+  if(howToVideo){
+    howToVideo.muted =true;
+  }
   var videoWrap = document.getElementsByClassName("video-wrap")[0];
   var videoClose = videoWrap.getElementsByClassName("close")[0];
 
@@ -32,6 +36,7 @@ function showVideo() {
       "jsonp"
     );
   }
+
   setVideoSource(country);
   function escPress(e) {
     console.log("press", e);
