@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-07-15T06:08:39+00:00\n"
-"PO-Revision-Date: 2020-07-15T06:08:41+00:00\n"
+"POT-Creation-Date: 2020-07-24T05:11:16+00:00\n"
+"PO-Revision-Date: 2020-07-24T05:11:16+00:00\n"
 "Language: zh_AU\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -176,10 +176,12 @@ msgstr ""
 msgid "A username may only contain letters, numbers, dots (not at the beginning/end), and underscores (not at the beginning/end)."
 msgstr ""
 
+#: application/blocks/customized_block/Controller.php:23
 #: application/blocks/Customized_Block/Controller.php:45
 msgid "Creates a customised blocks."
 msgstr ""
 
+#: application/blocks/customized_block/Controller.php:28
 #: application/blocks/Customized_Block/Controller.php:50
 msgid "Customized-Block"
 msgstr ""
@@ -218,11 +220,16 @@ msgstr "ACY Securities Pty Ltd（“ACY AU”）由澳大利亚证券和投资�
 msgid "disclaimer-line3"
 msgstr "© 2018 - 2020 本网站由ACY Securities Pty Ltd拥有和运营。<a href=\"/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\" target=\"_blank\"> 网站使用条款</a>"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:5
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:5
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:4
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:4
 msgid "2020 Trading Cup"
 msgstr "2020交易杯"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:9
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:17
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:9
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:10
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:8
@@ -231,6 +238,9 @@ msgstr "2020交易杯"
 msgid "$US 150,000"
 msgstr "150,000美元*"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:10
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:16
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:7
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:11
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:18
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:6
@@ -239,35 +249,49 @@ msgstr "150,000美元*"
 msgid "Total Price Pool Given Away*"
 msgstr "保底总奖金"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:24
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:13
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:26
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:12
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:8
 msgid "Six $US10,000 Monthly Qualifying Stages"
 msgstr "6个阶段资格赛，每阶段奖金10,000美元，比赛周期一个月"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:27
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:16
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:29
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:15
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:11
 msgid "$US90,000 up for grabs in the grand final"
 msgstr "总决赛之夜保底奖金90,000美元"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:30
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:19
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:32
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:18
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:14
 msgid "The Grand Champion gets $US63,000"
 msgstr "总冠军奖金63,000美元"
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:33
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:21
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:35
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:20
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:17
 msgid "How To Enter "
 msgstr "如何参与 "
 
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:35
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:23
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:37
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020_zh.php:22
 #: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:19
 msgid "*Trading involves risk. <a href=\"<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf\" target=\"_blank\">T&Cs apply.</a>"
 msgstr "*交易有风险。<a  href=\"https://www.tradingcup.com/zh/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf\"target=\"_blank\">活动条款适用。</a>"
+
+#: application/themes/customised/components/homepageSections/tradingcup2020/tradingcup_2020.php:39
+msgid "tim-cathill-video"
+msgstr "http://1253488992.vod2.myqcloud.com/2e510092vodgzp1253488992/34e813765285890805088996250/UhNbAE2HqxgA.mp4"
 
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:9
 #: application/themes/customised/components/homepageSections/subscribeForm/subscribeForm.php:6
@@ -346,9 +370,9 @@ msgstr "获取最新的参赛者访谈和交易策略分享，以及2020交易�
 #: application/themes/customised/components/footer.php:26
 #: application/themes/customised/components/footer.php:30
 #: application/themes/customised/components/footer.php:34
-#: application/themes/customised/components/footer.php:38
-#: application/themes/customised/components/footer.php:41
-#: application/themes/customised/components/footer.php:47
+#: application/themes/customised/components/footer.php:39
+#: application/themes/customised/components/footer.php:45
+#: application/themes/customised/components/footer.php:51
 #: application/themes/customised/components/footer_zh.php:16
 #: application/themes/customised/components/footer_zh.php:22
 #: application/themes/customised/components/footer_zh.php:26
@@ -358,6 +382,14 @@ msgstr "获取最新的参赛者访谈和交易策略分享，以及2020交易�
 #: application/themes/customised/components/footer_zh.php:42
 #: application/themes/customised/components/header.php:8
 #: application/themes/customised/components/header.php:13
+#: application/themes/customised/components/header.php:18
+#: application/themes/customised/components/header.php:27
+#: application/themes/customised/components/header.php:30
+#: application/themes/customised/components/header.php:50
+#: application/themes/customised/components/header.php:52
+#: application/themes/customised/components/footer.php:38
+#: application/themes/customised/components/footer.php:41
+#: application/themes/customised/components/footer.php:47
 #: application/themes/customised/components/header.php:16
 #: application/themes/customised/components/header.php:21
 #: application/themes/customised/components/header.php:24
@@ -367,14 +399,11 @@ msgstr "获取最新的参赛者访谈和交易策略分享，以及2020交易�
 #: application/themes/customised/components/header.php:7
 #: application/themes/customised/components/header.php:12
 #: application/themes/customised/components/header.php:14
-#: application/themes/customised/components/header.php:18
 #: application/themes/customised/components/header.php:47
-#: application/themes/customised/components/header.php:52
 #: application/themes/customised/components/header.php:53
 #: application/themes/customised/components/header.php:15
 #: application/themes/customised/components/header.php:20
 #: application/themes/customised/components/header.php:45
-#: application/themes/customised/components/header.php:50
 #: application/themes/customised/components/header.php:51
 #: application/themes/customised/components/homepageSections/news/news.php:12
 msgid "https://www.tradingcup.com/en"
@@ -463,6 +492,11 @@ msgstr "赞助商"
 msgid "acyUrl"
 msgstr ""
 
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:10
+msgid "Partners"
+msgstr ""
+
+#: application/themes/customised/components/homepageSections/sponsor/sponsor.php:17
 #: application/themes/customised/components/homepageSections/sponsor/sponsor.php:10
 msgid "Media Partners"
 msgstr "合作媒体"
@@ -581,17 +615,20 @@ msgstr "首页"
 
 #: application/themes/customised/components/footer.php:30
 #: application/themes/customised/components/footer_zh.php:26
+#: application/themes/customised/components/header.php:28
+#: application/themes/customised/components/header.php:50
 #: application/themes/customised/components/header.php:22
 #: application/themes/customised/components/header.php:44
 #: application/themes/customised/components/header.php:19
 #: application/themes/customised/components/header.php:52
 #: application/themes/customised/components/header.php:20
-#: application/themes/customised/components/header.php:50
 msgid "2019 Champion"
 msgstr "2019交易杯"
 
 #: application/themes/customised/components/footer.php:34
 #: application/themes/customised/components/footer_zh.php:29
+#: application/themes/customised/components/header.php:31
+#: application/themes/customised/components/header.php:52
 #: application/themes/customised/components/header.php:25
 #: application/themes/customised/components/header.php:46
 #: application/themes/customised/components/header.php:22
@@ -601,8 +638,10 @@ msgstr "2019交易杯"
 msgid "2018 Champion"
 msgstr "2018交易杯"
 
-#: application/themes/customised/components/footer.php:38
+#: application/themes/customised/components/footer.php:39
 #: application/themes/customised/components/footer_zh.php:32
+#: application/themes/customised/components/header.php:18
+#: application/themes/customised/components/footer.php:38
 #: application/themes/customised/components/header.php:16
 #: application/themes/customised/components/header.php:14
 #: application/themes/customised/components/header.php:47
@@ -611,23 +650,27 @@ msgstr "2018交易杯"
 msgid "News"
 msgstr "新闻与公告"
 
-#: application/themes/customised/components/footer.php:41
+#: application/themes/customised/components/footer.php:45
 #: application/themes/customised/components/footer_zh.php:36
+#: application/themes/customised/components/footer.php:41
 msgid "FAQ"
 msgstr ""
 
+#: application/themes/customised/components/footer.php:48
 #: application/themes/customised/components/footer.php:44
 msgid "https://www.tradingcup.com/en/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf"
 msgstr ""
 
-#: application/themes/customised/components/footer.php:44
+#: application/themes/customised/components/footer.php:48
 #: application/themes/customised/components/footer_zh.php:39
+#: application/themes/customised/components/footer.php:44
 #: application/themes/customised/components/footer.php:45
 msgid "T&Cs"
 msgstr "网站使用条款"
 
-#: application/themes/customised/components/footer.php:47
+#: application/themes/customised/components/footer.php:51
 #: application/themes/customised/components/footer_zh.php:42
+#: application/themes/customised/components/footer.php:47
 #: application/themes/customised/components/footer.php:49
 msgid "Privacy"
 msgstr "隐私条款"
@@ -636,6 +679,7 @@ msgstr "隐私条款"
 msgid "https://www.tradingcup.com/en/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-chinese.pdf"
 msgstr ""
 
+#: application/themes/customised/components/header.php:24
 #: application/themes/customised/components/header.php:18
 #: application/themes/customised/components/header.php:15
 #: application/themes/customised/components/header.php:48
@@ -644,6 +688,8 @@ msgstr ""
 msgid "Past Champions"
 msgstr "往届回顾"
 
+#: application/themes/customised/components/header.php:38
+#: application/themes/customised/components/header.php:53
 #: application/themes/customised/components/header.php:32
 #: application/themes/customised/components/header.php:47
 #: application/themes/customised/components/header.php:29
@@ -4408,6 +4454,46 @@ msgctxt "AttributeKeyName"
 msgid "Disable Sub Heading Hash Tag"
 msgstr ""
 
+msgctxt "AttributeKeyName"
+msgid "Question 1 For test"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "NavLink2"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog date"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog url"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog body"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog author profile handler"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog author handler"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog author email handler"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog thumbnail handler"
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "blog ogImage handler"
+msgstr ""
+
 msgctxt "AttributeKeyCategory"
 msgid "Page attributes"
 msgstr ""
@@ -5525,6 +5611,18 @@ msgstr ""
 
 msgctxt "TreeNodeCategoryName"
 msgid "Contact"
+msgstr ""
+
+msgctxt "TreeNodeCategoryName"
+msgid "test-add-header"
+msgstr ""
+
+msgctxt "TreeNodeCategoryName"
+msgid "blog"
+msgstr ""
+
+msgctxt "TreeNodeCategoryName"
+msgid "blog author"
 msgstr ""
 
 msgctxt "TreeName"

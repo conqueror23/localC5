@@ -40,15 +40,18 @@
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/header/header.css">
 
+     <!-- styles for arabic settings -->
     <?php 
       if(Localization::activeLanguage() ==='ar'){
     ?>
     <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/components/homepageSections/howtoApply/ar.css'>
     <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/css/ar.css'>
-
+    <link rel="stylesheet" type="text/css"
+          href="<?php echo $view->getThemePath() ?>/components/homepageSections/topTraders/top_traders_ar.css">
     <?php 
     }
     ?>
+
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/footer/footer.css">
 
@@ -63,6 +66,7 @@
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/subscribeForm.css">
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/top2020Qualifiers/top_2020_qualifiers.css">
+   
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/topTraders/top_traders.css">
     <link rel="stylesheet" type="text/css"

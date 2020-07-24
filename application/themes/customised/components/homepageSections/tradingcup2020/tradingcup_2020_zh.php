@@ -1,6 +1,7 @@
 <div class="tradingcup-warpper">
     <div class="tradingcup-veil section-content-wrapper">
         <div class="tradingcup-content-wrapper trader_zh">
+            <div class="content-left">
             <p class="sub"><?php echo t('2020 Trading Cup'); ?></p>
             <h1>
                 <?php echo t('Total Price Pool Given Away*'); ?>
@@ -21,6 +22,11 @@
             <p id="sub-msg">
                 <?php echo t('*Trading involves risk. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank">T&Cs apply.</a>'); ?> 
             </p>
+            </div>
+            <div class="content-right">
+                <iframe src="<?php echo t('tim-cathill-video');?>" frameborder="0"></iframe>
+            </div>
+ 
         </div>
     </div>
 </div>

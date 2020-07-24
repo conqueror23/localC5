@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\user\user$uhasavatar@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-07-17T19:00:22+00:00 */
+/* Expiration: 2020-07-28T16:23:54+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1595012422;
+$expiration = 1595953434;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YToxOntpOjA7TzoyNzoiRG9jdHJpbmVcT1JNXE1hcHBpbmdcQ29sdW1uIjo5OntzOjQ6Im5hbWUiO047czo0OiJ0eXBlIjtzOjc6ImJvb2xlYW4iO3M6NjoibGVuZ3RoIjtOO3M6OToicHJlY2lzaW9uIjtpOjA7czo1OiJzY2FsZSI7aTowO3M6NjoidW5pcXVlIjtiOjA7czo4OiJudWxsYWJsZSI7YjowO3M6Nzoib3B0aW9ucyI7YTowOnt9czoxNjoiY29sdW1uRGVmaW5pdGlvbiI7Tjt9fQ=='));
 
 /* Child Type: integer */
-$data['createdOn'] = 1594612206;
+$data['createdOn'] = 1595565850;

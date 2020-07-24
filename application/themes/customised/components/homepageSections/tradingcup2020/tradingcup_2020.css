@@ -23,11 +23,27 @@
 .tradingcup-warpper .tradingcup-content-wrapper {
   padding: 32px 0;
   display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.tradingcup-warpper .tradingcup-content-wrapper  .content-left{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 680px;
+  max-width: 650px;
 }
+.tradingcup-warpper .tradingcup-content-wrapper  .content-right{
+  display: flex;
+  align-items: center;
+}
+.tradingcup-warpper .tradingcup-content-wrapper  .content-right iframe{
+  width: 580px;
+  height: 360px;
+}
+
 .tradingcup-warpper .tradingcup-content-wrapper .sub {
   margin-top: 16px;
   font-size: 28px;
@@ -81,17 +97,27 @@
   word-break: keep-all;
 }
 
-@media screen and (max-width:768px){
-  .tradingcup-warpper a {
-    padding: 12px 0;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
+@media screen and (max-width:1440px){
+  .tradingcup-warpper .tradingcup-content-wrapper  .content-right iframe{
+    width: 380px;
+    height: 240px;
   }
-  .tradingcup-warpper .tradingcup-content-wrapper{
+   
+}
+@media screen and (max-width:768px){
+  .tradingcup-warpper .tradingcup-content-wrapper  {
+    flex-direction: column;
     max-width: 100%;
   }
+  .tradingcup-warpper .tradingcup-content-wrapper .content-left{
+    max-width: 100%;
+  }
+  .tradingcup-warpper .tradingcup-content-wrapper  .content-right{
+    justify-content: center;
+    align-items: center;
+  }
+  
+
 }
 
 @media screen and (max-width:375px){
@@ -118,4 +144,3 @@
     display: contents;
   }
 }
-
