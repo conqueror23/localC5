@@ -14,14 +14,18 @@
 .logo > .acy {
   margin-bottom:100px;
 }
-.logo .tirthas {
+.logo .partners {
     margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.logo .tirthas img{
-    width: 100%;
+.logo .partners img{
+    width: 220px;
     height: auto;
-
 }
 
 .logo > .acy  img{
@@ -79,6 +83,9 @@
 
 
 @media (max-width: 414px) {
+    .logo .partners img{
+        width: 80px;
+    }
     .logo > .logo-pics {
         display: none;
     }

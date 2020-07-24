@@ -8,9 +8,11 @@
             </a>
         </div>
         <p><?php echo t("Partners");?></p>
-        <div class="tirthas">
+        <div class="partners">
 <!--            <a href="--><?php //echo t('Tirthas');?><!--" target="_blank">-->
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/tirthas-aesst-management.png"
+                     alt="">
+                <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/vespar-capital.png"
                      alt="">
 <!--            </a>-->
         </div>
