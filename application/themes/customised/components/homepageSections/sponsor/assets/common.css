@@ -52,6 +52,7 @@
     width: 120px;
     height: auto;
 }
+
 @media (max-width: 1920px) {
     .logo .media-partners img{
         margin: 50px 60px 0 60px;
@@ -76,10 +77,9 @@
         width: 140px;
         height: 30px;
     }
-
-    .logo .media-partners img{
+    /* .logo .media-partners img{
         width: 120px;
         height: auto;
-    }
+    } */
 }
 

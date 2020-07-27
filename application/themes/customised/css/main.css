@@ -65,12 +65,10 @@ body .enter-button:hover {
     padding: 0 5%;
   }
 }
+
 @media screen and (max-width: 1366px) {
   body {
     margin: 0;
-  }
-  body .section-content-wrapper {
-    padding: 0 5px;
   }
 }
 /*# sourceMappingURL=main.css.map */
