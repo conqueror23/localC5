@@ -22,7 +22,7 @@ body h1 {
   font-size: 60px;
   color: #ffffff;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   body h1 {
     font-size: 32px;
   }

@@ -120,7 +120,7 @@
 
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
   .tradingcup-warpper .enter-button{
     width: 100%;
     width: -webkit-fill-available;

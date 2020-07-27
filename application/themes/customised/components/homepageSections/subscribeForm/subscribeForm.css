@@ -184,7 +184,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .subscribe-form-wrapper .form-inputs select{
    width: 100%; 
   }
