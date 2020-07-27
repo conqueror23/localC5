@@ -93,9 +93,6 @@
          justify-content: center;
     }
 
-    .how-to-wrapper .how-to-left ul li {
-        /*width: 500px;*/
-    }
 
     .how-to-wrapper .how-to-left .enter-button {
         display: flex;
@@ -108,6 +105,12 @@
     }
 }
 
+@media screen and (max-width:768px) and (min-width:425px){
+    .how-to-wrapper .how-to-right video {
+        width: 480px;
+        height: 240px;
+    }
+}
 
 @media screen and (max-width: 425px) {
 
@@ -118,16 +121,10 @@
     .how-to-wrapper .how-to-left .enter-button {
         display: flex;
         justify-content: center;
-        /*width: 70%;*/
     }
 
     .how-to-wrapper ul li {
         font-size: 14px;
-        /*line-height: 20px;*/
-    }
-
-    .how-to-wrapper .how-to-left ul li {
-        /*width: 280px;*/
     }
 
     .how-to-wrapper .how-to-left p {
