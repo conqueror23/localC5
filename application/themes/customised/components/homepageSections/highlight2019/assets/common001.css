@@ -135,7 +135,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 425px) {
   .highlights > .highlights-words {
     margin:15% auto;
   }
