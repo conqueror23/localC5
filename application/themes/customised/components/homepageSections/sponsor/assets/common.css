@@ -13,7 +13,19 @@
 
 .logo > .acy {
   margin-bottom:100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
+
+.logo > .acy  img{
+    width: 220px;
+    /* height: 80px; */
+    height: auto;
+  }
+
 .logo .partners {
     margin-bottom: 100px;
     width: 100%;
@@ -29,10 +41,7 @@
     /* height: auto; */
 }
 
-.logo > .acy  img{
-  width: 176px;
-  height: 80px;
-}
+
 
 .logo > p {
     color: #fff;
@@ -69,13 +78,22 @@
     .logo .media-partners img{
         margin: 50px 10px 0 10px;
     }
+    .logo .partners img{
+        width: 176px;
+        height: 30px;
+    }
+    .logo > .acy  img{
+        width: 176px;
+    }
 }
-
 
 @media (max-width: 425px) {
     .logo .partners img{
         width: 140px;
         height: 30px;
+    }
+    .logo > .acy  img{
+        width: 140px;
     }
     /* .logo .media-partners img{
         width: 120px;

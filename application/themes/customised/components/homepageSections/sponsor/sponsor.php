@@ -6,6 +6,8 @@
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy-securities-logo-en-white.png"
                      alt="">
             </a>
+            <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/synergy-logo.png"
+                     alt="">
         </div>
         <p><?php echo t("Partners");?></p>
         <div class="partners">
