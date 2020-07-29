@@ -6,8 +6,10 @@
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy-securities-logo-en-white.png"
                      alt="">
             </a>
+            <a href="<?php echo t('https://www.synergymarkets.com/');?>" target="_blank">
             <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/synergy-logo.png"
                      alt="">
+                     </a>
         </div>
         <p><?php echo t("Partners");?></p>
         <div class="partners">
