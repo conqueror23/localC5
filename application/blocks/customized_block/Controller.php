@@ -4,7 +4,6 @@ namespace Application\blocks\CustomizedBlock;
 
 use Concrete\Core\Block\BlockController;
 
-
 /**
  * Class Controller
  * @package Application\blocks
