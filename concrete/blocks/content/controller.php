@@ -104,7 +104,7 @@ class Controller extends BlockController implements FileTrackableInterface
         $cnode = $record->addChild('content');
         $node = dom_import_simplexml($cnode);
         $no = $node->ownerDocument;
-        $content = LinkAbstractor::export($this->content);
+        $content = LinkAbstractor::sitemap/fullexport($this->content);
         $cdata = $no->createCDataSection($content);
         $node->appendChild($cdata);
     }
