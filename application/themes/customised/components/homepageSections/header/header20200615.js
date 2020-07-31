@@ -32,7 +32,7 @@ var transformMobileMenu= function transformMobileMenu() {
   var navBtn= document.getElementById('mobile-nav-btn')
   if(navBtn.getAttribute('src').includes('hamburger')) {
     navBtn.setAttribute('src',headerResource+'/close.png')
-    navBtn.setAttribute('style','height:20px');
+    navBtn.setAttribute('style','height:20px;padding:1px 6px;');
     showMobileNavMenu();
   }else{
     navBtn.setAttribute('src',headerResource+'/hamburger.png')
