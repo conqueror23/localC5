@@ -50,7 +50,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="" />
+    <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -299,6 +301,7 @@
       <workItem from="1594854935124" duration="6604000" />
       <workItem from="1594886470956" duration="1306000" />
       <workItem from="1595910928036" duration="4702000" />
+      <workItem from="1596091933019" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
@@ -487,9 +490,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1050" height="740" key="javadoc.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1594856582639" />
-    <state x="693" y="23" width="1369" height="1345" key="search.everywhere.popup" timestamp="1595921322952">
-      <screen x="0" y="23" width="2560" height="1345" />
+    <state x="693" y="23" width="1369" height="1342" key="search.everywhere.popup" timestamp="1596093076282">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
+    <state x="693" y="23" width="1369" height="1342" key="search.everywhere.popup/0.23.2560.1342@0.23.2560.1342" timestamp="1596093076282" />
     <state x="693" y="23" width="1369" height="1345" key="search.everywhere.popup/0.23.2560.1345@0.23.2560.1345" timestamp="1595921322952" />
     <state x="693" y="23" width="1369" height="1417" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1593500002082" />
   </component>
