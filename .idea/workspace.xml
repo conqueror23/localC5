@@ -52,9 +52,13 @@
   <component name="ChangeListManager">
     <list default="true" id="16ecf072-a8ae-4631-9a3e-694148fdfe78" name="Default Changelist" comment="update project structures and change source files working on how to seprate the span and the p">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/blocks/customized_block/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/blocks/customized_block/db.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/blocks/customized_block/react-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/blocks/customized_block/view.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/generated_overrides/concrete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/languages/site/en_AU.po" beforeDir="false" afterPath="$PROJECT_DIR$/application/languages/site/en_AU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/b5aa39818a960c87/332adc390e0779c9.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/b5aa39818a960c87/332adc390e0779c9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/fa130a16e73f093e/6a9200e34597e265.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/files/cache/expensive/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/2ddb27c5cdf0b672/745d4c64665be841/fa130a16e73f093e/6a9200e34597e265.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +312,7 @@
       <workItem from="1596091933019" duration="2156000" />
       <workItem from="1596429281670" duration="1833000" />
       <workItem from="1596432137478" duration="272000" />
-      <workItem from="1596587482102" duration="6168000" />
+      <workItem from="1596587482102" duration="10030000" />
     </task>
     <task id="LOCAL-00001" summary="update js files">
       <created>1591089328268</created>
