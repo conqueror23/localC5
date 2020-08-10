@@ -178,48 +178,50 @@ class Type extends ConcreteObject implements \Concrete\Core\Permission\ObjectInt
 
     public function publish(Page $c, $requestOrDateTime = null, $cvPublishEndDate = null)
     {
-        $this->stripEmptyPageTypeComposerControls($c);
-        $parent = Page::getByID($c->getPageDraftTargetParentPageID());
-        if ($c->isPageDraft()) { // this is still a draft, which means it has never been properly published.
-            // so we need to move it, check its permissions, etc...
-            Section::registerPage($c);
-            $c->move($parent);
-            $db = \Database::connection();
-            $db->executeQuery('update Pages set cIsDraft = 0 where cID = ?', [$c->getCollectionID()]);
-            if (!$parent->overrideTemplatePermissions()) {
-                // that means the permissions of pages added beneath here inherit from page type permissions
-                // this is a very poorly named method. Template actually used to mean Type.
-                // so this means we need to set the permissions of this current page to inherit from page types.
-                $c->inheritPermissionsFromDefaults();
-            }
-            $c->activate();
-        } else {
-            $c->rescanCollectionPath();
-        }
+	    $this->stripEmptyPageTypeComposerControls($c);
+	    $parent = Page::getByID($c->getPageDraftTargetParentPageID());
+	    if ($c->isPageDraft()) { // this is still a draft, which means it has never been properly published.
+		    // so we need to move it, check its permissions, etc...
+		    Section::registerPage($c);
+		    //what is the page method move 
+		    $c->move($parent);
+		    $db = \Database::connection();
+		    // TODO find a way to send the $c object to gastby or ransformed and send to mongodb 
+		    $db->executeQuery('update Pages set cIsDraft = 0 where cID = ?', [$c->getCollectionID()]);
+		    if (!$parent->overrideTemplatePermissions()) {
+			    // that means the permissions of pages added beneath here inherit from page type permissions
+			    // this is a very poorly named method. Template actually used to mean Type.
+			    // so this means we need to set the permissions of this current page to inherit from page types.
+			    $c->inheritPermissionsFromDefaults();
+		    }
+		    $c->activate();
+	    } else {
+		    $c->rescanCollectionPath();
+	    }
 
-        $u = new User();
-        if (!($requestOrDateTime instanceof ApprovePagePageWorkflowRequest)) {
-            $v = CollectionVersion::get($c, 'RECENT');
-            $pkr = new ApprovePagePageWorkflowRequest();
-            $pkr->setRequestedPage($c);
-            $pkr->setRequestedVersionID($v->getVersionID());
-            $pkr->setRequesterUserID($u->getUserID());
-            if ($requestOrDateTime || $cvPublishEndDate) {
-                // That means it's a date time
-                $pkr->scheduleVersion($requestOrDateTime, $cvPublishEndDate);
-            }
-        } else {
-            $pkr = $requestOrDateTime;
-        }
-        $pkr->trigger();
+	    $u = new User();
+	    if (!($requestOrDateTime instanceof ApprovePagePageWorkflowRequest)) {
+		    $v = CollectionVersion::get($c, 'RECENT');
+		    $pkr = new ApprovePagePageWorkflowRequest();
+		    $pkr->setRequestedPage($c);
+		    $pkr->setRequestedVersionID($v->getVersionID());
+		    $pkr->setRequesterUserID($u->getUserID());
+		    if ($requestOrDateTime || $cvPublishEndDate) {
+			    // That means it's a date time
+			    $pkr->scheduleVersion($requestOrDateTime, $cvPublishEndDate);
+		    }
+	    } else {
+		    $pkr = $requestOrDateTime;
+	    }
+	    $pkr->trigger();
 
-        $u->unloadCollectionEdit($c);
-        CacheLocal::flush();
+	    $u->unloadCollectionEdit($c);
+	    CacheLocal::flush();
 
-        $ev = new Event($c);
-        $ev->setPageType($this);
-        $ev->setUser($u);
-        \Events::dispatch('on_page_type_publish', $ev);
+	    $ev = new Event($c);
+	    $ev->setPageType($this);
+	    $ev->setUser($u);
+	    \Events::dispatch('on_page_type_publish', $ev);
     }
 
     /**

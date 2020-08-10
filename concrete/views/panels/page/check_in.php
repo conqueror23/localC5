@@ -63,7 +63,7 @@ $require_version_comments = (bool) Config::get('concrete.misc.require_version_co
 <?php
 } ?>
 
-	<button id="ccm-check-in-preview" type="submit" name="action" value="save" class="btn-block btn-success btn"><?=t('Save Changes')?></button>
+	<button id="ccm-check-in-preview" type="submit" name="action" value="save" class="btn-block btn-success btn" onclick="((e)=>{console.log('submit has been clicked',e.target.value)})"><?=t('Save Changes')?></button>
 
     <?php if ($c->isPageDraft() && $cp->canDeletePage()) {
     ?>

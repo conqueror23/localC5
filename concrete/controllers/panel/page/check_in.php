@@ -110,8 +110,14 @@ class CheckIn extends BackendInterfacePageController
 
                     if ($c->isPageDraft()) {
                         $pagetype = $c->getPageTypeObject();
+                        //TODO $c is all infomation in the page here 
+                        // TODO echo this $c here or sent it to another api backend 
+                         var_dump($c);
+                         exit;
                         $pagetype->publish($c, $pkr);
                     } else {
+                        var_dump($pkr);
+                        exit;
                         $pkr->trigger();
                     }
                 }
@@ -136,6 +142,8 @@ class CheckIn extends BackendInterfacePageController
             $u->unloadCollectionEdit();
             $pr->setRedirectURL(Loader::helper('navigation')->getLinkToCollection($nc, true));
             $pr->outputJSON();
+            var_dump($pr);
+            exit;
         }
     }
 

@@ -4,3 +4,5 @@ application/files/cache/*
 errors
 errors/
 application/languages
+ctags
+tags
