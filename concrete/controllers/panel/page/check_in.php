@@ -51,7 +51,6 @@ class CheckIn extends BackendInterfacePageController
             $validator = $pagetype->getPageTypeValidatorObject();
             $e->add($validator->validatePublishDraftRequest($c));
         }
-
         if ($c->isPageDraft() && !$e->has()) {
             $targetParentID = $c->getPageDraftTargetParentPageID();
             if ($targetParentID) {
@@ -70,7 +69,6 @@ class CheckIn extends BackendInterfacePageController
                 }
             }
         }
-
         return $e;
     }
 
@@ -100,14 +98,12 @@ class CheckIn extends BackendInterfacePageController
                     $pkr->setRequestedVersionID($v->getVersionID());
                     $pkr->setRequesterUserID($u->getUserID());
                     $u->unloadCollectionEdit($c);
-
                     if ($this->request->request->get('action') == 'schedule') {
                         $dateTime = new DateTime();
                         $publishDateTime = $dateTime->translate('cvPublishDate');
                         $publishEndDateTime = $dateTime->translate('cvPublishEndDate');
                         $pkr->scheduleVersion($publishDateTime, $publishEndDateTime);
                     }
-
                     if ($c->isPageDraft()) {
                         $pagetype = $c->getPageTypeObject();
                         $pagetype->publish($c, $pkr);
