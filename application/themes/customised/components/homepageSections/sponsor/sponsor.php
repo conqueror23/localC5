@@ -49,6 +49,11 @@
                          style='cursor: pointer'/>
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/toushi.png'
                          style='cursor: pointer'/>
+                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/finance-word.png'
+                         style='cursor: pointer'/>
+                    <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/myfabook.png'
+                         style='cursor: pointer'/>
+
         </div>
 
      
