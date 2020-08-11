@@ -44,7 +44,7 @@
     <?php 
       if(Localization::activeLanguage() ==='ar'){
     ?>
-    <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/components/homepageSections/howtoApply/ar.css'>
+    <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/components/homepageSections/howtoApply/how_to_apply_ar.css'>
     <link rel="stylesheet" type="text/css" href='<?php echo $view->getThemePath()?>/css/ar.css'>
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/components/homepageSections/topTraders/top_traders_ar.css">
