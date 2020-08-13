@@ -26,33 +26,33 @@
                         <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finlogix.png'
                              style='cursor: pointer'/></a>
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forex-factory-mobile.png'
-                         style='cursor: pointer'/>
+                         />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finance-magnat.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forexlive.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finance-feeds.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/fxstreet.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/fxempire.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/FX110.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forexpress.png'
-                         style='cursor: pointer'/>
+                        />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/FX168.png'
-                         style='cursor: pointer'/>
+                         />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/youcai.png'
-                         style='cursor: pointer'/>
+                         />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/huitongwang.png'
-                         style='cursor: pointer'/>
+                         />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/toushi.png'
-                         style='cursor: pointer'/>
+                         />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/finance-word.png'
-                         style='cursor: pointer'/>
+                         />
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/myfabook.png'
-                         style='cursor: pointer'/>
+                         />
 
         </div>
 
