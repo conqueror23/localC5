@@ -30,7 +30,7 @@
     })();
     var rankingContainer = document.getElementById('Tradingroot');
     if (rankingContainer) {
-        rankingContainer.setAttribute('width', `${containerWidth}px`);
+        rankingContainer.setAttribute('width', containerWidth+'px');
     }
 </script>
 
