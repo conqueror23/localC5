@@ -21,4 +21,4 @@
 </div>
 </div>
 
-<script src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/howtoApply.js"></script>
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/howtoApply/howtoApply.js" defer></script>
