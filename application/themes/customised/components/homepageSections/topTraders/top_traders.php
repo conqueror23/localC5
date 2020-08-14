@@ -35,4 +35,4 @@
 </script>
 
 
-<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/ranking-by-catherine.js"></script>
+<script src="<?= $this->getThemePath() ?>/components/homepageSections/topTraders/ranking-by-catherine.js" defer></script>

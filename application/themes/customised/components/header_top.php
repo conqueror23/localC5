@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta data-n-head="true" data-hid="og:image" property="og:image" content="https://www.tradingcup.com/application/themes/customised/images/ogImage.jpg">
     <!-- google tag manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-M649WJD');</script>
+      })(window,document,'script','dataLayer','GTM-M649WJD');</script> -->
 
     <link rel="stylesheet" type="text/css"
           href="<?php echo $view->getThemePath() ?>/css/main.css">
@@ -17,25 +17,25 @@
 
     <!--    pre request packages -->
     <script src="<?php echo $view->getThemePath() ?>/components/homepageSections/subscribeForm/getCookies.js"
-            type="text/javascript"></script>
+            type="text/javascript" defer></script>
             
      <!-- external links   -->
     <script src="https://apiform.crm.zerologix.com/js/external/acyform.bundle.js" type="text/javascript" ></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetchival/0.3.2/index.min.js" integrity="sha256-JAUhVrURjJBWcWw4rjX42p4JltYpCS3kjpU7oxpuEjY=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetchival/0.3.2/index.min.js" integrity="sha256-JAUhVrURjJBWcWw4rjX42p4JltYpCS3kjpU7oxpuEjY=" crossorigin="anonymous"></script> -->
 
     <!-- end of pre request packages-->
 <!-- dependencies for catherine-->
     <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/19.5.2/i18next.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
 
-<script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js"></script>
+<script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js" defer></script>
 <!--    end of catherine-->
 
 
@@ -120,8 +120,8 @@
 <script> var lang = "<?php echo Localization::activeLanguage() ?>"; </script>
 
 <!-- google tag manager -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M649WJD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M649WJD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
 
 <div class="<?php echo $c->getPageWrapperClass() ?>">
