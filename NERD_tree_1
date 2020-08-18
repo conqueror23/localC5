@@ -1,0 +1,43 @@
+" Press ? for help
+
+>----------Bookmarks----------
+
+.. (up a dir)
+/Users/brucewang/Desktop/concrete5/localC5/
+▸ .git/
+▸ .idea/
+▸ application/
+▾ concrete/
+  ▸ attributes/
+  ▸ authentication/
+  ▸ bin/
+  ▸ blocks/
+  ▸ bootstrap/
+  ▸ config/
+  ▸ controllers/
+  ▸ css/
+  ▸ elements/
+  ▸ geolocation/
+  ▸ images/
+  ▸ jobs/
+  ▸ js/
+  ▸ mail/
+  ▸ routes/
+  ▸ single_pages/
+  ▸ src/
+  ▸ themes/
+  ▸ tools/
+  ▸ vendor/
+  ▸ views/
+    composer.json
+    dispatcher.php
+▸ packages/
+▸ resources/
+  .DS_Store
+  .gitignore
+  composer.json
+  composer.lock
+  index.php
+  LICENSE.TXT
+  robots.txt
+  tags
