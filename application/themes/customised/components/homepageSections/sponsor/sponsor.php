@@ -2,11 +2,11 @@
     <div class="logo">
         <p><?php echo t("Major Sponsor");?></p>
         <div class="acy">
-            <a href="<?php echo t('acyUrl');?>" target="_blank">
+            <a href="<?php echo t('acyUrl');?>" alt='acy' rel="noopener" target="_blank">
                 <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/acy-securities-logo-en-white.png"
                      alt="">
             </a>
-            <a href="<?php echo t('https://www.synergymarkets.com/');?>" target="_blank">
+            <a href="<?php echo t('https://www.synergymarkets.com/');?>" alt='synergy markets' rel="noopener" target="_blank">
             <img src="<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/synergy-logo.png"
                      alt="">
                      </a>
@@ -22,7 +22,7 @@
         </div>
         <p><?php echo t("Media Partners");?></p>
         <div class="media-partners">
-                    <a href='https://www.finlogix.com/' target="_blank">
+                    <a href='https://www.finlogix.com/' alt='finlogix ' rel="noopener" target="_blank">
                         <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/finlogix.png'
                              style='cursor: pointer'/></a>
                     <img src='<?php echo $view->getThemePath() ?>/components/homepageSections/sponsor/images/largeDesktop/forex-factory-mobile.png'

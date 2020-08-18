@@ -9,7 +9,7 @@
       <div class="top-tran"></div>
       <img class="qr-code" src="<?php echo $view->getThemePath() ?>/components/homepageSections/socialMedia/trading-cup-line-qr-code.jpg" alt="">
     </div>
-    <a href="https://www.youtube.com/channel/UCumvntEVJuLD6INzqI9yDIg/featured" target="_blank">
+    <a href="https://www.youtube.com/channel/UCumvntEVJuLD6INzqI9yDIg/featured" alt='youtube channel' rel="noopener" target="_blank">
       <img class="logo" src="<?php echo $view->getThemePath() ?>/components/homepageSections/socialMedia/youtube-logo.png" alt="" />
     </a>
   </div>

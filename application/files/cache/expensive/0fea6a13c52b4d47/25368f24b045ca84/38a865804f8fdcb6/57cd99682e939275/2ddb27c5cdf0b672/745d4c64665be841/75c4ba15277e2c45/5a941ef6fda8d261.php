@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\calendar\calendareventrepository@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-08-14T19:38:44+00:00 */
+/* Expiration: 2020-08-23T00:18:00+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1597433924;
+$expiration = 1598141880;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YTowOnt9'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1597039610;
+$data['createdOn'] = 1597736839;

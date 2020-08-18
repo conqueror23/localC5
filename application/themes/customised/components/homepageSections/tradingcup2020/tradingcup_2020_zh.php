@@ -18,7 +18,7 @@
                 <li>
                 <?php echo t("The Grand Champion gets \$US63,000"); ?>
             </ul>
-            <a href="#how-to" class='enter-button'><?php echo t("How To Enter ");?> <span>&#8595;</span> </a>
+            <a href="#how-to" rel="noopener" class='enter-button'><?php echo t("How To Enter ");?> <span>&#8595;</span> </a>
             <p id="sub-msg">
                 <?php echo t('*Trading involves risk. <a href="<?= $this->getThemePath() ?>/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf" target="_blank">T&Cs apply.</a>'); ?> 
             </p>
