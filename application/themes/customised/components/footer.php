@@ -13,8 +13,8 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
 <footer id="footer-theme">
     <div class="footer-wrapper ">
         <div class="footer-tab section-content-wrapper">
-            <a href="<?php echo t('https://www.tradingcup.com/en');?>" class="footer-logo">
-                <img src="<?= $this->getThemePath() ?>/components/homepageSections/footer/logo.png" alt="">
+            <a href="<?php echo t('https://www.tradingcup.com/en');?>" alt='homepage' rel='noopener' class="footer-logo">
+                <img src="<?= $this->getThemePath() ?>/components/homepageSections/footer/logo.png" alt="footer logo">
             </a>
             <div class="footer-nav">
                 <?php
@@ -23,32 +23,32 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                 ?>
                 <ul>
                     <li>
-                        <a href="<?php echo t('https://www.tradingcup.com/en');?>"> <?php echo t("Home");?></a> |
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>"alt='homepage 'rel='noopener'> <?php echo t("Home");?></a> |
                     </li>
 
                     <li>
-                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2019-champions"><?php echo t("2019 Champion");?></a> |
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2019-champions" alt='2019 champions' rel='noopener'><?php echo t("2019 Champion");?></a> |
                     </li>
 
                     <li>
-                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2018-champions"><?php echo t("2018 Champion");?></a> |
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/champions/2018-champions"alt='2018-champions' rel='noopener'><?php echo t("2018 Champion");?></a> |
                     </li>
                 <?php if(Localization::activeLanguage() !=='ar') {
                     ?>
                     <li>
-                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"><?php echo t("News");?></a> |
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/news"alt='news 'rel='noopener'><?php echo t("News");?></a> |
                     </li>
                     <?php
                 }
                 ?>
                     <li>
-                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/faq"><?php echo t("FAQ");?></a> |
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/faq"alt='faq 'rel='noopener'><?php echo t("FAQ");?></a> |
                     </li>
                     <li>
-                        <a href="<?echo t('https://www.tradingcup.com/en/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf'); ?>" target="_blank"><?php echo t("T&Cs");?></a> |
+                        <a href="<?echo t('https://www.tradingcup.com/en/application/themes/customised/components/homepageSections/footer/2020-trading-cup-terms-and-conditions-english.pdf'); ?>" alt='terms' rel='noopener' target="_blank"><?php echo t("T&Cs");?></a> |
                     </li>
                     <li>
-                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/privacy"><?php echo t("Privacy");?></a>
+                        <a href="<?php echo t('https://www.tradingcup.com/en');?>/privacy" alt='privacy' rel='noopener'><?php echo t("Privacy");?></a>
                     </li> 
 
 
