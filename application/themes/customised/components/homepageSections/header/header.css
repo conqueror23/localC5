@@ -46,7 +46,7 @@
     display: none;
     /* display: flex; */
     flex-direction: column;
-    background-color: #000000;
+
     justify-content: space-evenly;
     margin-top: 25px;
     border: 1px solid #ffffff;
@@ -132,26 +132,28 @@
     display: none;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    background:#ffffff;
-    color: #000000;
-    border-top: 1px solid #979797;
-    border-bottom: 1px solid #979797;
-    height: 100%;
+    align-items: flex-start;
+
+    background-color: #323232;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size:20px;
+    line-height:28px;
+    padding-top:24px;
+    padding-bottom:80px;
+/*     border-top: 1px solid #979797; */
+/*     border-bottom: 1px solid #979797; */
+
 }
 #mobile-campaign-dropdown-list a{
     text-decoration: none;
-    color: #000000;
-}
-
-#mobile-language-switch,#mobile-enter-button{
-    display: none;
+    color:#FFFFFF;
 }
 
 @media screen and (max-width:768px){
     .header-wrapper .header-nav, .enter-button ,#language-switch{
         display: none;
-    } 
+    }
     .header-right .mobile-nav-btn{
         display: flex;
         margin: 0;
@@ -162,17 +164,44 @@
     }
     #mobile-campaign-dropdown-list{
         display: flex;
+        padding-left:40px;
+        padding-right:20px;
+    }
+
+    #mobile-campaign-dropdown-list a{
+        margin-top:16px;
+        margin-bottom:12px;
     }
 
     #mobile-nav-menu{
         display: flex;
         position: absolute;
-        background-color: #222222;
+        background-color: #323232;
         left: 0;
         width: 100%;
-        height: 168px;
+        height: 260px;
         top: 60px;
         flex-direction: column;
+    }
+    #mobile-campaign-dropdown-list {
+        display: flex;
+    }
+
+    #mobile-language-wrapper{
+        display:flex;
+        width:100%;
+        margin-top:24px;
+        flex-direction: row;
+    }
+
+    #mobile-language-switch{
+        display:flex;
+        width:50%;
+    }
+
+    #mobile-enter-button{
+        display:flex;
+        width:50%;
     }
 }
 
@@ -180,16 +209,22 @@
     .header-nav{
         display: none;
     }
-    #mobile-campaign-dropdown-list{
-        padding: 8px 30%;
+
+    #mobile-language-wrapper{
+        flex-direction: column;
     }
-    #mobile-campaign-dropdown-list ,#mobile-enter-button,#mobile-language-switch{
-        display: flex;
+    #mobile-language-switch{
+        width: 100%;
     }
+
+    #mobile-enter-button{
+        width:100%;
+    }
+
     #mobile-language-switch select{
         background: #ffffff;
         border: 1px solid #979797;
-        color: #000000;
+        color: #ffffff;
     }
     #normal-language-switch{
         display: none;
