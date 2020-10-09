@@ -121,13 +121,9 @@
 #mobile-nav-menu{
     display: none;
     opacity: 0;
-    height: 100%; 
+    height: 100%;
     transition: 0.5s ease-in-out;
 }
-#mobile-nav-menu ul{
-    list-style: none;
-}
-
 #mobile-campaign-dropdown-list{
     display: none;
     flex-direction: column;
@@ -139,10 +135,9 @@
     font-weight: 700;
     font-size:20px;
     line-height:28px;
+    padding:0 5%;
     padding-top:24px;
     padding-bottom:80px;
-/*     border-top: 1px solid #979797; */
-/*     border-bottom: 1px solid #979797; */
 
 }
 #mobile-campaign-dropdown-list a{
@@ -162,15 +157,17 @@
         height: 20px;
         width: 30px;
     }
+
+    #normal-language-switch{
+        display: none;
+    }
+
     #mobile-campaign-dropdown-list{
         display: flex;
-        padding-left:40px;
-        padding-right:20px;
     }
 
     #mobile-campaign-dropdown-list a{
-        margin-top:16px;
-        margin-bottom:12px;
+        margin-bottom:16px;
     }
 
     #mobile-nav-menu{
@@ -192,16 +189,30 @@
         width:100%;
         margin-top:24px;
         flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
     }
 
     #mobile-language-switch{
         display:flex;
-        width:50%;
+        width:48%;
     }
 
+    #mobile-language-switch > div{
+        width:100%;
+    }
+
+    #mobile-language-switch select{
+        margin:0;
+        padding:8px 41%;
+        width:100%;
+        border: 1px solid #767676;
+        border-radius: 2px;
+    }
     #mobile-enter-button{
         display:flex;
-        width:50%;
+        height:100%;
+        width:48%;
     }
 }
 
@@ -212,24 +223,31 @@
 
     #mobile-language-wrapper{
         flex-direction: column;
+        margin-top:16px;
     }
     #mobile-language-switch{
+        margin-top:16px;
         width: 100%;
     }
 
+    #mobile-campaign-dropdown-list{
+        padding-bottom:30px;
+    }
+    #mobile-nav-menu{
+        height:320px;
+    }
     #mobile-enter-button{
+        display:flex;
+        justify-content:center;
+        align-content: center;
         width:100%;
     }
 
     #mobile-language-switch select{
-        background: #ffffff;
+        background: #000000;
         border: 1px solid #979797;
         color: #ffffff;
     }
-    #normal-language-switch{
-        display: none;
-    }
-
     .header-right select{
         width: 150px;
 

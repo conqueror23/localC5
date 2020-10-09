@@ -54,7 +54,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.subscribe-form-wrapper .form-inputs input, select{
+.subscribe-form-wrapper .form-inputs input, .subscribe-form-wrapper .form-inputs select{
   margin: 10px 0 10px 0px;
   padding: 8px;
   background: #ffffff;

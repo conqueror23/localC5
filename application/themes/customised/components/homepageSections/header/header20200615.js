@@ -21,9 +21,11 @@ var showMobileNavMenu =function showMobileNavMenu(){
   var windowWidth= window.innerWidth;
   var mobileNav = document.getElementById('mobile-nav-menu');
     mobileNav.setAttribute('style','opacity:1');
-  if(windowWidth>768){
-    showTabletNavMenu(mobileNav);    
-  }else{
+    if(windowWidth<768 && windowWidth< 1080){
+
+    // showTabletNavMenu(mobileNav);
+  // }else{
+
     showPhoneNavMenu(mobileNav);
   }
 }

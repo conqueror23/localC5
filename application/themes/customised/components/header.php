@@ -50,10 +50,10 @@ $this->inc('components/header_top.php');
                         <div id='mobile-language-wrapper'>
                         <button id='mobile-enter-button' class="enter-button open-form"><?php echo t("Enter 2020 Cup");?></button>
                     <div id='mobile-language-switch'>
-                            <?php
-                            $c= new Area('langauge-switch');
-                            $c->display();
-                            ?>
+                <?php
+                $c= new Area('langauge-switch');
+                $c->display();
+                ?>
                        </div>
                 </div>
             </div>
