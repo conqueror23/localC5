@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\oauth\clientrepository@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-10-06T16:05:34+00:00 */
+/* Expiration: 2020-10-13T07:00:56+00:00 */
 
 
 
 $loaded = true;
-$expiration = 1602000334;
+$expiration = 1602572456;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YTowOnt9'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1601619576;
+$data['createdOn'] = 1602203672;
