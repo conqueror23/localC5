@@ -9,7 +9,7 @@ var showTabletNavMenu =function showTabletNavMenu(mobileNav){
 }
 
 var showPhoneNavMenu =function showPhoneNavMenu(mobileNav){
-  mobileNav.querySelector('ul').setAttribute('style','display:flex;flex-direction:column;align-items:center'); 
+  mobileNav.querySelector('ul').setAttribute('style','display:flex;flex-direction:column;align-items:center;z-index:100;'); 
 
 }
 var hideMobileNav = function hideMobileNav(){

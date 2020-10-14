@@ -1,9 +1,10 @@
 <?php
 defined('C5_EXECUTE') or die("Access Denied.");
 
-$this->inc('components/header.php');
+$this->inc('components/headertest.php');
 
 ?>
+
 <?php
 $this->inc('components/homepageSections/tradingcup2020/tradingcup_2020.php');
 ?>
@@ -18,7 +19,7 @@ $this->inc('components/homepageSections/howtoApply/how_to_apply.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/topTraders/top_tradersTest.php');
+$this->inc('components/homepageSections/topTraders/top_traders.php');
 ?>
 
 <?php
@@ -26,7 +27,7 @@ $this->inc('components/homepageSections/highlight2019/highlight2019.php');
 ?>
 
 <?php
-$this->inc('components/homepageSections/top2020Qualifiers/top_2020_qualifiers.php');
+$this->inc('components/homepageSections/top2020Qualifiers/top_2020_qualifierstest.php');
 ?>
 
 <?php
